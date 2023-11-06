@@ -1,0 +1,7 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+<!-- {{ partialCached "head/css.html" . }} -->
+{{ partialCached "head/js.html" . }}

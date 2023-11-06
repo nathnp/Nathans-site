@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Nathan's Site"
+theme = 'simple'
+
+# sectionPagesMenu = 'main'
+
+# disableKinds = ['rss']
+
+
+
+[outputs]
+  home = ['html']
+  section = ['html', 'rss']
+  
+[outputFormats]
+  [outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+
+  
+
+
+[services]
+  [services.rss]
+	limit = -1
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
