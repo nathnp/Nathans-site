@@ -1,5 +1,4 @@
 +++
-menu = 'main'
 title = 'About Me'
 date = 2023-11-05T17:38:57-05:00
 draft = false

@@ -8,9 +8,34 @@ pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Posts'
+name = 'Blog'
 pageRef = '/posts'
 weight = 20
+
+[[menus.main]]
+name = 'Mastodon'
+url = 'https://fosstodon.org/@nthp'
+weight = 20
+
+[[menus.main]]
+name = 'Flickr'
+url = 'https://www.flickr.com/photos/197704187@N04/albums'
+weight = 30
+
+[[menus.main]]
+name = 'About Me'
+pageRef = '/about'
+weight = 40
+
+[[menus.main]]
+name = 'Extras'
+pageRef = '/extras'
+weight = 50
+
+[[menus.main]]
+name = 'Contact'
+pageRef = '/contact'
+weight = 60
 
 [module]
   [module.hugoVersion]

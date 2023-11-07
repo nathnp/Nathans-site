@@ -1,5 +1,4 @@
 +++
-menu = 'main'
 title = 'My Feeds'
 date = 2023-11-05T17:52:56-05:00
 draft = false

@@ -1,5 +1,4 @@
 +++
-menu = 'main'
 title = 'Things I Use'
 date = 2023-11-05T17:49:19-05:00
 draft = false
@@ -59,6 +58,8 @@ OS: macOS 13
 Email: [iCloud Mail](https://icloud.com) + [SimpleLogin](https://simplelogin.io)
 
 Cloud Storage: [iCloud](https://icloud.com) + [Synology DSM](https://www.synology.com/en-us/dsm)
+
+This Site: [Hugo](https://gohugo.io) + [Simple.css](https://simplecss.org) hosted on [Github Pages](https://pages.github.com)
 
 Mastodon Client: [Mona for iOS](https://mastodon.social/@MonaApp), sometimes [Toot CLI](https://github.com/ihabunek/toot)
 
