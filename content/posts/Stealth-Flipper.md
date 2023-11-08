@@ -18,11 +18,14 @@ The Apple watch Ultra, has a big orange button on the side[^1]. This button (cal
 
 Have fun ;)
 
+<center>
+
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Stealth%20Flipper"> Reply to this post via email </a>
+
+</center>
+
+
 ![](/stealth-flipper/gif1.gif)
-
-[Reply to this post via email](mailto:reply.13a8f@nthp.me?subject=Re: Being More Stealthy With A Flipper)
-
-<a href="mailto:reply.13a8f@nthp.me?subject=Re:_Being_More_Stealthy_With_A_Flipper">Reply to this post via email</a>
 
 [^1]: ![](/stealth-flipper/fig1.jpg)
 [^2]: The iPhone 15 Pro also has one. And can also do this.

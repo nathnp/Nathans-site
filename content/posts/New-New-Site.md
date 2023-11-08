@@ -27,3 +27,9 @@ As for hosting, I'm using [Github Pages](https://pages.github.com). All I have t
 The best part of all of this. My hosting costs have gone from $4/month, to $0/month.
 
 I'm still not done yet. The main thing remaining to to move all of my old posts over. That's going to take a bit. I'll get there though.
+
+<center>
+
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20New%20Mastodon"> Reply to this post via email </a>
+
+</center>

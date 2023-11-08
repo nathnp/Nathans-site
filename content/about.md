@@ -10,7 +10,7 @@ I'm Nathan, I'm a computer nerd who loves to travel, and do many other things.
 This is my blog. I mostly use this place as a place to post longer form content. Mostly of me rambling off about something.
 Posts here will mostly be about things I’m interested in, or whatever is on my mind.
 
-If for some terrifying reason you like this crap, you can subscribe via [RSS](https://nthp.me/feed.rss).
+If for some terrifying reason you like this crap, you can subscribe via [RSS](/posts/feed.xml).
 
 Or follow me on Mastodon for far more bite sized stuff. <br>
 [@nthp@fosstodon.org](https://fosstodon.org/@nthp)[^1] <br>

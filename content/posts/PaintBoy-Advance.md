@@ -29,6 +29,12 @@ The next thing I needed was some spray paint, so I grabbed my super gameboy, jum
 
 This is really my first time spray painting anything, but I have watched some modding vids that go over it. After taping up the outside, cracking the garage door, I got to work. I put down one layer, then another, then another, and waited. After peeling the tape off, it came out pretty good. Some over spray on the edges, but for a first time ensnarement, it went pretty well. I'll build something in this down the line.
 
+<center>
+
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20PaintBoy%20Advance"> Reply to this post via email </a>
+
+</center>
+
 ![](/paintboy/fig3.jpg)
 
 ![](/paintboy/fig4.jpg)

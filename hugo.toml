@@ -13,6 +13,11 @@ theme = 'simple'
   home = ['html']
   section = ['html', 'rss']
   
+[mediaTypes]
+  [mediaTypes."application/rss"]
+  isPlainText = true
+  suffixes = ["xml"]
+  
 [outputFormats]
   [outputFormats.RSS]
   mediatype = "application/rss"

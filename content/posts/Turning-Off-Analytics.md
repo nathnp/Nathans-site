@@ -19,3 +19,9 @@ Price. That's it really. I have enjoyed Plausible, and still really like them. H
 I do plan on firing analytics back up down the line though. Plausible is open source, and you can host it yourself. Something I will do at some point. (You can even run it on a Pi with some work).
 
 So yeah. Plausible has been good and I like it. But it's not really worth $9/month to have them host it. At least for me.
+
+<center>
+
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Turning%20Off%20Analytics%20For%20Now"> Reply to this post via email </a>
+
+</center>

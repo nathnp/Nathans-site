@@ -42,8 +42,8 @@
 {{- if ge $limit 1 }}
 {{- $pages = $pages | first $limit }}
 {{- end }}
-{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
 	<title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<link>{{ .Permalink }}</link>
@@ -64,7 +64,7 @@
 	  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
 	  {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
 	  <guid>{{ .Permalink }}</guid>
-	  <description>{{- .Content | safeHTML }}</description>
+	  <description>{{ .Content | safeHTML }}</description>
 	</item>
 	{{- end }}
   </channel>
