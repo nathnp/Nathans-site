@@ -21,7 +21,8 @@ Photo
 ![A statue of JOHN L."JACK" SWIGERT, JR.](/flying-home/fig1.png)
 
 </details> <br>
-And yes, I'm still watching plane crash documentaries. You can see a list of the ones I grabbed [here](/2023/08/21/flight-update-3#list).
+
+And yes, I'm still watching plane crash documentaries. You can see a list of the ones I grabbed [here](/posts/flight-update-3#list).
 
 ## IND to BWI
 
