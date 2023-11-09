@@ -53,7 +53,7 @@ UniFi Console: [Cloudkey Gen 2 Plus](https://store.ui.com/us/en/products/unifi-c
 
 ## Software [🔗](#software)
 
-OS: macOS 13
+OS: [macOS 14](https://www.apple.com/macos/sonoma/)
 
 Email: [iCloud Mail](https://icloud.com) + [SimpleLogin](https://simplelogin.io)
 
@@ -98,7 +98,8 @@ Post Scheduling Tool: [Buffer](https://buffer.com)
 
 <br>
 <div id="disclaimer" />
-Note: **None** of these links are affiliate links, I paid for all of the items listed here
+	
+>Note: **None** of these links are affiliate links, I paid for all of the items listed here
 
 [^1]: ![](/things/fig1.jpeg)
 [^2]: Learn to name stuff Sony
