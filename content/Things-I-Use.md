@@ -4,8 +4,6 @@ date = 2023-11-05T17:49:19-05:00
 draft = false
 +++
 
-# Things I Use
-
 Jump to: [Hardware](#hardware) | [Home Servers](#servers) | [Software](#software) | [Web Tools](#webtools) | [Disclaimer](#disclaimer)
 
 For a list of podcasts and blogs I like, go [here](/my-feeds).
