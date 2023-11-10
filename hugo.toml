@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://nthp.me'
 languageCode = 'en-us'
 title = "Nathan's Site"
 theme = 'simple'
