@@ -17,7 +17,7 @@ You can read my [Blog](/posts) or follow me on <a rel="me" href="https://fosstod
 
 Subscribe to: <br>
 My [Blog](/posts) | [RSS](/posts/feed.xml) <br>
-My [Hidden Blog](https://rss.nthp.me) | [RSS](https://rss.nthp.me/feed.rss)
+My [Mastodon](https://fosstodon.org/@nthp)
 
 If you need to get in touch, you can [contact](https://nthp.me/contact) me [here](mailto:contact.g2wkb@nthp.me).
 
