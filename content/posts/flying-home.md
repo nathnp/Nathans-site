@@ -1,7 +1,7 @@
 +++
 title = 'Flying Home'
 date = 2023-08-31T23:35:13-05:00
-draft = true
+draft = false
 +++
 
 Aug 31, 2023
