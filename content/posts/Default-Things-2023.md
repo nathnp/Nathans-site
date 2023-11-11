@@ -1,7 +1,7 @@
 +++
 title = 'Default Things 2023'
 date = 2023-11-11T18:17:38-05:00
-draft = true
+draft = false
 +++
 
 Nov 11, 2023
