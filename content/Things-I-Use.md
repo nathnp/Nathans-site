@@ -67,7 +67,7 @@ Geocaching Programs: [Cachly](https://apps.apple.com/us/app/cachly-geocaching/id
 
 Clipboard History: [Pastebot](https://tapbots.com/pastebot/)
 
-RSS: [Reeder 5](https://www.reederapp.com)
+RSS: [NetNewsWire](https://netnewswire.com)
 
 Podcast Client: [Overcast](https://overcast.fm)
 
