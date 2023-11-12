@@ -23,7 +23,7 @@ Write.as was pretty good. However, It's pretty limited on customization. After a
 ### Wordpress
 
 <aside>
-	When moving to Wordpress, I moving my site to just <code>sulairris.com</code>
+	When moving to Wordpress, I moved my site to just <code>sulairris.com</code>
 </aside>
 
 I decided to go over to Wordpress. This move started with setting up an account on Wordpress.com. This didn't last long. As they never got my SSL cert set up. I ended up running Wordpress on a Debian VM. That VM, was one of Linode's Nanode VMs. The Nanode is a super tiny VM, that only costs $5/month. 
