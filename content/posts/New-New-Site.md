@@ -30,6 +30,6 @@ I'm still not done yet. The main thing remaining to to move all of my old posts 
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20New%20New%20Site"> Reply to this post via email </a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20New%20New%20Site"> Reply to this post via email 📨</a>
 
 </center>

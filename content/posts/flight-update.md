@@ -13,7 +13,7 @@ I you want to join me on this craziness, follow me on [Mastodon @nthp@fosstodon.
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Flight%20Update"> Reply to this post via email </a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Flight%20Update"> Reply to this post via email 📬</a>
 
 </center>
 

@@ -18,6 +18,6 @@ After chucking the SSD in there, and formatting it. I now have a little, fast as
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Fast%20As%20Hell%20Flash%20Drive"> Reply to this post via email </a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Fast%20As%20Hell%20Flash%20Drive"> Reply to this post via email 📮</a>
 
 </center>

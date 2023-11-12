@@ -40,7 +40,7 @@ DEN to IND was written on the plane from DEN to IND, everything else was written
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Flying%20Home"> Reply to this post via email </a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Flying%20Home"> Reply to this post via email 📫</a>
 
 </center>
 

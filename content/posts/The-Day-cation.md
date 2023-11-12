@@ -82,7 +82,7 @@ Check out my [Flicker Album](https://www.flickr.com/photos/197704187@N04/albums/
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20The%20Day-cation"> Reply to this post via email </a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20The%20Day-cation"> Reply to this post via email 📬</a>
 
 </center>
 

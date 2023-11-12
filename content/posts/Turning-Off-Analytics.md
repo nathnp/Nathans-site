@@ -22,6 +22,6 @@ So yeah. Plausible has been good and I like it. But it's not really worth $9/mon
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Turning%20Off%20Analytics%20For%20Now"> Reply to this post via email </a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Turning%20Off%20Analytics%20For%20Now"> Reply to this post via email 📨</a>
 
 </center>
