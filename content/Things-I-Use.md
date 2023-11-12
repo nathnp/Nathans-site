@@ -99,6 +99,6 @@ Post Scheduling Tool: [Buffer](https://buffer.com)
 	
 >Note: **None** of these links are affiliate links, I paid for all of the items listed here
 
-[^1]: ![](/things/fig1.jpeg)
+[^1]: ![](/pics/things/fig1.jpeg)
 [^2]: Learn to name stuff Sony
-[^3]: With bonus dog, Ruby <br> ![](/things/fig2.jpeg)
+[^3]: With bonus dog, Ruby <br> ![](/pics/things/fig2.jpeg)

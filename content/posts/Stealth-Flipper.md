@@ -25,9 +25,9 @@ Have fun ;)
 </center>
 
 
-![](/stealth-flipper/gif1.gif)
+![](/pics/stealth-flipper/gif1.gif)
 
-[^1]: ![](/stealth-flipper/fig1.jpg)
+[^1]: ![](/pics/stealth-flipper/fig1.jpg)
 [^2]: The iPhone 15 Pro also has one. And can also do this.
-[^3]: ![](/stealth-flipper/fig2.jpeg)
+[^3]: ![](/pics/stealth-flipper/fig2.jpeg)
 

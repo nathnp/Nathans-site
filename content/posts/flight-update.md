@@ -17,4 +17,4 @@ I you want to join me on this craziness, follow me on [Mastodon @nthp@fosstodon.
 
 </center>
 
-[^1]: ![](/flight-update/fig1.png)
+[^1]: ![](/pics/flight-update/fig1.png)

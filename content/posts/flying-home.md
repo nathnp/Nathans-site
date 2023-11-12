@@ -44,4 +44,4 @@ DEN to IND was written on the plane from DEN to IND, everything else was written
 
 </center>
 
-[^1]: ![](/flying-home/fig2.jpg)
+[^1]: ![](/pics/flying-home/fig2.jpg)

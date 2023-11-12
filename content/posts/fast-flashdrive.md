@@ -10,11 +10,11 @@ A while back, I upgraded the storage in my Steam Deck. Going from 512GB, to 2TB.
 
 After a while, I ended up ordering an NVME SSD enclosure. 
 
-![](/fast-flashdrive/fig1.jpg)
+![](/pics/fast-flashdrive/fig1.jpg)
 
 After chucking the SSD in there, and formatting it. I now have a little, fast as hell, USB drive. That I can also use if I need to image other NVME drives.
 
-![](/fast-flashdrive/fig2.jpg)
+![](/pics/fast-flashdrive/fig2.jpg)
 
 <center>
 

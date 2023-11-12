@@ -13,7 +13,7 @@ I'm using the same hosting provider [Masto.host](https://masto.host), just can't
 
 That's pretty much all I got, if you were following my old Mastodon account, you should be automatically following my new one [@nthp@fosstodon.org](https://fosstodon.org/@nthp). I'm also posting this form an airport, so that's neat... my flight got delayed though...
 
-![](/new-mastodon/fig1.jpeg)
+![](/pics/new-mastodon/fig1.jpeg)
 
 <center>
 
@@ -23,4 +23,4 @@ That's pretty much all I got, if you were following my old Mastodon account, you
 
 
 
-[^1]: ![](/new-mastodon/fig3.png)
+[^1]: ![](/pics/new-mastodon/fig3.png)

@@ -14,7 +14,7 @@ What PPKS does, is let you automatically put a host on a VLAN, depending on what
 
 Now that's a pretty business example. A more home user example would be: Having a segregated guest network, on the same SSID as your main one. This way, you can put your house guests on a guest network, without them having any idea. And thus, keeping them as friends.
 
-![](/guestnetwork/fig1.png)
+![](/pics/guestnetwork/fig1.png)
 
 Heres a good video from Cameron Gray Going over PPSK on UNiFi. And its downside (It doesn't work on WPA3 networks (That includes 6GHz networks)).
 
