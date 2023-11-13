@@ -8,5 +8,10 @@ draft = false
 	
 ![](/pics/states/fig1.png)
 
+This is a map of state that I have been to. This does not count states that I have only driven through, or only changes planes in.
+
 ![](https://banners-my.flightradar24.com/Nthp.png)
+
+These are my commercial flight statistics.
+
 </center>
