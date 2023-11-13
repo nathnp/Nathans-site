@@ -44,7 +44,11 @@ P.S. Noise canceling headphones are not only great for plane noise, but kid nois
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Flight%20Update%20Three"> Reply to this post via email 📬</a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Flight%20Update%203"> Reply to this post via email 📨</a>
+
+For Webmail Users <br>
+Address: <code>reply.13a8f@nthp.me</code><br>
+Subject: <code>RE: Flight Update 3</code>
 
 </center>
 

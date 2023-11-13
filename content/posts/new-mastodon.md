@@ -17,7 +17,11 @@ That's pretty much all I got, if you were following my old Mastodon account, you
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20New%20Mastodon"> Reply to this post via email 📬</a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20New%20Mastodon%20Handle"> Reply to this post via email ✉️</a>
+
+For Webmail Users <br>
+Address: <code>reply.13a8f@nthp.me</code><br>
+Subject: <code>RE: New Mastodon Handle</code>
 
 </center>
 

@@ -32,6 +32,10 @@ If you’d like to use this shortcut, you can click this button to add it.
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Being%20Lazy%20With%20Shortcuts"> Reply to this post via email 📫</a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Being%20Lazy%20With%20Shortcuts"> Reply to this post via email 📪</a>
+
+For Webmail Users <br>
+Address: <code>reply.13a8f@nthp.me</code><br>
+Subject: <code>RE: Being Lazy With Shortcuts</code>
 
 </center>

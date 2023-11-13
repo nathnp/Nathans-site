@@ -31,7 +31,11 @@ This is really my first time spray painting anything, but I have watched some mo
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20PaintBoy%20Advance"> Reply to this post via email 📨</a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20PaintBoy%20Advance"> Reply to this post via email 📮</a>
+
+For Webmail Users <br>
+Address: <code>reply.13a8f@nthp.me</code><br>
+Subject: <code>RE: PaintBoy Advance</code>
 
 </center>
 
