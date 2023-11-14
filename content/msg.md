@@ -1,5 +1,5 @@
 +++
-title = 'Msg'
+title = 'Master Ski Game'
 date = 2023-11-05T21:40:57-05:00
 draft = false
 +++
