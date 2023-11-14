@@ -6,7 +6,7 @@ draft = false
 
 Nov 12, 2023
 
-I've had a blog for a few years now. And over those few years, I've use a number of different hosting providers.
+I've had a blog for a few years now. And over those few years, I've used a number of different hosting providers.
 
 As I've recently moved to a new blogging set up. I decided, let's take a look back. At how I used to host this site.
 
@@ -32,7 +32,7 @@ I decided to go over to Wordpress. This move started with setting up an account 
 	I later rebuilt my site under a new domain, <code>nthp.me</code>
 </aside>
 
-Wordpress starting getting on my nerves pretty quick. Wordpress is very, very good, at getting in the way. Over time, this just more, and more, annoying. Around this time as well, I want to be able to post from my phone. Wordpress had a mobile app, neat. That app however, needed a plugin installed. A plugin that wanted a Wordpress.com account... No.
+Wordpress starting getting on my nerves pretty quick. Wordpress is very, very good, at getting in the way. Over time, this just got more, and more, annoying. Around this time as well, I want to be able to post from my phone. Wordpress had a mobile app, neat. That app however, needed a plugin installed. A plugin that wanted a Wordpress.com account... No.
 
 ### Blot
 
