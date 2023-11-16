@@ -4,7 +4,7 @@ date = 2023-11-11T13:00:00-05:00
 draft = false
 +++
 
-<mark>Nov 11, 2023</mark>
+Nov 11, 2023
 
 Jump to: [What You Need](#need) | [Domain](#domain) | [Host](#host) | [Site](#site) | [What I Use](#what-i-use) | [Links](#links)
 

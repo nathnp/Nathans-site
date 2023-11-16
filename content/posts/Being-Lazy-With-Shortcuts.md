@@ -4,7 +4,7 @@ date = 2023-11-12T17:51:01-05:00
 draft = false
 +++
 
-<mark>Nov 12, 2023</mark>
+Nov 12, 2023
 
 At the bottom of every post. I have a reply via email button. This button does three main things. 1. It opens your default email client, 2. It pre fills the To field for you, and 3. It pre fills the subject.
 

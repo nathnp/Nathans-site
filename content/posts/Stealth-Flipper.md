@@ -4,7 +4,7 @@ date = 2023-11-01T12:30:42-05:00
 draft = false
 +++
 
-<mark>Nov 1, 2023</mark>
+Nov 1, 2023
 
 Let's be honest, most flipper users use the flipper to dick around. You know, pop Tesla charge covers, set off CVS alcohol announcements (Bonus points if you do it in a state CVS can't sell alcohol in (Like Maryland)). You know, fun stuff. The Flipper is unfortunately recognizable (Thanks to dumpsters like TikTok). So, if we're going to have some fun in a CVS, or a Tesla store, we need to be a bit sneaky.
 

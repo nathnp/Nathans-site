@@ -4,7 +4,7 @@ date = 2023-10-22T22:52:29-05:00
 draft = false
 +++
 
-<mark>Oct 22, 2023</mark>
+Oct 22, 2023
 
 Imagine this, you have some people over, and they want the password to your WiFi. You trust them, but not “you can be on my network” trust them. So you give them the guest network login. They get mad and leave, and now you're down a couple friends. But what if you could have a hidden guest network, that looks just like your main one, maybe that would let you keep some friends.
 

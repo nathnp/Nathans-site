@@ -4,7 +4,7 @@ date = 2023-08-21T23:28:43-05:00
 draft = false
 +++
 
-<mark>Aug 21, 2023</mark>
+Aug 21, 2023
 
 > Note: This post is old and I have moved to Fosstodon
 

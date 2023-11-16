@@ -4,7 +4,7 @@ date = 2023-11-11T18:17:38-05:00
 draft = false
 +++
 
-<mark>Nov 11, 2023</mark>
+Nov 11, 2023
 
 Over the past few days, I've been seeing a lot of posts in my RSS reader. A number of people are posting what their go to apps and things are for the end of 2023. So I decided, why not add to it. Here are my default things for the end of 2023.
 

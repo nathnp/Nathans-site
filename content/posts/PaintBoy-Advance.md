@@ -4,7 +4,7 @@ date = 2021-10-26T12:10:57-05:00
 draft = false
 +++
 
-<mark>Oct 26, 2021</mark>
+Oct 26, 2021
 
 # PaintBoy advance
 
