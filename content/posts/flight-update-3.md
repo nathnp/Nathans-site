@@ -4,7 +4,7 @@ date = 2023-08-21T23:33:55-05:00
 draft = false
 +++
 
-Aug 21, 2023
+<mark>Aug 21, 2023</mark>
 
 I am now on my way from RDU to DEN. <br>
 After everyone getting off at RDU (all but 16), and a headcount was taken, we were able to move seats. I moved from the very back, to the very front. Hoping to make a speedy exit at DEN.

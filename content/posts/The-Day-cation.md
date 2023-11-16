@@ -4,7 +4,7 @@ date = 2023-08-02T23:11:43-05:00
 draft = false
 +++
 
-Aug 2, 2023
+<mark>Aug 2, 2023</mark>
 
 Jump to: [The Idea](#idea) | [Planing](#planing) | [The Trip](#trip) | [Thoughts](#thoughts) <br>
 Quick Links: [Trip Photos](https://www.flickr.com/photos/197704187@N04/albums/72177720310228473)

@@ -4,7 +4,7 @@ date = 2023-11-12T01:07:04-05:00
 draft = false
 +++
 
-Nov 12, 2023
+<mark>Nov 12, 2023</mark>
 
 I've had a blog for a few years now. And over those few years, I've used a number of different hosting providers.
 

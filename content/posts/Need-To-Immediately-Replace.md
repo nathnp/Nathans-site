@@ -4,7 +4,7 @@ date = 2023-07-02T22:55:39-05:00
 draft = false
 +++
 
-Jul 2, 2023
+<mark>Jul 2, 2023</mark>
 
 With the closing down of third party Reddit apps, a number of people are moving over to things like kbin. And that has me wondering, are the new users of kbin, going to try and turn it into Reddit. 
 

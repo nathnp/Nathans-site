@@ -4,7 +4,7 @@ date = 2023-11-14T18:24:27-05:00
 draft = false
 +++
 
-Nov 14, 2023
+<mark>Nov 14, 2023</mark>
 
 Posting on a static site is interesting. You don’t fire up a website and start typing. Nor do you just drag and drop photos. You have to make the whole web page, yourself. It’s not that hard. Though, it can be confusing if you’re used to a CMS. Here’s my work flow. 
 
@@ -86,4 +86,4 @@ Subject: <code>RE: Writing a Post</code>
 
 [^1]: There’s nothing there, don’t bother looking. 
 
-[^2]: Nothing here all, I promise
+[^2]: Nothing here at all, I promise

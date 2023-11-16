@@ -4,7 +4,7 @@ date = 2023-11-08T17:39:18-05:00
 draft = false
 +++
 
-Nov 11, 2023
+<mark>Nov 11, 2023</mark>
 
 Recently, Kev posted a [blog post](https://kevquirk.com/seeking-pen-pals) about wanting pen-pals. He posed an a simple plan. 
 

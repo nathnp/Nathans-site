@@ -4,7 +4,7 @@ date = 2023-10-26T22:51:17-05:00
 draft = false
 +++
 
-Oct 26, 2023
+<mark>Oct 26, 2023</mark>
 
 For the past month, I've been running analytics on both of my websites. The service I've been using for this is [Plausible.io](https://plausible.io/). I went with them for a couple of reasons. Mainly, they didn't look hungry for personal data. I've been enjoying them quite a lot. They have a good, very easy to use interface. That's also not over whelming. But, I'm going to be turning analytics off, at least for now.
 

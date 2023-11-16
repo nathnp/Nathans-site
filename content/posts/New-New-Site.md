@@ -4,7 +4,7 @@ date = 2023-11-06T12:44:12-05:00
 draft = false
 +++
 
-Nov 6, 2023
+<mark>Nov 6, 2023</mark>
 
 Welp, this was a pain. 
 

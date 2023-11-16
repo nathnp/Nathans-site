@@ -4,7 +4,7 @@ date = 2023-11-13T17:17:57-05:00
 draft = false
 +++
 
-Nov 13, 2023
+<mark>Nov 13, 2023</mark>
 
 I've had an Analogue Pocket for a while now. If you don't known what the Pocket is, it’s a handheld FPGA game system. Capable of replicating a ton of old game systems. You can learn more about it [here](https://www.analogue.co/pocket). One neat thing about the Pocket, it has a GB / GBA slot on it. I've been playing GBA games on it since I got it. But only recently, did I pick up its dock.
 
