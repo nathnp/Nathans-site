@@ -50,8 +50,8 @@ For Webmail Users <br>
 Address: <code>reply.13a8f@nthp.me</code><br>
 Subject: <code>RE: Flight Update 3</code>
 
-⬇️ Follow Me On ⬇️<br>
-<a class="button" href="https://fosstodon.org/@nthp">Mastodon</a>
+
+
 
 
 </center>
