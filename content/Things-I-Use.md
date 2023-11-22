@@ -47,6 +47,8 @@ DNS: Raspberry Pi 4 w/ 4GB of ram
 Home Auto Protocol Translation Server: Raspberry Pi 3
 
 UniFi Console: [Cloudkey Gen 2 Plus](https://store.ui.com/us/en/products/unifi-cloudkey-plus)
+
+VM Server: Old DELL OptiPlex
 <div id="software" />
 
 ## Software [🔗](#software)
@@ -62,6 +64,8 @@ This Site: [Hugo](https://gohugo.io) + [Simple.css](https://simplecss.org) hoste
 Mastodon Client: [Mona for iOS](https://mastodon.social/@MonaApp), sometimes [Toot CLI](https://github.com/ihabunek/toot)
 
 DNS: [Pi-Hole](https://pi-hole.net)
+
+VM Server: [ProxMox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview)
 
 Geocaching Programs: [Cachly](https://apps.apple.com/us/app/cachly-geocaching/id645384141) for iOS, [iCaching](https://apps.apple.com/us/app/icaching/id420484346?mt=12) for Mac
 
