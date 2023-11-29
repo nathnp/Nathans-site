@@ -27,7 +27,7 @@ Mouse: [Logitech G502 Light Speed](https://www.logitechg.com/en-us/products/gami
 
 Headphones: Sony Wh1000-XM4[^2]
 
-Gaming: 1TB [Steam Deck OLED](https://www.steamdeck.com/en/oled) + [PS5](https://www.playstation.com/en-us/ps5/)
+Gaming: 1TB [Steam Deck OLED](https://www.steamdeck.com/en/oled) modded to 2TB + [PS5](https://www.playstation.com/en-us/ps5/)
 
 VR: [PSVR2](https://www.playstation.com/en-us/ps-vr2/?smcid=pdc%3Aen-us%3Aaccessories%3Aprimary%20nav%3Amsg-hardware%3Aps-vr2) on [PS5](https://www.playstation.com/en-us/ps5/)
 
