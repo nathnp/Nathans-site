@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <h1>Posts With <code>{{ .Title }}</code> Tag</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ end }}
+{{ end }}
