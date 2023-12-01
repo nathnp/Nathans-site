@@ -2,6 +2,7 @@
 title = 'New New Site'
 date = 2023-11-06T12:44:12-05:00
 draft = false
+tags = ['Web']
 +++
 
 Nov 6, 2023

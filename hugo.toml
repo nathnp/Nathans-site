@@ -11,6 +11,7 @@ theme = 'simple'
 
 [outputs]
   home = ['html']
+  taxonomy = ['html']
   section = ['html', 'rss']
   
 [mediaTypes]

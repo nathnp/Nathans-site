@@ -2,6 +2,7 @@
 title = 'My New Old Webcam'
 date = 2023-11-13T17:17:57-05:00
 draft = false
+tags = ['Old Game Systems']
 +++
 
 Nov 13, 2023

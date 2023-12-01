@@ -2,6 +2,7 @@
 title = 'Turning Off Analytics For Now'
 date = 2023-10-26T22:51:17-05:00
 draft = false
+tags = ['Web']
 +++
 
 Oct 26, 2023

@@ -2,6 +2,7 @@
 title = 'My Website Journey'
 date = 2023-11-12T01:07:04-05:00
 draft = false
+tags = ['Web']
 +++
 
 Nov 12, 2023

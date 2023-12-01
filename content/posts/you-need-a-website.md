@@ -2,6 +2,7 @@
 title = 'You Need a Website'
 date = 2023-11-11T13:00:00-05:00
 draft = false
+tags = ['Web']
 +++
 
 Nov 11, 2023

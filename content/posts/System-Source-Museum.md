@@ -2,6 +2,7 @@
 title = 'System Source Museum'
 date = 2023-10-25T10:18:56-05:00
 draft = false
+tags = ['Old Computers', 'Museums']
 +++
 
 Oct 25, 2023

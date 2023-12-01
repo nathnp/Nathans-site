@@ -2,6 +2,7 @@
 title = 'PaintBoy Advance'
 date = 2021-10-26T12:10:57-05:00
 draft = false
+tags = ['Old Game Systems']
 +++
 
 Oct 26, 2021

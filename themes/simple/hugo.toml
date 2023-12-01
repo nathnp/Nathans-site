@@ -13,9 +13,14 @@ pageRef = '/posts'
 weight = 20
 
 [[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 22
+
+[[menus.main]]
 name = 'Mastodon'
 url = 'https://fosstodon.org/@nthp'
-weight = 20
+weight = 25
 
 [[menus.main]]
 name = 'Flickr'
