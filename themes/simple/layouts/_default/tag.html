@@ -1,5 +1,6 @@
 {{ define "main" }}
-  <h1>Posts With <code>{{ .Title }}</code> Tag</h1>
+  <h1>Tag: <code>{{ .Title }}</code></h1>
+  <p>RSS link for <code>{{ .Title}}</code> Tag --> <a href="{{ .Permalink }}feed.xml">RSS</a></p>
   {{ .Content }}
   {{ range .Pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
