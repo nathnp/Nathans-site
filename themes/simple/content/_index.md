@@ -8,7 +8,7 @@ draft = false
 
 # Hi, I'm Nathan
 
-![](/pics/home/fig5.png)
+![](/pics/home/me.webp)
 
 I am a person who enjoys many things, including:
 Geocaching, Servers, ARM systems, UNIX, LINUX, Flying, UASs[^1], Transit Systems, Skiing, and much more.
