@@ -11,7 +11,7 @@ draft = false
 ![](/pics/home/me.webp)
 
 I am a person who enjoys many things, including:
-Geocaching, Servers, ARM systems, UNIX, LINUX, Flying, UASs[^1], Transit Systems, Skiing, and much more.
+Geocaching, Servers, ARM systems, UNIX, LINUX, Networking, Flying, UASs[^1], Transit Systems, Skiing, and much more.
 
 You can read my [Blog](/posts) or follow me on <a rel="me" href="https://fosstodon.org/@nthp">Mastodon</a> where I post much more often. Also check out my [Flickr](https://www.flickr.com/photos/197704187@N04/) where I post my photos. You can view unbuilt source files for this site [here](https://github.com/nathnp/Nathans-new-site). And built files [here](https://github.com/nathnp/nathnp.github.io).
 
