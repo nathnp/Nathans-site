@@ -34,7 +34,7 @@ draft = false
 
 </h1>
 
-<h5>For the rare time I post a video, it'll be here</h5>
+<h5>For the rare times I post a video, it'll be here</h5>
 
 
 
