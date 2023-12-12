@@ -2,7 +2,7 @@
 title = 'Writing a Post'
 date = 2023-11-14T18:24:27-05:00
 draft = false
-tags = ['Web']
+tags = ['Web', 'Apple Shortcuts']
 +++
 
 Nov 14, 2023

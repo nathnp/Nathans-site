@@ -2,6 +2,7 @@
 title = 'The Secret Guest Network'
 date = 2023-10-22T22:52:29-05:00
 draft = false
+tags = ['Networking']
 +++
 
 Oct 22, 2023

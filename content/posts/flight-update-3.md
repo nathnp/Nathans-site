@@ -2,7 +2,7 @@
 title = 'Flight Update 3'
 date = 2023-08-21T23:33:55-05:00
 draft = false
-tags = ['Air Crazyness', 'Denver 2022', 'Vacations']
+tags = ['Air Crazyness', 'Denver 2022', 'Vacations', 'Flying']
 +++
 
 Aug 21, 2023

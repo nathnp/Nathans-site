@@ -2,7 +2,7 @@
 title = 'The Day-cation'
 date = 2023-08-02T23:11:43-05:00
 draft = false
-tags = ['Vacations', 'Museums']
+tags = ['Vacations', 'Museums', 'Flying']
 +++
 
 Aug 2, 2023

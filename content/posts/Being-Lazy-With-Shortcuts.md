@@ -2,7 +2,7 @@
 title = 'Being Lazy With Shortcuts'
 date = 2023-11-12T17:51:01-05:00
 draft = false
-tags = ['Web']
+tags = ['Web', 'Apple Shortcuts']
 +++
 
 Nov 12, 2023

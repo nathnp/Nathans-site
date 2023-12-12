@@ -2,6 +2,7 @@
 title = 'Stealth Flipper'
 date = 2023-11-01T12:30:42-05:00
 draft = false
+tags = ['Flipper Zero', 'Apple Shortcuts']
 +++
 
 Nov 1, 2023
