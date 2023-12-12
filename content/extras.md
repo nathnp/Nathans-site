@@ -8,7 +8,7 @@ draft = false
 
 A map of states that I have been to, and did something in (i.e. Something other than drive straight though, or changing planes)
 
-## [Things I use](/things-i-use)
+## [Things I Use](/things-i-use)
 
 A list of things I use. Including hardware, and software.
 
