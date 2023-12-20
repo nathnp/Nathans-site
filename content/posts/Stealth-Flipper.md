@@ -19,6 +19,8 @@ The Apple watch Ultra, has a big orange button on the side[^1]. This button (cal
 
 Have fun ;)
 
+![](/pics/stealth-flipper/gif.gif)
+
 <center>
 
 <a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Stealth%20Flipper"> Reply to this post via email 📬</a>
@@ -34,7 +36,7 @@ Subject: <code>RE: Stealth Flipper</code>
 </center>
 
 
-![](/pics/stealth-flipper/gif1.gif)
+
 
 [^1]: ![](/pics/stealth-flipper/fig1.jpg)
 [^2]: The iPhone 15 Pro also has one. And can also do this.
