@@ -9,7 +9,7 @@ Dec 26, 2023
 
 Another year, and another Christmas. This was my first real Christmas working in loss prevention. And man, for a number of people, the worst comes out at Christmas. But I’m not here to talk about what people took[^1], let’s go over what I got[^2]. 
 
-I only asked for two main things, and I ended getting both, and something extra. The main thing I got was a ski and boot bag. This will be great for my upcoming ski trip in Colorado. The other main thing I got was a Baltimore Ravens Lamar Jackson jersey. 
+I only asked for two main things, and I ended up getting both, and something extra. The main thing I got was a ski and boot bag. This will be great for my upcoming ski trip in Colorado. The other main thing I got was a Baltimore Ravens Lamar Jackson jersey. 
 
 Other than that, it was a pretty calm Christmas. Nothing truly crazy at work, and I got to have dinner with some family down south. 
 
