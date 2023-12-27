@@ -2,8 +2,10 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
+  <article>
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-   
+   <b>{{ if eq .Pages.Len 1 }}<code>{{ .Pages.Len }}</code> Post{{ else }}<code>{{ .Pages.Len }}</code> Posts{{ end }}</b>
+  </article>
     
   {{ end }}
 {{ end }}
