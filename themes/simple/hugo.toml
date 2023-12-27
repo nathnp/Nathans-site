@@ -52,11 +52,6 @@ name = 'RSS'
 url = 'https://nthp.me/posts/feed.xml'
 weight = 70
 
-[[menus.main]]
-name = '🎄'
-url = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
-weight = 80
-
 [module]
   [module.hugoVersion]
     extended = false
