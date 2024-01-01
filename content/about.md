@@ -16,7 +16,7 @@ Or follow me on Mastodon for far more bite sized stuff. <br>
 [@nthp@fosstodon.org](https://fosstodon.org/@nthp)[^1] <br>
 If you don't have a Mastodon account, you can find a server, and sign up [here](https://joinmastodon.org/servers)
 
-<details><summary>What is Mastodon</summary>
+<details><summary>What is Mastodon?</summary>
 
 Mastodon is a different kind of social network. Instead of one big website, it's made up of many smaller communities, called 'servers.' You can choose the server that suits you best, follow people from other servers, and talk to them. It's like having your own corner of the internet where you can make friends and share ideas.[^2] You can learn more here [joinmastodon.org](https://joinmastodon.org).
 	
