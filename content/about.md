@@ -16,9 +16,30 @@ Or follow me on Mastodon for far more bite sized stuff. <br>
 [@nthp@fosstodon.org](https://fosstodon.org/@nthp)[^1] <br>
 If you don't have a Mastodon account, you can find a server, and sign up [here](https://joinmastodon.org/servers)
 
-What is Mastodon? Click the dropdown to learn more. <br>
-<details>
-	Mastodon is a different kind of social network. Instead of one big website, it's made up of many smaller communities, called 'servers.' You can choose the server that suits you best, follow people from other servers, and talk to them. It's like having your own corner of the internet where you can make friends and share ideas.[^2] You can learn more here [joinmastodon.org](https://joinmastodon.org).
+<details><summary>What is Mastodon</summary>
+
+Mastodon is a different kind of social network. Instead of one big website, it's made up of many smaller communities, called 'servers.' You can choose the server that suits you best, follow people from other servers, and talk to them. It's like having your own corner of the internet where you can make friends and share ideas.[^2] You can learn more here [joinmastodon.org](https://joinmastodon.org).
+	
+</details>
+
+<details><summary>What is RSS?</summary>
+
+RSS stands for Really Simple Syndication. An RSS feed is like a digital news feed that collects and organizes updates from various websites in one place. It's like having a personalized newspaper that automatically brings you the latest articles and posts from your favorite sources.
+
+Here's how it works:
+
+1. Content Providers: Websites that you like to follow, such as news sites, blogs, or even podcasts, create RSS feeds for their content.
+
+2. RSS Reader: You use an RSS reader, which can be a dedicated app, an online service, or even a feature in some web browsers. This reader acts as a central hub for all the content.
+
+3. Subscription: When you find a website with content you want to follow, you subscribe to its RSS feed. This usually involves copying the feed's URL and pasting it into your RSS reader.
+
+4. Updates: Whenever the content provider publishes something new, the RSS feed is automatically updated. Your RSS reader fetches these updates, showing you a list of the latest articles or posts.
+
+5. Centralized Viewing: Instead of visiting each website individually, you can open your RSS reader to see all the new content in one place. It's a convenient way to stay informed without constantly checking multiple sites.
+
+In essence, an RSS feed simplifies the process of keeping up with the latest content from your favorite online sources. It saves you time and ensures you never miss out on interesting articles or updates.[^2]
+
 </details>
 
 Any opinions expressed here are entirely my own, not of my employer(s) or third party.
