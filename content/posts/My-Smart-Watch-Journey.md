@@ -77,7 +77,7 @@ The Series 4 was a good leap from the 2. Larger rounded screen, better performan
 
 # Non Smart Watches [🔗](#NSW)
 
-I was kinda fed up with smart watches at this point. The daily charging of Apple Watch, and some software annoyances were really getting to me. So I decided to stop using a smart watch, and pick up a traditional watch. This is were part 2 will come in, when I write it. I'll link it here when I post it.
+I was kinda fed up with smart watches at this point. The daily charging of Apple Watch, and some software annoyances were really getting to me. So I decided to stop using a smart watch, and pick up a traditional watch. This is were part 2 comes in. You can read that [here](/posts/my-regular-watches/)
 
 <div id='AWS7'/>
 
