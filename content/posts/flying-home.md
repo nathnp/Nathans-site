@@ -19,7 +19,7 @@ DEN did have a really cool statue. I am a massive fan of the Apollo program (The
 Photo
 <details>
 
-![A statue of JOHN L."JACK" SWIGERT, JR.](/flying-home/fig1.png)
+![A statue of JOHN L."JACK" SWIGERT, JR.](/flying-home/fig1.webP)
 
 </details> <br>
 
@@ -53,4 +53,4 @@ Subject: <code>RE: Flying Home</code>
 
 </center>
 
-[^1]: ![](/pics/flying-home/fig2.jpg)
+[^1]: ![](/pics/flying-home/fig2.webP)

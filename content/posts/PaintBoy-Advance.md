@@ -13,7 +13,7 @@ I'm not new to modded gameboys. I've put IPS screens in a DMG and an SP, and I b
 
 * * *
 
-![](/pics/paintboy/fig1.png)
+![](/pics/paintboy/fig1.webP)
 
   
 This is what I'm thinking. This is made from painting the inside of a clear shell, allowing the supports to still be seen. This isn't mine it's a screenshot from [this YouTube vid](https://youtu.be/XF_DDf9N1hc). I'm not going to build the full thing yet, just see if I can make the shell myself.
@@ -24,7 +24,7 @@ I ordered a clear replacement shell that's been pre-modded to take an IPS displa
 
 Many days later thanks to USPS, the shell came in the mail. It's a clear retrosix shell and its one of the better ones I've seen
 
-![](/pics/paintboy/fig2.jpg)
+![](/pics/paintboy/fig2.webP)
 
 The next thing I needed was some spray paint, so I grabbed my super gameboy, jumped in my car and headed up to the home depot. After looking over the spray paint aisle, they didn't really have what I was looking for, but I got something close. Oddly, [my home state](https://pbs.twimg.com/media/Btv1OD_CUAAICrF?format=jpg&name=medium) Maryalnd requires you to be at least 18 to buy spray paint. Good thing i'm 25.
 
@@ -44,6 +44,6 @@ Subject: <code>RE: PaintBoy Advance</code>
 
 </center>
 
-![](/pics/paintboy/fig3.jpg)
+![](/pics/paintboy/fig3.webP)
 
-![](/pics/paintboy/fig4.jpg)
+![](/pics/paintboy/fig4.webP)

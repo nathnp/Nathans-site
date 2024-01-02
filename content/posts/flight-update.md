@@ -26,4 +26,4 @@ Subject: <code>RE: Flight Update</code>
 
 </center>
 
-[^1]: ![](/pics/flight-update/fig1.png)
+[^1]: ![](/pics/flight-update/fig1.webP)

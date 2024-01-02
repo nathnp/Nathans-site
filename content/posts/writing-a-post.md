@@ -37,7 +37,7 @@ The post files are written in Markdown. A super easy to learn (and read) markup 
 
 Images can be a minor pain at first, till you get the hang of it. First, you need an image. In Hugo, images go in the `static` folder. To help with organization, I also use sub folders. `static/pics/<post name>/`. Pictures will get named `fig<number>`, and gifs will get named `gif<number>`. Now I can easily call the image using Markdown in the post. 
 
-`![](/pics/writing-a-post/fig1.png)`[^1]<br>
+`![](/pics/writing-a-post/fig1.webP)`[^1]<br>
 `![](/pics/writing-a-post/gif1.gif)`[^2]
 
 ### Replies

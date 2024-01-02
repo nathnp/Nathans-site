@@ -14,7 +14,7 @@ Over the years, I have a number of phones. Some good, some bad. Some not even sm
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig0.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig0.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/samsung_u460_intensity_ii-pictures-3450.php">GSMArena</a><br>Mine was black with orange accents</figcaption>
 	</figure>
 </aside>
@@ -29,7 +29,7 @@ There's not much to say about this combo. It was simple, and worked. It was also
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig1.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig1.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/lg_revolution-pictures-3732.php">GSMArena</a></figcaption>
 	</figure>
 </aside>
@@ -44,7 +44,7 @@ This phone was very laggy, apps struggled to run, and things like navigation wer
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig2.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig2.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/lg_intuition_vs950-pictures-5005.php">GSMArena</a></figcaption>
 	</figure>
 </aside>
@@ -61,7 +61,7 @@ Definitely check out this old [PocketNew video](https://www.youtube.com/watch?v=
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig3.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig3.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/htc_one_(m8)-pictures-6074.php">GSMArena</a></figcaption>
 	</figure>
 </aside>
@@ -78,7 +78,7 @@ Updates, or how slow I got them. On carrier locked phone here in the US, android
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig4.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig4.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/apple_iphone_se-pictures-7969.php">GSMArena</a></figcaption>
 	</figure>
 </aside>
@@ -93,7 +93,7 @@ My first impressions was how far iOS had come since I last used it (iOS 6 on an 
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig5.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig5.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/apple_iphone_x-pictures-8858.php">GSMArena</a></figcaption>
 	</figure>
 </aside>
@@ -110,7 +110,7 @@ Right off the bat, I was loving the bigger screen. It was bright, vivid, and bea
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig6.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig6.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/apple_iphone_12_pro-pictures-10508.php">GSMArena</a></figcaption>
 	</figure>
 </aside>
@@ -125,7 +125,7 @@ The bigger battery helped a ton. I was able to comfortably make it through a wor
 
 <aside>
 	<figure>
-	<img src="/pics/The-Phones-Ive-Used/fig7.jpg">
+	<img src="/pics/The-Phones-Ive-Used/fig7.webP">
 	<figcaption>Credit <a href="https://www.gsmarena.com/apple_iphone_14_pro-pictures-11860.php">GSMArena</a></figcaption>
 	</figure>
 </aside>

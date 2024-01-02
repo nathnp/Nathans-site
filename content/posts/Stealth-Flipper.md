@@ -38,7 +38,7 @@ Subject: <code>RE: Stealth Flipper</code>
 
 
 
-[^1]: ![](/pics/stealth-flipper/fig1.jpg)
+[^1]: ![](/pics/stealth-flipper/fig1.webP)
 [^2]: The iPhone 15 Pro also has one. And can also do this.
-[^3]: ![](/pics/stealth-flipper/fig2.jpeg)
+[^3]: ![](/pics/stealth-flipper/fig2.webP)
 

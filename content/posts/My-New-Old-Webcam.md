@@ -15,7 +15,7 @@ Quite a while back. People were sharing an article about how a dude used a GameB
 
 <aside>
 	<figure>
-	<img src="/pics/My-New-Old-Webcam/fig1.jpeg">
+	<img src="/pics/My-New-Old-Webcam/fig1.webP">
 	<figcaption>Taken using macOS Photo Booth</figcaption>
 	</figure>
 </aside>

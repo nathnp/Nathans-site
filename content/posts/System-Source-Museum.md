@@ -29,7 +29,7 @@ The Cray room had, well, Cray super computers in it. The main show pice was a Cr
 
 <details> <summary>Photo</summary>
 
-![](/pics/System-Source-Museum/fig2.jpeg)
+![](/pics/System-Source-Museum/fig2.webP)
 
 </details>
 <div id="dec" />
@@ -40,10 +40,10 @@ After the Cray room, we moved on to the DEC room. In the DEC room was one of the
 
 <details> <summary>Photos</summary>
 
-![](/pics/System-Source-Museum/fig3.jpeg)
-![](/pics/System-Source-Museum/fig4.jpeg)
-![](/pics/System-Source-Museum/fig5.jpeg)
-![](/pics/System-Source-Museum/fig6.jpeg)
+![](/pics/System-Source-Museum/fig3.webP)
+![](/pics/System-Source-Museum/fig4.webP)
+![](/pics/System-Source-Museum/fig5.webP)
+![](/pics/System-Source-Museum/fig6.webP)
 
 </details>
 <div id="restofit" />
@@ -54,10 +54,10 @@ After the dec room, we were let into the main room of the museum. There was just
 
 <details> <summary>Photos</summary>
 
-![](/pics/System-Source-Museum/fig1.jpeg)
-![](/pics/System-Source-Museum/fig7.jpeg)
-![](/pics/System-Source-Museum/fig8.jpeg)
-![](/pics/System-Source-Museum/fig9.jpeg)
+![](/pics/System-Source-Museum/fig1.webP)
+![](/pics/System-Source-Museum/fig7.webP)
+![](/pics/System-Source-Museum/fig8.webP)
+![](/pics/System-Source-Museum/fig9.webP)
 
 </details>
 <div id="g15" />
@@ -75,11 +75,11 @@ https://www.youtube.com/watch?v=uOGCUNv8Yg8
 
 <details> <summary>Photos</summary>
 
-![](/pics/System-Source-Museum/fig10.jpeg)
-![](/pics/System-Source-Museum/fig11.jpeg) <br>
+![](/pics/System-Source-Museum/fig10.webP)
+![](/pics/System-Source-Museum/fig11.webP) <br>
 A wild [Ventage Geek](https://www.youtube.com/@vintagegeek) <br>
-![](/pics/System-Source-Museum/fig12.jpeg)
-![](/pics/System-Source-Museum/fig13.jpeg)
+![](/pics/System-Source-Museum/fig12.webP)
+![](/pics/System-Source-Museum/fig13.webP)
 
 </details>
 <div id="thoughts" />
