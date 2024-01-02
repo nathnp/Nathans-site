@@ -8,7 +8,7 @@ draft = false
 
 # Hi, I'm <code>Nathan</code>
 
-![](/pics/home/me.webP)
+![](/pics/home/me.webp)
 
 I am a person who enjoys many things, including:
 Geocaching, Servers, ARM systems, UNIX, LINUX, Networking, Flying, UASs[^1], Transit Systems, Skiing, and much more.
