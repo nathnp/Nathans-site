@@ -17,7 +17,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig8.webp' width='300' />
+<img src='/pics/my-regular-watches/fig8.webP' width='300' />
 
 <div id='promaster-skyhawk-a-t' />
 
@@ -38,7 +38,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig5.webp' width='300' />
+<img src='/pics/my-regular-watches/fig5.webP' width='300' />
 
 <div id='seiko-presage-sharp-edge-gmt' />
 
@@ -59,7 +59,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig6.webp' width='300' />
+<img src='/pics/my-regular-watches/fig6.webP' width='300' />
 
 <div id='orient-faa02001b9' />
 
@@ -79,7 +79,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig2.webp' width='300' />
+<img src='/pics/my-regular-watches/fig2.webP' width='300' />
 
 <div id='citizen-promaster-chrono-diver' />
 
@@ -100,7 +100,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig1.webp' width='300' />
+<img src='/pics/my-regular-watches/fig1.webP' width='300' />
 
 <div id='orient-bambino-open-heart' />
 
@@ -121,7 +121,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig3.webp' width='300' />
+<img src='/pics/my-regular-watches/fig3.webP' width='300' />
 
 <div id='bulova-98b212' />
 
@@ -142,7 +142,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig7.webp' width='300' />
+<img src='/pics/my-regular-watches/fig7.webP' width='300' />
 
 <div id='orient-ra-ak0403n10a' />
 
@@ -163,7 +163,7 @@ For those who look at the prices, do what I did, and buy used. You'll save a ton
 
 <article>
 <center>
-<img src='/pics/my-regular-watches/fig4.webp' width='300' />
+<img src='/pics/my-regular-watches/fig4.webP' width='300' />
 
 <div id='seiko-5-snk793' />
 
