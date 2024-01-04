@@ -15,3 +15,7 @@ A list of things I use. Including hardware, and software.
 ## [My Feeds](/my-feeds)
 
 A list of podcasts I listen to, with links to the major players. As well as a list of blog I subscribe to.
+
+## [My Watch Collection](/posts/my-regular-watches/)
+
+For those who like regular watches, here is my collection.
