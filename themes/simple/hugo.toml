@@ -20,7 +20,7 @@ weight = 22
 [[menus.main]]
 name = 'Stats'
 pageRef = '/stats'
-weight = 22
+weight = 23
 
 [[menus.main]]
 name = 'Mastodon'
