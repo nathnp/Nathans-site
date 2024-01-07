@@ -18,6 +18,11 @@ pageRef = '/tags'
 weight = 22
 
 [[menus.main]]
+name = 'Stats'
+pageRef = '/stats'
+weight = 22
+
+[[menus.main]]
 name = 'Mastodon'
 url = 'https://fosstodon.org/@nthp'
 weight = 25

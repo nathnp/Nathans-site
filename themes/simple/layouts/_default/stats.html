@@ -1,0 +1,43 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  
+  {{ $postcount := 0 }}
+  {{ range (site.GetPage "posts").Pages }}
+  {{ $postcount = add $postcount 1 }}
+  {{ end }}
+  
+  {{ $totwords := 0 }}
+  {{ range (site.GetPage "posts").Pages }}
+  {{ $totwords = add $totwords .WordCount }}
+  {{ end }}
+	 
+  {{ $tagcount := 0 }}
+  {{ range (site.GetPage "tags").Pages }}
+  {{ $tagcount = add $tagcount 1 }}
+  {{ end }}
+  
+  {{ $notag := 0 }}
+  {{ range (site.GetPage "posts").Pages }}
+  {{ if .Params.tags }}
+  {{ else }}
+  {{ $notag = add $notag 1}}
+  {{ end }}
+  {{ end }}
+  
+  <article>
+	<center>
+	<h1>Post Stats</a></h1>  
+	<h2>Number of Posts: <code>{{ $postcount }}</code></h2>
+	<h2>Total Words: <code>{{ $totwords }}</code></h2>
+  </article>
+  
+  <article>
+	  <center>
+	  <h1>Tag Stats</h1>  
+	  <h2>Total Tags: <code>{{ $tagcount }}</code></h2>
+	  <h2>Posts Without Tags: <code>{{ $notag }}</code></h2>
+	</article>
+  
+  
+{{ end }}
