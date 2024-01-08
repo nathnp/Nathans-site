@@ -1,36 +1,36 @@
-{{ define "main" }}
-  {{ .Content }}
-  <!-- {{ range site.RegularPages }} 
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }} 
-  {{ end }} -->
-  {{ $counter := 0 }}
+{{- define "main" -}}
+  {{- .Content -}}
+  <!-- {{- range site.RegularPages -}} 
+    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
+    {{- .Summary -}} 
+  {{- end -}} -->
+  {{- $counter := 0 -}}
   <center><h1><code>Latest Post</code></h1></center>
-  {{ range site.RegularPages }}
-  {{ $counter = add $counter 1 }}
+  {{- range site.RegularPages -}}
+  {{- $counter = add $counter 1 -}}
   <article>
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
   🏷️: 
-  {{ if .Params.tags }} 
-    {{ range .Params.tags }}
-    | <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-    {{ end }}|
-    {{ else }}No Tags 😢
-    {{ end }}
+  {{- if .Params.tags -}} 
+    {{- range .Params.tags -}}
+    | <a href="{{- "/tags/" | relLangURL -}}{{- . | urlize -}}">{{- . -}}</a>
+    {{- end -}}|
+    {{- else -}}No Tags 😢
+    {{- end -}}
   
   <br>
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format "Jan 2, 2006" }}
-  🗓️: <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+  {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
+  🗓️: <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
   </article>
-  {{ if eq $counter 1 }}
-  {{ break }}
-  {{ end }}
-  {{ end }}
+  {{- if eq $counter 1 -}}
+  {{- break -}}
+  {{- end -}}
+  {{- end -}}
   
   <center><a class='button' href='/posts'>View All Posts</a>
   <br>
   <br>
   If you need to get in touch, you can <a href='/contact'>contact</a> me <a href='mailto:contact.g2wkb@nthp.me'>here</a>.
   
-{{ end }}
+{{- end -}}

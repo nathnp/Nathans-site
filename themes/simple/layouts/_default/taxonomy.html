@@ -1,17 +1,17 @@
-{{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
+{{- define "main" -}}
+  <h1>{{- .Title -}}</h1>
+  {{- .Content -}}
+  {{- range .Pages -}}
   <article>
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-   <b>{{ if eq .Pages.Len 1 }}<code>{{ .Pages.Len }}</code> Post{{ else }}<code>{{ .Pages.Len }}</code> Posts{{ end }}</b>
+    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
+   <b>{{- if eq .Pages.Len 1 -}}<code>{{- .Pages.Len -}}</code> Post{{- else -}}<code>{{- .Pages.Len -}}</code> Posts{{- end -}}</b>
    
    <br>
    
-   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-   {{ $dateHuman := .Date | time.Format "Jan 2, 2006" }}
-   <b>Last Use</b>: <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+   {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+   {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
+   <b>Last Use</b>: <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
   </article>
     
-  {{ end }}
-{{ end }}
+  {{- end -}}
+{{- end -}}
