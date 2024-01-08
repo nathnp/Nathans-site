@@ -69,7 +69,7 @@
       <h2>Total Reading Time: <code>{{- $totread -}}</code></h2>
       <h2>Average Reading Time: <code>{{- $avgread -}}</code></h2>
       <h2>Lognest Post Time: <code>{{- $longtime -}}</code></h2>
-      <h6>Time is in minutes, and assumes a reading speed of 212 WPM</h6>
+      <h6>Time is in minutes, and assumes a reading speed of {{ $RTime }} WPM</h6>
     </center>
   </article>
   
@@ -80,6 +80,8 @@
 	  <h2>Total Tags: <code>{{- $tagcount -}}</code></h2>
 	  <h2>Posts Without Tags: <code>{{- $notag -}}</code></h2>
 	</article>
+  
+  <p><a href='https://github.com/nathnp/Nathans-site/blob/main/themes/simple/layouts/_default/stats.html'>Hugo source code</a> for this page</p>
   
   
 {{- end -}}
