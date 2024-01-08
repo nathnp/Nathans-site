@@ -2,16 +2,19 @@
   <h1>{{- .Title -}}</h1>
   {{- .Content -}}
   
+  <!--Counts number of posts-->
   {{- $postcount := 0 -}}
   {{- range (site.GetPage "posts").Pages -}}
   {{- $postcount = add $postcount 1 -}}
   {{- end -}}
   
+  <!--Counts total amount of words from posts folder-->
   {{- $totwords := 0 -}}
   {{- range (site.GetPage "posts").Pages -}}
   {{- $totwords = add $totwords .WordCount -}}
   {{- end -}}
   
+  <!--Calcs longest post-->
   {{- $scratch := newScratch -}}
   {{- $scratch.Set "longCount" 0 -}}
   {{- range (site.GetPage "posts").Pages -}}
@@ -22,16 +25,24 @@
   {{- end -}}
   {{- end -}}
   
+  <!--Calcs average post length-->
   {{- $postCount :=  len ((site.GetPage "posts").Pages) -}}
   {{- $wordCount := $scratch.Get "wordcount" -}}
   {{- $avgPostLength := div $wordCount $postCount -}}
-	 
-	 
+  
+  <!--Calc reading stsas using vars from the longest post and total words blocks-->
+  {{- $RTime := 212 -}}
+  {{- $totread := div $totwords $RTime -}}
+  {{- $avgread := div $avgPostLength $RTime -}}
+  {{- $longtime := div ($scratch.Get "longCount") $RTime -}}
+  
+  <!--Counts total amount of tags-->
   {{- $tagcount := 0 -}}
   {{- range (site.GetPage "tags").Pages -}}
   {{- $tagcount = add $tagcount 1 -}}
   {{- end -}}
   
+  <!--Counts posts without tags-->
   {{- $notag := 0 -}}
   {{- range (site.GetPage "posts").Pages -}}
   {{- if .Params.tags -}}
@@ -49,6 +60,17 @@
 	<h2>Total Words: <code>{{- $totwords -}}</code></h2>
 	<h2>Average Post Length: <code>{{- $avgPostLength -}}</code> Words
 	<h2>Logest Post:<br>{{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}<br>W/ <code>{{- $scratch.Get "longCount" -}}</code> Words
+  </article>
+  
+  <article>
+    <center>
+      <h1>Reading Time Stats</h1>
+      <hr>
+      <h2>Total Reading Time: <code>{{- $totread -}}</code></h2>
+      <h2>Average Reading Time: <code>{{- $avgread -}}</code></h2>
+      <h2>Lognest Post Time: <code>{{- $longtime -}}</code></h2>
+      <h6>Time is in minutes, and assumes a reading speed of 212 WPM</h6>
+    </center>
   </article>
   
   <article>
