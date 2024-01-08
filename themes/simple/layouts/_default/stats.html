@@ -1,57 +1,63 @@
-{{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+{{- define "main" -}}
+  <h1>{{- .Title -}}</h1>
+  {{- .Content -}}
   
-  {{ $postcount := 0 }}
-  {{ range (site.GetPage "posts").Pages }}
-  {{ $postcount = add $postcount 1 }}
-  {{ end }}
+  {{- $postcount := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $postcount = add $postcount 1 -}}
+  {{- end -}}
   
-  {{ $totwords := 0 }}
-  {{ range (site.GetPage "posts").Pages }}
-  {{ $totwords = add $totwords .WordCount }}
-  {{ end }}
+  {{- $totwords := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $totwords = add $totwords .WordCount -}}
+  {{- end -}}
   
-  {{ $scratch := newScratch }}
-  {{ $scratch.Set "longCount" 0 }}
-  {{ range (site.GetPage "posts").Pages }}
-  {{ $scratch.Add "wordcount" .WordCount }}
-  {{ if ge .WordCount ($scratch.Get "longCount") }}
-  {{ $scratch.Set "longestPost" . }}
-  {{ $scratch.Set "longCount" .WordCount }}
-  {{ end }}
-  {{ end }}
+  {{- $scratch := newScratch -}}
+  {{- $scratch.Set "longCount" 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $scratch.Add "wordcount" .WordCount -}}
+  {{- if ge .WordCount ($scratch.Get "longCount") -}}
+  {{- $scratch.Set "longestPost" . -}}
+  {{- $scratch.Set "longCount" .WordCount -}}
+  {{- end -}}
+  {{- end -}}
+  
+  {{- $postCount :=  len ((site.GetPage "posts").Pages) -}}
+  {{- $wordCount := $scratch.Get "wordcount" -}}
+  {{- $avgPostLength := div $wordCount $postCount -}}
 	 
-  {{ $tagcount := 0 }}
-  {{ range (site.GetPage "tags").Pages }}
-  {{ $tagcount = add $tagcount 1 }}
-  {{ end }}
+	 
+  {{- $tagcount := 0 -}}
+  {{- range (site.GetPage "tags").Pages -}}
+  {{- $tagcount = add $tagcount 1 -}}
+  {{- end -}}
   
-  {{ $notag := 0 }}
-  {{ range (site.GetPage "posts").Pages }}
-  {{ if .Params.tags }}
-  {{ else }}
-  {{ $notag = add $notag 1}}
-  {{ end }}
-  {{ end }}
+  {{- $notag := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- if .Params.tags -}}
+  {{- else -}}
+  {{- $notag = add $notag 1 -}}
+  {{- end -}}
+  {{- end -}}
   
   
   <article>
 	<center>
-	<h1>Post Stats</a></h1>  
+	<h1>Post Stats</a></h1>
 	<hr>
-	<h2>Number of Posts: <code>{{ $postcount }}</code></h2>
-	<h2>Total Words: <code>{{ $totwords }}</code></h2>
-	<h2>Logest Post: {{ with $scratch.Get "longestPost" }}<a href='{{ .Permalink }}'>{{ .Title }}</a>{{ end }} W/ <code>{{ $scratch.Get "longCount" }}</code> Words
+	<h2>Number of Posts: <code>{{- $postcount -}}</code></h2>
+	<h2>Total Words: <code>{{- $totwords -}}</code></h2>
+	<h2>Average Post Length: <code>{{- $avgPostLength -}}</code> Words
+	<h2>Logest Post:<br>{{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}<br>W/ <code>{{- $scratch.Get "longCount" -}}</code> Words
   </article>
   
   <article>
 	  <center>
 	  <h1>Tag Stats</h1>  
 	  <hr>
-	  <h2>Total Tags: <code>{{ $tagcount }}</code></h2>
-	  <h2>Posts Without Tags: <code>{{ $notag }}</code></h2>
+	  <h2>Total Tags: <code>{{- $tagcount -}}</code></h2>
+	  <h2>Posts Without Tags: <code>{{- $notag -}}</code></h2>
 	</article>
   
   
-{{ end }}
+{{- end -}}
