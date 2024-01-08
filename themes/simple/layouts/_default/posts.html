@@ -1,33 +1,33 @@
-{{ define "main" }}
-  <h1>{{ .Title }} 📝</h1>
-  {{ .Content }}
-  {{ $counter := 0 }}
-  {{ range .Pages }}
-  {{ $counter = add $counter 1 }}
+{{- define "main" -}}
+  <h1>{{- .Title -}} 📝</h1>
+  {{- .Content -}}
+  {{- $counter := 0 -}}
+  {{- range .Pages -}}
+  {{- $counter = add $counter 1 -}}
   
-    {{ if eq $counter 1 }}
+    {{- if eq $counter 1 -}}
     <center><h1><code>Latest</code></h1></center>
-    {{ end }}
+    {{- end -}}
     <article>
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
     🏷️: 
-    {{ if .Params.tags }} 
-      {{ range .Params.tags }}
-      | <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-      {{ end }}|
-      {{ else }}No Tags 😢
-      {{ end }}
+    {{- if .Params.tags -}} 
+      {{- range .Params.tags -}}
+      | <a href="{{- "/tags/" | relLangURL -}}{{- . | urlize -}}">{{- . -}}</a>
+      {{- end -}}|
+      {{- else -}}No Tags 😢
+      {{- end -}}
     
     <br>
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format "Jan 2, 2006" }}
-    🗓️: <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+    {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
+    🗓️: <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
   </article>
-  {{ if eq $counter 1 }}
+  {{- if eq $counter 1 -}}
   <br>
   <hr>
   <br>
-  {{ end }}
+  {{- end -}}
     
-  {{ end }}
-{{ end }}
+  {{- end -}}
+{{- end -}}
