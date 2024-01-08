@@ -30,7 +30,7 @@
   {{- $wordCount := $scratch.Get "wordcount" -}}
   {{- $avgPostLength := div $wordCount $postCount -}}
   
-  <!--Calc reading stsas using vars from the longest post and total words blocks-->
+  <!--Calcs reading stats using vars from the longest post and total words blocks-->
   {{- $RTime := 212 -}}
   {{- $totread := div $totwords $RTime -}}
   {{- $avgread := div $avgPostLength $RTime -}}
@@ -68,7 +68,8 @@
       <hr>
       <h2>Total Reading Time: <code>{{- $totread -}}</code></h2>
       <h2>Average Reading Time: <code>{{- $avgread -}}</code></h2>
-      <h2>Lognest Post Time: <code>{{- $longtime -}}</code></h2>
+      <h2>Lognest Post Time: <code>{{- $longtime -}}</code><br>
+      {{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}</h2>
       <h6>Time is in minutes, and assumes a reading speed of {{ $RTime }} WPM</h6>
     </center>
   </article>
