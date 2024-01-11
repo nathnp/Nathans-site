@@ -4,7 +4,8 @@
   {{- .Content -}}
   {{- range .Pages -}}
   <article>
-    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
+    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
+    {{- if .Page.Params.subtitle -}}<sub><sub>{{- .Page.Params.subtitle -}}</sub></sub>{{- end -}}</h2><hr></h2>
     🏷️: 
       {{- range .Params.tags -}}
        | <a href="{{- "/tags/" | relLangURL -}}{{- . | urlize -}}">{{- . -}}</a>

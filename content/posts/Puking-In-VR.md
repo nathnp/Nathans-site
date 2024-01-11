@@ -2,6 +2,7 @@
 title = 'Puking in VR'
 date = 2024-01-10T19:08:32-05:00
 draft = false
+subtitle = 'It looks so real'
 tags = ['VR']
 +++
 

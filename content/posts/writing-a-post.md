@@ -2,6 +2,7 @@
 title = 'Writing a Post'
 date = 2023-11-14T18:24:27-05:00
 draft = false
+subtitle = 'No pencil needed'
 tags = ['Web', 'Apple Shortcuts']
 +++
 

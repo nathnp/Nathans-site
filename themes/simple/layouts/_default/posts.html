@@ -9,7 +9,8 @@
     <center><h1><code>Latest</code></h1></center>
     {{- end -}}
     <article>
-    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
+    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
+    {{- if .Page.Params.subtitle -}}<sub><sub>{{- .Page.Params.subtitle -}}</sub></sub>{{- end -}}</h2><hr>
     🏷️: 
     {{- if .Params.tags -}} 
       {{- range .Params.tags -}}
