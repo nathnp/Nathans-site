@@ -13,10 +13,10 @@
   🏷️: 
   {{- if .Params.tags -}} 
     {{- range .Params.tags -}}
-    | <a href="{{- "/tags/" | relLangURL -}}{{- . | urlize -}}">{{- . -}}</a>
-    {{- end -}}|
-    {{- else -}}No Tags 😢
-    {{- end -}}
+    | <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}|
+    {{ else }}No Tags 😢
+    {{ end }}
   
   <br>
   {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
