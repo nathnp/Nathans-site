@@ -113,10 +113,10 @@ A static site seams like the perfect way to blog (and for many, it is). But, the
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Why%20Not%20to%20go%20Static"> Reply to this post via email 📬</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Why%20Not%20to%20go%20Static"> Reply to this post via email 📬</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: Why Not to go Static</code>
 
 </center>

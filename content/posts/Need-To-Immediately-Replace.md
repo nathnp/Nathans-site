@@ -14,10 +14,10 @@ We’ll see if this happens with kbin and other like it.
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20The%20Need%20to%20Immediately%20Replace"> Reply to this post via email 📪</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20The%20Need%20to%20Immediately%20Replace"> Reply to this post via email 📪</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: The Need to Immediately Replace</code>
 
 

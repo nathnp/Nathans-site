@@ -59,10 +59,10 @@ Like any home lab, this thing is always changing. Servers have come and gone. On
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20My%20Home%20Lab"> Reply to this post via email ✉️</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20Home%20Lab"> Reply to this post via email ✉️</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: My Home Lab</code>
 
 </center>

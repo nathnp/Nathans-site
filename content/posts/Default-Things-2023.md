@@ -36,10 +36,10 @@ Over the past few days, I've been seeing a lot of posts in my RSS reader. A numb
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Default%20Things%202023"> Reply to this post via email 📪</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Default%20Things%202023"> Reply to this post via email 📪</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: Default Things 2023</code>
 
 

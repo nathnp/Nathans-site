@@ -68,10 +68,10 @@ You can find the GitHub repo [here](https://github.com/nathnp/Basic-Site-Templat
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20A%20Basic%20Site%20Template"> Reply to this post via email 📫</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20A%20Basic%20Site%20Template"> Reply to this post via email 📫</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: A Basic Site Template</code>
 
 </center>

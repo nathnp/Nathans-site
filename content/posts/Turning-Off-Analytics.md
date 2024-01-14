@@ -23,10 +23,10 @@ So yeah. Plausible has been good and I like it. But it's not really worth $9/mon
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Turning%20Off%20Analytics%20For%20Now"> Reply to this post via email 📮</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Turning%20Off%20Analytics%20For%20Now"> Reply to this post via email 📮</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: Turning Off Analytics For Now</code>
 
 

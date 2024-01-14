@@ -55,10 +55,10 @@ Overall, the Deck OLED is a fantastic upgrade, and I'm very happy with mine. The
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Deck%20OLED"> Reply to this post via email 📨</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Deck%20OLED"> Reply to this post via email 📨</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: Deck OLED</code>
 
 </center>

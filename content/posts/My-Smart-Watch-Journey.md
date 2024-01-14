@@ -103,10 +103,10 @@ So yeah, I've had a lot of watches. And that was only the smart watches. It's be
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20My%20Smart%20Watch%20Journey"> Reply to this post via email 📪</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20Smart%20Watch%20Journey"> Reply to this post via email 📪</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: My Smart Watch Journey</code>
 
 </center>

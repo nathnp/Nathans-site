@@ -18,10 +18,10 @@ After chucking the SSD in there, and formatting it. I now have a little, fast as
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Making%20a%20Fast%20As%20Hell%20Flash%20Drive"> Reply to this post via email 📫</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Making%20a%20Fast%20As%20Hell%20Flash%20Drive"> Reply to this post via email 📫</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: Making a Fast As Hell Flash Drive</code>
 
 

@@ -24,10 +24,10 @@ This happened almost ten years ago, and my foot still complains every now and th
 
 <center>
 
-<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20The%20Time%20I%20Broke%20My%20Foot%20and%20Didn’t%20Know"> Reply to this post via email 📮</a>
+<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20The%20Time%20I%20Broke%20My%20Foot%20and%20Didn’t%20Know"> Reply to this post via email 📮</a>
 
 For Webmail Users <br>
-Address: <code>reply.13a8f@nthp.me</code><br>
+Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: The Time I Broke My Foot and Didn’t Know</code>
 
 </center>
