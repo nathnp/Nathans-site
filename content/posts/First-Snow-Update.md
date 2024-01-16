@@ -1,7 +1,7 @@
 +++
 title = 'Update: First Snow'
 date = 2024-01-15T23:42:51-05:00
-draft = true
+draft = false
 subtitle = "There's mooooore!!!"
 tags = ['Winter', 'Personal', 'Post Update']
 +++
