@@ -5,6 +5,7 @@
   {{- range .Pages -}}
   <article>
     <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
+    <hr>
    <b>{{- if eq .Pages.Len 1 -}}<code>{{- .Pages.Len -}}</code> Post{{- else -}}<code>{{- .Pages.Len -}}</code> Posts{{- end }} | <code>Latest</code>: {{ range .Pages }}{{ $count = add $count 1 }}<a href='{{- .RelPermalink -}}'>{{- .LinkTitle -}}</a>{{ if eq $count 1 }}{{ break }}{{ end }}{{ end }}</b>
    
    <br>
@@ -13,6 +14,7 @@
    {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
    <b>Last Use</b>: <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
   </article>
+  <br>
   {{ $count = 0 }}
   {{- end -}}
 {{- end -}}

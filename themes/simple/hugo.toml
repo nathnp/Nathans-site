@@ -23,21 +23,6 @@ pageRef = '/stats'
 weight = 23
 
 [[menus.main]]
-name = 'Mastodon'
-url = 'https://fosstodon.org/@nthp'
-weight = 25
-
-[[menus.main]]
-name = 'Flickr'
-url = 'https://www.flickr.com/photos/197704187@N04/albums'
-weight = 30
-
-[[menus.main]]
-name = 'Github'
-url = 'https://github.com/nathnp'
-weight = 35
-
-[[menus.main]]
 name = 'About Me'
 pageRef = '/about'
 weight = 40
