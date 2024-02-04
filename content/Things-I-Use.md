@@ -89,9 +89,6 @@ Text Editor: [Nova](https://nova.app)
 
 Flight Tracker: [Flighty](https://flightyapp.com)
 
-Task Manager: [Todoist](https://todoist.com)
-<div id="webtools" />
-
 ## Web Tools [🔗](#webtools)
 
 Email to RSS: [Kill The Newsletter](https://kill-the-newsletter.com)
