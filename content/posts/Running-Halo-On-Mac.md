@@ -48,7 +48,7 @@ And with that, you have Halo on a mac. Satan would be proud.
 </figure>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3wiTuzr_IkE?si=VsmWlqB3PdMDVHki&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<a class='button' href='https://youtu.be/3wiTuzr_IkE'>Video</a>
 </center>
 
 <center>
