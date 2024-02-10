@@ -11,11 +11,11 @@ Jan 10, 2023
 I love VR. Strapping on a headset, and entering another world is truly a unique experience. You could be building something as a giant sea monster, or putting together a 3D puzzle, or playing mini golf, in space. The possibilities are endless.
 
 <figure>
-	<img src='/pics/puking-in-vr/fig1.webp'/>
+	<img src='fig1.webp'/>
 	<figcaption>Building things as a giant sea monster</figcaption>
 </figure>
 <figure>
-	<img src='/pics/puking-in-vr/fig2.webp'/>
+	<img src='fig2.webp'/>
 	<figcaption>Golfing in space</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ I use a PSVR2 hooked up to a PlayStation 5. The PSVR2 has a lot of features to p
 The controllers have touch sensitive areas, for added input. And feature the same resistive trigger as the main controller.
 
 <figure>
-	<img src='/pics/puking-in-vr/fig3.webp'/>
+	<img src='fig3.webp'/>
 	<figcaption>Golfing upside down</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ I went with the VR2 for two main reasons. VR can get crazy expensive. The Valve 
 The PSVR2 comes in at $550. Yeah, you'll need to pick up a PS5 if you don't have one. But, tossing in a PS5, you'll either a tad above, or a tad bellow the price of an Index. I don't have a VR grade gaming PC[^3] So the VR2 was a no brainer.
 
 <figure>
-	<img src='/pics/puking-in-vr/fig4.webp'/>
+	<img src='fig4.webp'/>
 	<figcaption>Exploring the galaxy</figcaption>
 </figure>
 
@@ -44,11 +44,11 @@ The VR2 was also super easy to set up. Unlike something like the Index, the VR2 
 The setup also takes advantage of the built in eye tracking. Helping you get the IPD setting just right[^4]. The eye tracking calibration is also super cool to play with.
 
 <figure>
-	<img src='/pics/puking-in-vr/fig5.webp'/>
+	<img src='fig5.webp'/>
 	<figcaption>Working at a convenience store</figcaption>
 </figure>
 <figure>
-	<img src='/pics/puking-in-vr/fig6.webp'/>
+	<img src='fig6.webp'/>
 	<figcaption>About to get stabbed</figcaption>
 </figure>
 
