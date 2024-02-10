@@ -5,8 +5,6 @@ draft = false
 tags = ['Web']
 +++
 
-Dec 23, 2023
-
 I have two jobs, one of them is as a cybersecurity TA. One of the projects we have the students do, is to deploy a basic website in an Azure container. While they're working on there site, we discuss the benefits of a personal site, and why they should have at least a basic one. The students can keep their site up if they want[^1], but Azure is pricy. So, I had an idea.
 
 The project gives them a starting template for their site[^2]. The students are free to deviate from that template, but they start out with one. My thought was, with how much we say that they should have their own site. And with how much Azure can cost. Why not make a basic template for use outside of Azure[^3].

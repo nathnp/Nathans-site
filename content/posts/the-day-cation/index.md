@@ -5,8 +5,6 @@ draft = false
 tags = ['Vacations', 'Museums', 'Flying']
 +++
 
-Aug 2, 2023
-
 Jump to: [The Idea](#idea) | [Planing](#planing) | [The Trip](#trip) | [Thoughts](#thoughts) <br>
 Quick Links: [Trip Photos](https://www.flickr.com/photos/197704187@N04/albums/72177720310228473)
 

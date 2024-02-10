@@ -6,8 +6,6 @@ subtitle = 'Now with more static'
 tags = ['Web']
 +++
 
-Nov 6, 2023
-
 Welp, this was a pain. 
 
 Over the past few days, I have been working on moving my website. Why you might ask? Let's go over that.

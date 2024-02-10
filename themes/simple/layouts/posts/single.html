@@ -1,10 +1,9 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+  {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+  {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
+  <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
   <hr>
-  <p>Estimated reading time: <code>{{ printf "%d" .ReadingTime }}</code> minutes</p>
-  <!-- {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> -->
 
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}

@@ -4,8 +4,6 @@ date = 2023-11-20T20:04:56-05:00
 draft = false
 +++
 
-Nov 20, 2023
-
 Over the years, I have a number of phones. Some good, some bad. Some not even smart. So I figured, let's go through them.
 
 <div id="intensity" />

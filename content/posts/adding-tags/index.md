@@ -5,8 +5,6 @@ draft = false
 tags = ['Web']
 +++
 
-Dec 2, 2023
-
 After a bit of work, a fair bit of reading, and only a few failed builds. I now have post tags working on my site. This was a lot easier than I thought. So let's go over it.
 
 There are four main things for adding tags in Hugo. Front matter, terms.html, taxonomy.html, and tag.html.

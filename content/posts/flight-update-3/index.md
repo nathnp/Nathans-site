@@ -6,8 +6,6 @@ subtitle = 'Testing my luck'
 tags = ['Air Crazyness', 'Denver 2022', 'Vacations', 'Flying']
 +++
 
-Aug 21, 2023
-
 I am now on my way from RDU to DEN. <br>
 After everyone getting off at RDU (all but 16), and a headcount was taken, we were able to move seats. I moved from the very back, to the very front. Hoping to make a speedy exit at DEN.
 

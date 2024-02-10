@@ -5,8 +5,6 @@ draft = false
 tags = ['Steam Deck']
 +++
 
-Dec 4, 2023
-
 A little while back, I upgraded my Deck. No, not the wooden thing on the [back of a house](https://i.pinimg.com/originals/39/10/c1/3910c1cfeca4d66d3d1d403ee74940bf.gif). I'm talking about the Steam Deck.
 
 I've had a Steam Deck for a little over a year. And over that year, the deck has gone from really cool, but needs to work. To... [well...](https://www.youtube.com/watch?v=Om8iSXUAKh0) Needless to say, I really like the Deck, and even upgraded mine to 2TB of storage. So when Valve announced the Deck OLED, I didn't want one.

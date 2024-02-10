@@ -5,8 +5,6 @@ draft = false
 tags = ['UASs']
 +++
 
-Nov 16, 2023
-
 Over the past few days, the road outside my house has had some work done to it. What kind of work you may ask? Pot hole filling? Man hole maintenance? Painting? No to all of those. They have been replacing the road… all of it.
 
 <aside>

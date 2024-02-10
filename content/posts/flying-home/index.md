@@ -5,8 +5,6 @@ draft = false
 tags = ['Denver 2022', 'Vacations', 'Flying']
 +++
 
-Aug 31, 2023
-
 ## DEN to IND
 
 On my way back home, currently on a flight from DED to IND. No problems with this one, unlike my flight out.

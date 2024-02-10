@@ -6,8 +6,6 @@ subtitle = "There's mooooore!!!"
 tags = ['Winter', 'Personal', 'Post Update']
 +++
 
-Jan 15, 2024
-
 >This is an update to my last post, [First Snow](/posts/first-snow).
 
 The snow is falling faster now.

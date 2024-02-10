@@ -5,8 +5,6 @@ draft = false
 tags = ['Steam Deck', 'Monitors']
 +++
 
-Dec 21, 2023
-
 I've been using an ultra wide monitor for quite a while. And I'm at the point where I swear by them now. However, while the model I use, is pretty great, it has one issue that makes me not want to recommend it.
 
 I use an [LG UltraWide 35WN75C](https://www.lg.com/us/monitors/lg-35wn75c-b-ultrawide-monitor). On paper, it's pretty fantastic. 3440X1440 resolution, at 100Hz with AMD FreeSync support. Two HDMI ports, a DisplayPort 1.4 port, and USB-C as inputs. That USB-C port also serves as a dock, with two USB A 3.0 ports connected to it. This is exactly what I wanted. A big ass monitor, with a built in USB-C dock for my laptop. One cable for display, IO, and charging.

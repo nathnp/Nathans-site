@@ -5,8 +5,6 @@ draft = false
 tags = ['Air Crazyness', 'Denver 2022', 'Vacations', 'Flying']
 +++
 
-Aug 21, 2023
-
 > Note: This post is old and I have moved to Fosstodon
 
 With the shutting down of Crabland.social[^1], I've migrated my account to a new server. <br>

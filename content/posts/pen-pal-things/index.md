@@ -4,8 +4,6 @@ date = 2023-11-08T17:39:18-05:00
 draft = false
 +++
 
-Nov 11, 2023
-
 Recently, Kev posted a [blog post](https://kevquirk.com/seeking-pen-pals) about wanting pen-pals. He posed an a simple plan. 
 
 >If you're interested in taking part, drop me an email using the reply button at the bottom of this post. <br>

@@ -5,8 +5,6 @@ draft = false
 tags = ['Networking', 'Home Lab']
 +++
 
-Dec 5, 2023
-
 I've had a small home lab for a bit. Servers have come and gone, but a few core ones have remained. So let's talk about it, and my home network as well.
 
 # Network

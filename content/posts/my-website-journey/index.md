@@ -5,8 +5,6 @@ draft = false
 tags = ['Web']
 +++
 
-Nov 12, 2023
-
 I've had a blog for a few years now. And over those few years, I've used a number of different hosting providers.
 
 As I've recently moved to a new blogging set up. I decided, let's take a look back. At how I used to host this site.

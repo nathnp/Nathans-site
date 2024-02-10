@@ -5,8 +5,6 @@ draft = false
 tags = ['Watches', 'Apple Watch', 'Pebble']
 +++
 
-Jan 1, 2024
-
 Over the years, I’ve worn many, many different watches. Maybe a little too many. I was thinking of doing a big blog post going over all of them. But that would be really long. So I’m breaking it up into two parts. This is part one, just Smart Watches. Part two will be on my traditional watch collection. So let’s get started.
 
 <details><summary>Jump To Section</summary>

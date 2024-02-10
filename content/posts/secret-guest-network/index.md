@@ -6,8 +6,6 @@ subtitle = 'They will never know'
 tags = ['Networking']
 +++
 
-Oct 22, 2023
-
 Imagine this, you have some people over, and they want the password to your WiFi. You trust them, but not “you can be on my network” trust them. So you give them the guest network login. They get mad and leave, and now you're down a couple friends. But what if you could have a hidden guest network, that looks just like your main one, maybe that would let you keep some friends.
 
 Ubiquity has rolled out support for PPSK (Private Pre Shared Keys). That let's you have multiple networks, behind one SSID. This is handy, as having too many SSIDs can hurt performance. 

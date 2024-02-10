@@ -6,8 +6,6 @@ subtitle = 'All wheel drive into a ditch'
 tags = ['Winter', 'Personal']
 +++
 
-Jan 15. 2024
-
 It's that time of the year. Time to crash your car off the road!
 
 Snow is falling in my neck of Maryland now. And while it looks nice, people don't know how to drive in it. Even though it snows every year here.

@@ -6,8 +6,6 @@ subtitle = 'Just let me ski'
 tags = ['Denver 2024', 'Skiing', 'Vacations']
 +++
 
-Jan 13, 2024
-
 >This is an old post from my old hidden blog. This trip will be starting soon, so I’m reposting it here. 
 
 I’m flying out in a few months to go skiing in Colorado, at Vail resort. I booked my plane tickets. Now just to get my ski pass. Vail has a, selection of passes to choose from. So many that they offer a “quiz” to find the right one for you. 

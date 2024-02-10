@@ -6,8 +6,6 @@ subtitle = "Satan would be proud"
 tags = ['Mac', 'Gaming']
 +++
 
-Feb 8, 2023
-
 I know what you're thinking, but I'm not pulling a fast one on you.
 
 ## What?

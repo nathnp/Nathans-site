@@ -6,8 +6,6 @@ subtitle = "I'm not talking about the TV kind"
 tags = ['web']
 +++
 
-Jan 13, 2024
-
 If you’re just getting into blogging. The idea of a static site sounds pretty great. Crazy fast load times for your readers. Complete control over the site’s design. And anywhere from dirt cheep, to free hosting. 
 
 The problem is, you have to do all the work yourself. You might be thinking, that’s no problem, I’ll just drag and drop some elements in and be good to go, right? Nope, fire up your favorite text editor, and start typing. 

@@ -5,8 +5,6 @@ draft = false
 tags = ['Old Computers', 'Museums']
 +++
 
-Oct 25, 2023
-
 Jump to: [The Trip](#trip) | [The Museum](#museum) | [G15](#g15) | [Thoughts](#thoughts) <br>
 Quick Links: [Flickr Album](https://www.flickr.com/photos/197704187@N04/albums/72177720312149715/with/53281603158/) | [Museum Website](https://museum.syssrc.com)
 

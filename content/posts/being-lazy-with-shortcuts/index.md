@@ -5,8 +5,6 @@ draft = false
 tags = ['Web', 'Apple Shortcuts']
 +++
 
-Nov 12, 2023
-
 At the bottom of every post. I have a reply via email button. This button does three main things. 1. It opens your default email client, 2. It pre fills the To field for you, and 3. It pre fills the subject.
 
 This is the HTML for the reply button in this post

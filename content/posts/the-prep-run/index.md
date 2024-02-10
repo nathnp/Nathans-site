@@ -6,8 +6,6 @@ subtitle = 'Falling down a mountain'
 tags = ['Denver 2024', 'Skiing', 'Winter']
 +++
 
-Jan 17,2024
-
 Today was prep day. In a few weeks, I'll be flying out to ski in the rockies. So I needed to do a warm up run.
 
 <figure>

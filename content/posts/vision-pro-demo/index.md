@@ -6,8 +6,6 @@ subtitle = "I can see now!"
 tags = ['Vision Pro']
 +++
 
-Feb 5, 2024
-
 The Apple Vision Pro has released, and I’m not buying one. I just don’t have $3,500 to drop on it. But I am super excited by the product. So, I booked a demo. 
 
 Booking a demo was pretty straight forwards. I fired up the Apple Store app on my iPhone, and hit the book demo button. It then asked me where I would like to do the demo. Unfortunately, my closest store didn't have a good time for me. My only option was the Apple Store down in Tyson's Mall[^1]. This is about an hours trip for me.

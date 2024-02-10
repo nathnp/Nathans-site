@@ -6,8 +6,6 @@ subtitle = 'It looks so real'
 tags = ['VR']
 +++
 
-Jan 10, 2023
-
 I love VR. Strapping on a headset, and entering another world is truly a unique experience. You could be building something as a giant sea monster, or putting together a 3D puzzle, or playing mini golf, in space. The possibilities are endless.
 
 <figure>

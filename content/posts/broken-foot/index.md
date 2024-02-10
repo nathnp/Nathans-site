@@ -6,8 +6,6 @@ subtitle = 'The purple flesh balloon'
 tags = ['Personal', 'Broken Bones']
 +++
 
-Jan 6, 2023
-
 It all happened while playing a game of manhunt[^1]. This game was being played indoors, and I was running. Running away from an ambush. I was running back to the safe area, and I was running barefoot[^2]. This, this is where I made a mistake.
 
 I have loose joints. So when kicked someone’s boot at full speed. I thought I just popped some joints in my foot. I do that all the time, no big deal. So, thinking that, I kept playing. For the next half hour, I ran, and hunted man. I stopped when my foot inflated like a balloon. A purple balloon.

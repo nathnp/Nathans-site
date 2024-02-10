@@ -5,8 +5,6 @@ draft = false
 tags = ['Watches']
 +++
 
-Jan 1, 2024
-
 Not too long ago, I made a post about all the smart watches I’ve used. In that post, I said that I would make a part two, going over all of my traditional watches. Well, this is that post. (You can read part one [here](https://nthp.me/posts/my-smart-watch-journey/))
 
 I’m not going to go into why I picked up each watch. I’m just going to list each watch in my collection. 

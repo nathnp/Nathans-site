@@ -6,8 +6,6 @@ subtitle = 'No pencil needed'
 tags = ['Web', 'Apple Shortcuts']
 +++
 
-Nov 14, 2023
-
 Posting on a static site is interesting. You don’t fire up a website and start typing. Nor do you just drag and drop photos. You have to make the whole web page, yourself. It’s not that hard. Though, it can be confusing if you’re used to a CMS. Here’s my work flow. 
 
 ## Writing

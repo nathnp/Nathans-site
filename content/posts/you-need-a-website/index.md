@@ -5,8 +5,6 @@ draft = false
 tags = ['Web']
 +++
 
-Nov 11, 2023
-
 Jump to: [What You Need](#need) | [Domain](#domain) | [Host](#host) | [Site](#site) | [What I Use](#what-i-use) | [Links](#links)
 
 You need a website, plane and simple. But why, you might ask? <br>

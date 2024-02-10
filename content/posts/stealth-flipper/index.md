@@ -5,8 +5,6 @@ draft = false
 tags = ['Flipper Zero', 'Apple Shortcuts']
 +++
 
-Nov 1, 2023
-
 Let's be honest, most flipper users use the flipper to dick around. You know, pop Tesla charge covers, set off CVS alcohol announcements (Bonus points if you do it in a state CVS can't sell alcohol in (Like Maryland)). You know, fun stuff. The Flipper is unfortunately recognizable (Thanks to dumpsters like TikTok). So, if we're going to have some fun in a CVS, or a Tesla store, we need to be a bit sneaky.
 
 > NOTE: This post doesn't cover Android, as I don't use that.

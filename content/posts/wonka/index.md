@@ -5,8 +5,6 @@ draft = false
 tags = ['Movies', 'Wonka']
 +++
 
-Jan 3, 2024
-
 Earlier today I went to see Wonka. A prequel to one of the Wonka movies[^1]. After seeing the good ratings, and loving the original. I picked up a ticket to my local Warehouse Cinema. And gave it a watch.
 
 

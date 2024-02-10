@@ -5,8 +5,6 @@ draft = false
 tags = ['Apple Watch']
 +++
 
-Dec 31, 2023
-
 A couple days ago, I took a trip down to see some family. This was an overnight trip, about four hours[^1] from where I live. Normally when I travel, I pack an abundance of power. Extra chargers, cables, and a big battery pack. This time though, I decided not to bring my Apple Watch charger.I use an Apple Watch Ultra 1. So a basic overnight trip should be no big deal for it. 
 
 I started the "experiment" the night before heading out, charging up to 100%. Once it was charged, I took it off the charger[^2], and went to bed. Waking up, I had 95% charge. A couple hours later I headed out, sans charger. My head math said I was going to be fine, but it still felt weird.
