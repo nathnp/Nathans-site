@@ -12,10 +12,6 @@ A map of states that I have been to, and did something in (i.e. Something other 
 
 A list of things I use. Including hardware, and software.
 
-## [Geocaching Gear](/geogear)
-
-A breakdown of the gear and tools I use for Geocaching.
-
 ## [My Feeds](/my-feeds)
 
 A list of podcasts I listen to, with links to the major players. As well as a list of blog I subscribe to.
