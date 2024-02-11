@@ -1,7 +1,7 @@
 +++
 title = 'Flying Back to Denver'
-date = 2024-02-06T19:04:03-05:00
-draft = true
+date = 2024-02-11T07:09:03-05:00
+draft = false
 subtitle = "Here we go again"
 tags = ['Denver 2024', 'Vacations', 'Flying']
 +++
