@@ -2,7 +2,7 @@
 title = 'Flight Update'
 date = 2023-08-21T23:31:34-05:00
 draft = false
-tags = ['Air Crazyness', 'Denver 2022', 'Vacations', 'Flying']
+tags = ['Air Craziness', 'Denver 2022', 'Vacations', 'Flying']
 +++
 
 While waiting for my already delayed flight, I got a text saying that I had been rebooked to a new flight...[^1] Later in the day. <br>

@@ -2,7 +2,7 @@
 title = 'Flight Update 2'
 date = 2023-08-21T23:33:22-05:00
 draft = false
-tags = ['Air Crazyness', 'Denver 2022', 'Vacations', 'Flying']
+tags = ['Air Craziness', 'Denver 2022', 'Vacations', 'Flying']
 +++
 
 I am on a plane, crazy I know. First I was scheduled for one flight, then I got bumped to another, but you read that (I hope). When I left off I was at gate B8 at BWI, things changed pretty quick after posting. <br>

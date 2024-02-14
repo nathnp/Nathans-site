@@ -3,7 +3,7 @@ title = 'Flight Update 3'
 date = 2023-08-21T23:33:55-05:00
 draft = false
 subtitle = 'Testing my luck'
-tags = ['Air Crazyness', 'Denver 2022', 'Vacations', 'Flying']
+tags = ['Air Craziness', 'Denver 2022', 'Vacations', 'Flying']
 +++
 
 I am now on my way from RDU to DEN. <br>
