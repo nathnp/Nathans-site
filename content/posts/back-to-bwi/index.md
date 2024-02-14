@@ -1,6 +1,6 @@
 +++
 title = 'Back to BWI'
-date = 2024-02-14T14:42:18-07:00
+date = 2024-02-14T14:42:18-05:00
 draft = false
 subtitle = 'Home is the crabland'
 tags = ['Denver 2024', 'Vacations', 'Flying']
