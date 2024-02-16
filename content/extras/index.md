@@ -16,6 +16,6 @@ A list of things I use. Including hardware, and software.
 
 A list of podcasts I listen to, with links to the major players. As well as a list of blog I subscribe to.
 
-## [My Watch Collection](/posts/my-regular-watches/)
+## [My Watch Collection](/posts/2024/my-regular-watches/)
 
 For those who like regular watches, here is my collection.
