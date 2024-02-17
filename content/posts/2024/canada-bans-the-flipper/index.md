@@ -19,8 +19,9 @@ Criminals have been using sophisticated tools to steal cars. And Canadians are r
  
 Today, I announced we are banning the importation, sale and use of consumer hacking devices, like flippers, used to commit these crimes.
 <cite>François-Philippe Champagne (FPC)</cite>
-<cite><a href=“https://x.com/FP_Champagne/status/1755691837531078820?s=20”>Link</a>
 </blockquote>
+<a href=“https://x.com/FP_Champagne/status/1755691837531078820?s=20”>Link</a>
+
 
 Flipper Devices (makers of the Flipper Zero) responded. 
 
@@ -29,8 +30,8 @@ Dear François-Philippe,
 
 We’d appreciate it if you could provide any evidence of Flipper Zero being involved in any criminal activities of this kind. We’re not aware of any events like this and frankly speaking not sure what was the reason for this discussion to begin with.
 <cite>Flipper Zero</cite>
-<cite><a href=“https://x.com/flipper_zero/status/1756087390974660612?s=20”>Link</a></cite>
 </blockquote>
+<a href=“https://x.com/flipper_zero/status/1756087390974660612?s=20”>Link</a>
 
 The Flipper Zero isn’t a tool used to steal cars. While yes, it does have a configurable sub-ghz radio. The Flipper, out of the box, doesn’t support rolling codes, used by car keys.
 
