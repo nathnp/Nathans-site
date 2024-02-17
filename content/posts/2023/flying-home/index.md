@@ -2,7 +2,7 @@
 title = 'Flying Home'
 date = 2023-08-31T23:35:13-05:00
 draft = false
-tags = ['Denver 2022', 'Vacations', 'Flying']
+tags = ['Denver 2023', 'Vacations', 'Flying']
 +++
 
 ## DEN to IND
