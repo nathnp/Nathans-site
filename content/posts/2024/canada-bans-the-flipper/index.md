@@ -43,7 +43,7 @@ Come on Canada, you can do better than this.
 
 <center>
 
-<a class=“button” href=“mailto:reply.13a8f@nthp.me?subject=RE%3A%20Canada%20Bans%20the%20Flipper%20Zero”> Reply to this post via email 📫</a>
+<a class="button" href="mailto:reply.13a8f@nthp.me?subject=RE%3A%20Canada%20Bans%20the%20Flipper%20Zero"> Reply to this post via email 📫</a>
 
 For Webmail Users <br>
 Address: <code>reply.13a8f@nthp.me</code><br>
