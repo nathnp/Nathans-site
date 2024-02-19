@@ -687,3 +687,10 @@ sub {
   padding: 1.5rem;
   margin: 2rem 0;
 }
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,6 +1,6 @@
 {{- define "main" -}}
   <h1>Tag: <code>{{- .Title -}}</code></h1>
-  <p>RSS link for <code>{{- .Title -}}</code> Tag --> <a href="{{- .Permalink -}}feed.xml">RSS</a></p>
+  <p>RSS link for <code>{{- .Title -}}</code> --> <a href="{{- .Permalink -}}feed.xml">RSS</a></p>
   {{- .Content -}}
   {{- range .Pages -}}
   <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
