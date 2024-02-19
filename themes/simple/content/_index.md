@@ -6,7 +6,7 @@ draft = false
 
 <center>
 
-# Hi, I'm <code>Nathan</code>
+# Hi, I'm <code>Nathan</code> <img src='/pics/home/flag.webp' width=32/>
 
 ![](/pics/home/me.webp)
 
