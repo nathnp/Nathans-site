@@ -6,11 +6,25 @@
   {{- end -}} -->
   <center>
   {{- $counter := 0 -}}
-  <code>Latest Post</code>: 
-  {{ range site.RegularPages -}}
+  <code>Latest Blog Post</code>: 
+  {{ range where .Site.RegularPages "Section" "posts" -}}
   {{- $counter = add $counter 1 -}}
   <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
-  <a href='/posts'>View all posts</a>
+  <a href='/posts'>View all Blog posts</a>
+  </center>
+  
+  {{- if eq $counter 1 -}}
+  {{- break -}}
+  {{- end -}}
+  {{- end -}}
+  <br>
+  <center>
+    {{- $counter := 0 -}}
+    <code>Latest Factorio Post</code>: 
+    {{ range where .Site.RegularPages "Section" "factorio-blog" -}}
+    {{- $counter = add $counter 1 -}}
+    <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
+    <a href='/factorio-blog'>View all Factorio posts</a>
   </center>
   
   {{- if eq $counter 1 -}}

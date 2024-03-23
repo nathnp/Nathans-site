@@ -1,0 +1,23 @@
+{{- define "main" -}}
+  <h1>{{- .Title -}}⚙️</h1>
+  <h3><a href='/factorio-blog/feed.xml'>RSS Feed</a></h3>
+  {{- .Content -}}
+  {{- $counter := 0 -}}
+  {{- range .Pages -}}
+  {{- $counter = add $counter 1 -}}
+  
+    {{- if eq $counter 1 -}}
+    <center><h1><code>Latest</code></h1></center><hr>
+    {{- end -}}
+    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
+    {{- if .Page.Params.subtitle -}}<sub><sub>{{- .Page.Params.subtitle -}}</sub></sub>{{- end -}}</h2><hr>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+    {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
+    🗓️: <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
+  {{- if eq $counter 1 -}}
+  <br><br><br>
+  <hr>
+  {{- end -}}
+    
+  {{- end -}}
+{{- end -}}
