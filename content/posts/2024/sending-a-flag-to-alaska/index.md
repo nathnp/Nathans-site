@@ -30,7 +30,7 @@ The user who moved even posted a picture.
 	<img src="fig2.webp"/>
 </figure>
 
-Hopefully it keeping moving. But even if it doesn't, I'm happy with this.
+Hopefully it keeps moving. But even if it doesn't, I'm happy with this.
 
 <center>
 
