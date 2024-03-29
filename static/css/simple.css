@@ -703,3 +703,7 @@ sub {
   align-items: center;
   justify-content: center;
 }
+
+.title {
+  color: var(--accent)
+}
