@@ -4,9 +4,12 @@ date = 2023-11-05T17:49:19-05:00
 draft = false
 +++
 
-Jump to: [Hardware](#hardware) | [Home Servers](#servers) | [Software](#software) | [Web Tools](#webtools) | [Disclaimer](#disclaimer)
+Jump to: [Hardware](#hardware) | [Home Servers](#servers) | [Software](#software) | [Web Tools](#webtools)
 
 For a list of podcasts and blogs I like, go [here](/my-feeds).
+
+<p class="notice"><b>Notice:</b> None of these links are affiliate links, I paid for all of the items listed here.</p>
+
 <div id="hardware" />
 
 ## Hardware [🔗](#hardware)
@@ -94,11 +97,6 @@ Flight Tracker: [Flighty](https://flightyapp.com)
 Email to RSS: [Kill The Newsletter](https://kill-the-newsletter.com)
 
 Post Scheduling Tool: [Buffer](https://buffer.com)
-
-<br>
-<div id="disclaimer" />
-	
->Note: **None** of these links are affiliate links, I paid for all of the items listed here
 
 [^1]: ![](fig1.webP)
 [^2]: Learn to name stuff Sony
