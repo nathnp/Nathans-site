@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Steam Deck Tag on Nathan&#39;s Site</title>
+	<link>https://nthp.me/tags/steam-deck/</link>
+	<description>Recent content in Steam Deck on Nathan&#39;s Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Thu, 21 Dec 2023 13:05:44 -0500</lastBuildDate><atom:link href="https://nthp.me/tags/steam-deck/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>My Picky Monitor</title>
+	  <link>https://nthp.me/posts/2023/my-picky-monitor/</link>
+	  <pubDate>Thu, 21 Dec 2023 13:05:44 -0500</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2023/my-picky-monitor/</guid>
+	  <description>
+		
+		&lt;p&gt;I&amp;rsquo;ve been using an ultra wide monitor for quite a while. And I&amp;rsquo;m at the point where I swear by them now. However, while the model I use, is pretty great, it has one issue that makes me not want to recommend it.&lt;/p&gt;
+&lt;p&gt;I use an &lt;a href=&#34;https://www.lg.com/us/monitors/lg-35wn75c-b-ultrawide-monitor&#34;&gt;LG UltraWide 35WN75C&lt;/a&gt;. On paper, it&amp;rsquo;s pretty fantastic. 3440X1440 resolution, at 100Hz with AMD FreeSync support. Two HDMI ports, a DisplayPort 1.4 port, and USB-C as inputs. That USB-C port also serves as a dock, with two USB A 3.0 ports connected to it. This is exactly what I wanted. A big ass monitor, with a built in USB-C dock for my laptop. One cable for display, IO, and charging.&lt;/p&gt;
+&lt;p&gt;That USB-C port however, is super picky. While it works wonderfully with my M1 MacBookPro, and my FrameWork 13, it is not a big fan of my SteamDeck.&lt;/p&gt;
+&lt;p&gt;If, if the Deck is fully charged, it works fine&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, if the deck is not fully charged, the monitor will crash. Yes, crash. You might think, the Deck is drawing too much power. The Deck draws up to 30w. My MacBookPro, draws more than double that, from the monitor. Without issue.&lt;/p&gt;
+&lt;p&gt;Everything I’ve read online says the type C port on it is just super picky. And that’s a shame. Because it’s a nice panel. And if the type C port worked fully, I could super easily recommend it. But I just can’t, not with that issue, and not at its price tag of $600.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20Picky%20Monitor&#34;&gt; Reply to this post via email ✉️&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;RE: My Picky Monitor&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Most of the time&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+	  </description>
+	</item>
+	
+	<item>
+	  <title>Deck OLED</title>
+	  <link>https://nthp.me/posts/2023/deck-oled/</link>
+	  <pubDate>Mon, 04 Dec 2023 11:21:40 -0500</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2023/deck-oled/</guid>
+	  <description>
+		
+		&lt;p&gt;A little while back, I upgraded my Deck. No, not the wooden thing on the &lt;a href=&#34;https://i.pinimg.com/originals/39/10/c1/3910c1cfeca4d66d3d1d403ee74940bf.gif&#34;&gt;back of a house&lt;/a&gt;. I&amp;rsquo;m talking about the Steam Deck.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve had a Steam Deck for a little over a year. And over that year, the deck has gone from really cool, but needs to work. To&amp;hellip; &lt;a href=&#34;https://www.youtube.com/watch?v=Om8iSXUAKh0&#34;&gt;well&amp;hellip;&lt;/a&gt; Needless to say, I really like the Deck, and even upgraded mine to 2TB of storage. So when Valve announced the Deck OLED, I didn&amp;rsquo;t want one.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t get me wrong, it looked cool as hell. And would love to have one. My first thought, was simply to build an upgrade kit from parts. Pick up a new shell, and the OLED panel (once it hit iFixit), and boom, kinda Deck OLED&amp;hellip; Valve said no. The parts are not inter-compatible. So I bought one.&lt;/p&gt;
+&lt;p&gt;Yeah, I caved. And I don&amp;rsquo;t regret it. The main big upgrade (being the OLED screen), is fantastic. But, there are a number of other smaller upgrades.&lt;/p&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Deck LCD&lt;/th&gt;
+&lt;th&gt;Deck OLED&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Screen Size&lt;/td&gt;
+&lt;td&gt;7&amp;quot;&lt;/td&gt;
+&lt;td&gt;7.4&amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Screen Refresh&lt;/td&gt;
+&lt;td&gt;60Hz&lt;/td&gt;
+&lt;td&gt;90Hz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Battery&lt;/td&gt;
+&lt;td&gt;40Whr&lt;/td&gt;
+&lt;td&gt;50Whr&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CPU Node&lt;/td&gt;
+&lt;td&gt;6nm&lt;/td&gt;
+&lt;td&gt;7nm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Weight&lt;/td&gt;
+&lt;td&gt;1lb 7.6oz&lt;/td&gt;
+&lt;td&gt;1lb 6.6oz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cup Holder&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator&#34;&gt;RTG&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;😰&lt;/td&gt;
+&lt;td&gt;☢️&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Ok, not really on that last one&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;One of the most noticeable improvements, is the build quality. The Deck LCD wasn&amp;rsquo;t built poorly, but the OLED is just more sturdy.&lt;/p&gt;
+&lt;p&gt;The shrunk down APU, combined with the OLED screen, and the bigger battery, do wonders for battery life.&lt;/p&gt;
+&lt;p&gt;I could go on for a bit on all of the little changes, but channels like &lt;a href=&#34;https://www.youtube.com/watch?v=0pBQ4dosuT0&amp;amp;pp=ygUNbHR0IGRlY2sgb2xlZA%3D%3D&#34;&gt;LTT&lt;/a&gt;, already &lt;a href=&#34;https://www.youtube.com/watch?v=uCVXqoVi6RE&amp;amp;pp=ygUNbHR0IGRlY2sgb2xlZA%3D%3D&#34;&gt;have&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;1tb-is-not-enough&#34;&gt;1TB Is Not Enough&lt;/h2&gt;
+&lt;p&gt;1TB is plenty for a handheld, but I had a 2TB SSD, and I wanted to move it over.&lt;/p&gt;
+&lt;p&gt;I started with cracking my LCD open, and &lt;a href=&#34;https://youtu.be/R0S8JZ6YO5c?si=Kv9rVkjzSWNLzfRY&amp;amp;t=23&#34;&gt;extracting&lt;/a&gt; the 2TB SSD. After making sure all my non cloud synced stuff was backed up, I gave it a quick format. I then moved to the OLED. Cracking that open was much nicer. The OLED uses Torx screws, vs Philips. This is great, as Torx screws don&amp;rsquo;t &lt;a href=&#34;https://en.wikipedia.org/wiki/Cam_out&#34;&gt;cam out&lt;/a&gt;. With the blank 2TB SSD in the OLED, and the old 1TB SSD in an external enclosure. I was ready. I popped a clonezilla boot disk into the SD card slot, and fired it up.&lt;/p&gt;
+&lt;p&gt;Clonezilla on the Deck is super easy to use. You can set up the whole operation with just the D-pad, and the A button&amp;hellip; You just can&amp;rsquo;t start the clone. Clonezilla is really adamant that you press &lt;kbd&gt;Y&lt;/kbd&gt; to start the clone&amp;hellip; So you need to plug in a keyboard, to press one key&amp;hellip; Great.&lt;/p&gt;
+&lt;p&gt;About 40 minutes into the clone. I decided to move the deck to a more powerful power adapter&amp;hellip; The moment I unplugged the cable, my docking adapter, blinked&amp;hellip; Causing clonezilla to shit itself, as the source SSD dropped off&amp;hellip; Now I had to start over.&lt;/p&gt;
+&lt;p&gt;Once the second clone attempt was done, I fired up the Deck. After waiting for SteamOS to auto expand the partition, it was done. A 2TB handheld, &lt;a href=&#34;https://www.youtube.com/watch?v=jpDL2l-MWEU&#34;&gt;in the palm of my hand&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;Overall, the Deck OLED is a fantastic upgrade, and I&amp;rsquo;m very happy with mine. The 90Hz screen is fantastic for Halo. And the HDR OLED, makes everything pop in ways the old Deck just couldn&amp;rsquo;t. The Deck OLED is more than just a screen upgrade. And that, is what got me to pick one up.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Deck%20OLED&#34;&gt; Reply to this post via email 📨&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;RE: Deck OLED&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+
+	  </description>
+	</item>
+	
+  </channel>
+</rss>

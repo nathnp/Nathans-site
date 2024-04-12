@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Factorio Blog on Nathan's Site</title>
+	<link>https://nthp.me/factorio-blog/</link>
+	<description>Recent content in Factorio Blog on Nathan&#39;s Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate><atom:link href="https://nthp.me/factorio-blog/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>Out of Power</title>
+	  <link>https://nthp.me/factorio-blog/2024/out-of-power/</link>
+	  <pubDate>Sun, 24 Mar 2024 12:28:23 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/factorio-blog/2024/out-of-power/</guid>
+	  <description>
+		
+		&lt;p&gt;I need to rethink somethings. I was adding a bigger buffer to my Kovarex plant, when an alarm went off. One I haven&amp;rsquo;t heard in a long time. The power alarm. Right then and there, everything died on me&amp;hellip; What the fuck just happened.&lt;/p&gt;
+&lt;p&gt;I got in the War Spider, and raced to the reactor. Turbines weren&amp;rsquo;t spinning, she was dead. I quickly checked the reactor temps, 600C, and no fuel. I needed fuel, and fast, before these things cooled off too much. Racing up to my fuel plant, I found the problem, it ran out of iron plates. I&amp;rsquo;ll fix that later, right now I just need to keep the reactors hot.&lt;/p&gt;
+&lt;p&gt;I grabbed some spare fuel, and raced back to the reactor. Once there, I isolated the plant from the rest of the factory, and loaded in the fuel. 515C, that’s what the reactors got down to. Now just to let them heat back up.&lt;/p&gt;
+&lt;p&gt;So, why did I rush to get fuel? Simple, mass. My reactor is pretty big, and that gives it a lot of thermal mass. So, if it went completely cold, it would take quite awhile to heat back up.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig1.webp&#34;/&gt;
+	&lt;figcaption&gt;Reactors and heat exchangers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I had to wait a bit for it to heat up enough. While this reactor can in thory make 1.1Gw, my base only uses about 160ishMw. The issue is, I have a lot of robo-ports. And when they loose power, their batteries will loose a bit of charge, as the bot return to them&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. When the power came back on, my base, for about two seconds, drew close too 600Mw. Good thing my plant can handle that.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m currently rebuilding/moving my fuel production plant, to help prevent this from happing again.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Out%20of%20Power&#34;&gt; Reply to this post via email 📪&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;FRE: Out of Power&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The bots will finish their task and return to a robo-port in the event of a power outage.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+	  </description>
+	</item>
+	
+	<item>
+	  <title>Kovarex</title>
+	  <link>https://nthp.me/factorio-blog/2024/kovarex/</link>
+	  <pubDate>Wed, 20 Mar 2024 13:21:17 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/factorio-blog/2024/kovarex/</guid>
+	  <description>
+		
+		&lt;p&gt;I&amp;rsquo;ve had Kovarex researched for a bit. But now it was time to actually get it up and running.&lt;/p&gt;
+&lt;p&gt;Kovarex is a pain. it takes three of your junk U-238s, and outputs one useful U-235. The painful part, is that you can&amp;rsquo;t just give it three U-238s. That would be too easy. No, you need to give it five U-238s, and 40 U-235s. Yes, 40. and with that, you get, one, new U-235.&lt;/p&gt;
+&lt;p&gt;The puzzle I had to figure out was, how do I extract that one U-235, and send the 40 others back to the centrifuge. So I hit the internet, and found this design.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig3.webp&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;This thing uses a wire, and state monitoring to have an inserter, only grab a U-235, when a different inserter is holding the U-238. This is just what I needed. I just hate the layout, so I redesigned it using the same concept.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig4.webp&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;That&amp;rsquo;s better. This design can easily be be tiled on the left and right side. Now to start making U-235, so I can fuel up more of these.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig1.webp&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;More.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig2.webp&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;MORE!!&lt;/p&gt;
+&lt;figre&gt;
+	&lt;img src=&#34;fig5.webp&#34;/&gt;
+&lt;/figre&gt;
+&lt;p&gt;That&amp;rsquo;ll do. Now I can arm the War Spider with 80 plus nuclear missiles, and take &amp;ldquo;care&amp;rdquo; of the environmentalists.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Kovarex&#34;&gt; Reply to this post via email 📪&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;FRE: Kovarex&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+	  </description>
+	</item>
+	
+  </channel>
+</rss>

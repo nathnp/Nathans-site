@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Mac Tag on Nathan&#39;s Site</title>
+	<link>https://nthp.me/tags/mac/</link>
+	<description>Recent content in Mac on Nathan&#39;s Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Thu, 08 Feb 2024 15:52:25 -0500</lastBuildDate><atom:link href="https://nthp.me/tags/mac/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>Running Halo on an ARM Mac</title>
+	  <link>https://nthp.me/posts/2024/running-halo-on-mac/</link>
+	  <pubDate>Thu, 08 Feb 2024 15:52:25 -0500</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/running-halo-on-mac/</guid>
+	  <description>
+		
+		&lt;p&gt;I know what you&amp;rsquo;re thinking, but I&amp;rsquo;m not pulling a fast one on you.&lt;/p&gt;
+&lt;h2 id=&#34;what&#34;&gt;What?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Halo the Master Chief Collection, is a windows only game. You want to play it? Buy an Xbox, or a Windows PC. However, there are ways to run windows programs on not windows.&lt;/p&gt;
+&lt;p&gt;Valve, has been putting a lot of time, and money, into doing just that. The back bone of their Proton translations system, is WINE&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. WINE makes it possible for windows programs, to run on Linux. This allows the Steam Deck (a Linux game system), to run games like, Halo MCC.&lt;/p&gt;
+&lt;p&gt;The Mac, runs macOS. While macOS isn&amp;rsquo;t Linux, it is UNIX&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. And with how closely Linux is related to UNIX. It&amp;rsquo;s possible to port software back and forth. Because of that, WINE is available for macOS.&lt;/p&gt;
+&lt;h2 id=&#34;so-how-do-i-do-this&#34;&gt;So, how do I do this?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;In short, you probably shouldn&amp;rsquo;t, Halo doesn&amp;rsquo;t run well on macOS. WINE for the mac is still pretty young.&lt;/p&gt;
+&lt;p&gt;But, just in case you want to try anyway, you&amp;rsquo;ll need a couple things.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An ARM mac (ie: M1, M2, M3)&lt;/li&gt;
+&lt;li&gt;macOS 14 or up&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You&amp;rsquo;ll need to download &lt;a href=&#34;https://github.com/Whisky-App/Whisky?tab=readme-ov-file&#34;&gt;Whisky&lt;/a&gt; from GitHub. This will set up and manage WINE for you. Just create a new Windows 10 bottle.&lt;/p&gt;
+&lt;p&gt;Download the Windows version of steam, and launch the EXE. Whisky will ask you to pick what bottle you want to use, just pick your Windows 10 bottle, and hit run. Then, just install steam.&lt;/p&gt;
+&lt;p&gt;Once you log in, just install Halo MCC. You might have to restart steam a few times, as the download can get stuck sometimes. You will have to turn the graphics down, so it won&amp;rsquo;t crash.&lt;/p&gt;
+&lt;p&gt;And with that, you have Halo on a mac. Satan would be proud.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#39;fig1.webp&#39;/&gt;
+	&lt;figcaption&gt;Halo MCC&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&#39;fig2.webp&#39;/&gt;
+	&lt;figcaption&gt;Halo MCC, running on macOS&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/3wiTuzr_IkE?si=VsmWlqB3PdMDVHki&amp;amp;controls=0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Running%20Halo%20on%20an%20ARM%20Mac&#34;&gt; Reply to this post via email 📨&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;RE: Running Halo on an ARM Mac&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Wine Is Not an Emulator.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Linux is a clone of UNIX.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+	  </description>
+	</item>
+	
+  </channel>
+</rss>
