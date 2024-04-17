@@ -13,11 +13,6 @@ pageRef = '/posts'
 weight = 20
 
 [[menus.main]]
-name = 'Factorio Blog'
-pageref = '/factorio-blog'
-weight = 21
-
-[[menus.main]]
 name = 'Tags'
 pageRef = '/tags'
 weight = 22
@@ -28,13 +23,13 @@ pageRef = '/stats'
 weight = 23
 
 [[menus.main]]
-name = 'About Me'
-pageRef = '/about'
+name = 'Extras'
+pageRef = '/extras'
 weight = 40
 
 [[menus.main]]
-name = 'Extras'
-pageRef = '/extras'
+name = 'About Me'
+pageRef = '/about'
 weight = 50
 
 [[menus.main]]
