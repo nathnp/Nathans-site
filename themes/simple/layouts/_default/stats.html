@@ -142,20 +142,20 @@
 	<center>
 	<h1>Post Stats</a></h1>
 	<hr>
-	<h2>Number of Posts: <code>{{- $postcount -}}</code></h2>
-	<h2>Total Words: <code>{{- $totwords -}}</code></h2>
-	<h2>Average Post Length: <code>{{- $avgPostLength -}}</code> Words
-	<h2>Logest Post:<br>{{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}<br>W/ <code>{{- $scratch.Get "longCount" -}}</code> Words
+	<h3>Number of Posts: <code>{{- $postcount -}}</code></h3>
+	<h3>Total Words: <code>{{- $totwords -}}</code></h3>
+	<h3>Average Post Length: <code>{{- $avgPostLength -}}</code> Words
+	<h3>Logest Post:<br>{{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}<br>W/ <code>{{- $scratch.Get "longCount" -}}</code> Words
   </article>
   
   <article>
     <center>
       <h1>Reading Time Stats</h1>
       <hr>
-      <h2>Total Reading Time: <code>{{- $totread -}}</code></h2>
-      <h2>Average Reading Time: <code>{{- $avgread -}}</code></h2>
-      <h2>Lognest Post Time: <code>{{- $longtime -}}</code><br>
-      {{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}</h2>
+      <h3>Total Reading Time: <code>{{- $totread -}}</code></h3>
+      <h3>Average Reading Time: <code>{{- $avgread -}}</code></h3>
+      <h3>Lognest Post Time: <code>{{- $longtime -}}</code><br>
+      {{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}</h3>
       <h6>Time is in minutes, and assumes a reading speed of {{ $RTime }} WPM</h6>
     </center>
   </article>
@@ -164,15 +164,15 @@
 	  <center>
 	  <h1>Tag Stats</h1>  
 	  <hr>
-	  <h2>Total Tags: <code>{{- $tagcount -}}</code></h2>
-	  <h2>Posts Without Tags: <code>{{- $notag -}}</code></h2>
+	  <h3>Total Tags: <code>{{- $tagcount -}}</code></h3>
+	  <h3>Posts Without Tags: <code>{{- $notag -}}</code></h3>
 	</article>
   
   <article>
     <center>
       <h1>Time Stats</h1>
       <hr>
-      <h2>Posts per Day of Week</h2>
+      <h3>Posts per Day of Week</h3>
       <table>
       <thead>
         <tr>
@@ -198,7 +198,7 @@
       </tbody>
       </table>
       <hr>
-      <h2>Posts per Month</h2>
+      <h3>Posts per Month</h3>
       <table>
       <thead>
         <tr>
