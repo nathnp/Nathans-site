@@ -4,7 +4,14 @@
   {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
   <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
   <hr>
-
+  {{- $PostYear := .Date | time.Format "2006" | int -}}
+  {{- $CurrentYear := now.Year | int -}}
+  {{- $YearDif := math.Sub $CurrentYear $PostYear -}}
+  {{- if ge $YearDif 1 -}}
+    <p class="notice">
+      This post is over {{ if eq $YearDif 1 }} a year{{- else -}}{{- $YearDif }} years{{- end }} old. The information here may be out of date, and may not reflect my current thoughts or opinions.
+    </p>
+  {{- end -}}
   {{ .Content }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
