@@ -2,6 +2,7 @@ baseURL = 'https://nthp.me'
 languageCode = 'en-us'
 title = "Nathan's Site"
 theme = 'simple'
+publishDir = 'docs'
 
 # sectionPagesMenu = 'main'
 
@@ -24,7 +25,7 @@ theme = 'simple'
   mediatype = "application/rss"
   baseName = "feed"
 
-  
+
 
 
 [services]
