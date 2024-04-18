@@ -5,10 +5,6 @@ draft = false
 tags = ['Old Game Systems']
 +++
 
-Oct 26, 2021
-
-# PaintBoy advance
-
 I'm not new to modded gameboys. I've put IPS screens in a DMG and an SP, and I built an [all metal gameboy advance](https://fosstodon.org/@Sulairris/106783968641330983). Ive gotten the itch to build a custom GBA again after working on my girlfriend's GBA, I just need an idea…
 
 * * *
@@ -30,6 +26,10 @@ The next thing I needed was some spray paint, so I grabbed my super gameboy, jum
 
 This is really my first time spray painting anything, but I have watched some modding vids that go over it. After taping up the outside, cracking the garage door, I got to work. I put down one layer, then another, then another, and waited. After peeling the tape off, it came out pretty good. Some over spray on the edges, but for a first time ensnarement, it went pretty well. I'll build something in this down the line.
 
+![](fig3.webP)
+
+![](fig4.webP)
+
 <center>
 
 <a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20PaintBoy%20Advance"> Reply to this post via email 📮</a>
@@ -38,12 +38,4 @@ For Webmail Users <br>
 Address: <code>reply.65tu8@nthp.me</code><br>
 Subject: <code>RE: PaintBoy Advance</code>
 
-
-
-
-
 </center>
-
-![](fig3.webP)
-
-![](fig4.webP)
