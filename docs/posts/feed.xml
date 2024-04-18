@@ -8,6 +8,43 @@
 	<language>en-us</language>
 	<lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate><atom:link href="https://nthp.me/posts/feed.xml" rel="self" type="application/rss" />
 	<item>
+	  <title>Changing How I Host This Site - Reducing insanity</title>
+	  <link>https://nthp.me/posts/2024/changing-how-i-host/</link>
+	  <pubDate>Thu, 18 Apr 2024 14:27:53 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/changing-how-i-host/</guid>
+	  <description>
+		
+		&lt;p&gt;I&amp;rsquo;ve been pretty happy with my website. The way I hosted it though, that&amp;rsquo;s a different story. To be clear, I&amp;rsquo;m not changing web hosts, my frustration all my doing. I&amp;rsquo;m just de-shitting how I use my web host.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m using GitHub to host my site. And the way I was hosting it was, ass. I was using three repos. A dev, pub, and prod repo. Dev is for post drafts, pub was a public repo of my Hugo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; project, and prod was where my built site was hosted from. This was just too much.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig1.webp&#34;/&gt;
+	&lt;figcaption&gt;A flow chat of publishing a post&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;So, I killed the prod repo. My site is now hosted from a folder in the pub repo. I did have to change where Hugo puts a build. This was just a simple line in my config &lt;code&gt;publishDir = &#39;docs&#39;&lt;/code&gt;. I just had to tell GitHub to host grab the files form the docs folder, and put my CNAME&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; file in the static folder.&lt;/p&gt;
+&lt;p&gt;So instead of hitting build, moving the files, and pushing. I just have to build, and push. I should have done this sooner.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Changing%20How%20I%20Host%20This%20Site&#34;&gt; Reply to this post via email 📪&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;RE: Changing How I Host This Site&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;What my site is made in.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;This is the URL config for GitHub Pages.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+	  </description>
+	</item>
+	
+	<item>
 	  <title>Self Service Test Drive - Test drive a car, you found at a mall</title>
 	  <link>https://nthp.me/posts/2024/self-service-test-drive/</link>
 	  <pubDate>Wed, 17 Apr 2024 14:29:06 -0400</pubDate>

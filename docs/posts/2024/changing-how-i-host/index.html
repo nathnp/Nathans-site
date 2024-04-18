@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<a href="https://fosstodon.org/@nthp"></a>
+<title>Changing How I Host This Site | Nathan&#39;s Site</title>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="/css/simple.css">
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nathan&#39;s Site</a></h1>
+<a rel="me" href="https://fosstodon.org/@nthp"></a>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    <li>
+      <a href="/stats/">Stats</a>
+    </li>
+    <li>
+      <a href="/extras/">Extras</a>
+    </li>
+    <li>
+      <a href="/about/">About Me</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    <li>
+      <a href="https://nthp.me/posts/feed.xml">RSS</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Changing How I Host This Site</h1><time datetime="2024-04-18T14:27:53-04:00">Apr 18, 2024</time>
+  <hr><p>I&rsquo;ve been pretty happy with my website. The way I hosted it though, that&rsquo;s a different story. To be clear, I&rsquo;m not changing web hosts, my frustration all my doing. I&rsquo;m just de-shitting how I use my web host.</p>
+<p>I&rsquo;m using GitHub to host my site. And the way I was hosting it was, ass. I was using three repos. A dev, pub, and prod repo. Dev is for post drafts, pub was a public repo of my Hugo<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> project, and prod was where my built site was hosted from. This was just too much.</p>
+<figure>
+	<img src="fig1.webp"/>
+	<figcaption>A flow chat of publishing a post</figcaption>
+</figure>
+<p>So, I killed the prod repo. My site is now hosted from a folder in the pub repo. I did have to change where Hugo puts a build. This was just a simple line in my config <code>publishDir = 'docs'</code>. I just had to tell GitHub to host grab the files form the docs folder, and put my CNAME<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> file in the static folder.</p>
+<p>So instead of hitting build, moving the files, and pushing. I just have to build, and push. I should have done this sooner.</p>
+<center>
+<p><a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Changing%20How%20I%20Host%20This%20Site"> Reply to this post via email 📪</a></p>
+<p>For Webmail Users <br>
+Address: <code><a href="mailto:reply.65tu8@nthp.me">reply.65tu8@nthp.me</a></code><br>
+Subject: <code>RE: Changing How I Host This Site</code></p>
+</center>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>What my site is made in.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>This is the URL config for GitHub Pages.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+  <div>
+    <hr>
+    <center>
+       |
+        <a href="/tags/web/">Web</a> |
+    </center>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>This site is made using <a href="https://gohugo.io">Hugo</a> <a href="https://simplecss.org">Simple.css</a> and <a href="https://pages.github.com">Github Pages</a></p>
+<p> Suport me on <a href="https://www.buymeacoffee.com/nthp">Buy Me a Coffee</a></p>
+<img src="/pics/home/foot.webP"/>
+<p>This site was last <a href="https://github.com/nathnp/nathnp.github.io/commits/main">updated</a> on April 18 2024 </p>
+<a href="https://512kb.club"><img src="/pics/home/green-team.svg"
+   alt="a proud member of the green team of 512KB club" /></a>
+<p>Copyright 2024. All rights reserved.</p>
+<link rel="stylesheet" href="/css/littlefoot.css" />
+<script src="/js/littlefoot.js" type="application/javascript" ></script> 
+<script type="application/javascript"> littlefoot.default() </script>
+
+  </footer>
+</body>
+</html>
