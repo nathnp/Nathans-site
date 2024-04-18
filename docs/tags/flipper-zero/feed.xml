@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Flipper Zero Tag on Nathan&#39;s Site</title>
+	<link>https://nthp.me/tags/flipper-zero/</link>
+	<description>Recent content in Flipper Zero on Nathan&#39;s Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Sat, 17 Feb 2024 17:36:29 -0500</lastBuildDate><atom:link href="https://nthp.me/tags/flipper-zero/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>Canada Bans the Flipper Zero - No dolphins for you</title>
+	  <link>https://nthp.me/posts/2024/canada-bans-the-flipper/</link>
+	  <pubDate>Sat, 17 Feb 2024 17:36:29 -0500</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/canada-bans-the-flipper/</guid>
+	  <description>
+		
+		&lt;p&gt;Oh Canada, why‽&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Canada has banned the Flipper Zero, because of car theft…&lt;/p&gt;
+&lt;p&gt;As far as I know, the device itself was not named in the law. However, it was named online.&lt;/p&gt;
+&lt;blockquote&gt;
+Criminals have been using sophisticated tools to steal cars. And Canadians are rightfully worried. 
+&lt;p&gt;Today, I announced we are banning the importation, sale and use of consumer hacking devices, like flippers, used to commit these crimes.
+&lt;cite&gt;François-Philippe Champagne (FPC)&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href=“https://x.com/FP_Champagne/status/1755691837531078820?s=20”&gt;Link&lt;/a&gt;
+&lt;p&gt;Flipper Devices (makers of the Flipper Zero) responded.&lt;/p&gt;
+&lt;blockquote&gt;
+Dear François-Philippe,
+&lt;p&gt;We’d appreciate it if you could provide any evidence of Flipper Zero being involved in any criminal activities of this kind. We’re not aware of any events like this and frankly speaking not sure what was the reason for this discussion to begin with.
+&lt;cite&gt;Flipper Zero&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;a href=“https://x.com/flipper_zero/status/1756087390974660612?s=20”&gt;Link&lt;/a&gt;
+&lt;p&gt;The Flipper Zero isn’t a tool used to steal cars. While yes, it does have a configurable sub-ghz radio. The Flipper, out of the box, doesn’t support rolling codes, used by car keys.&lt;/p&gt;
+&lt;p&gt;You can install third party firmware, that adds support for rolling code generation. The main issue is, in order for a Flipper with third party firmware to clone the key. You need the key. At that point, you might has well just take the key.&lt;/p&gt;
+&lt;p&gt;Here’s a good video by &lt;a href=&#34;https://youtu.be/PO_o15odjkU?si=TMW4I4znCXvbeB6W&#34;&gt;Seytonic&lt;/a&gt; that goes over this.&lt;/p&gt;
+&lt;p&gt;Come on Canada, you can do better than this.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Canada%20Bans%20the%20Flipper%20Zero&#34;&gt; Reply to this post via email 📫&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;RE: Canada Bans the Flipper Zero&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+
+	  </description>
+	</item>
+	
+	<item>
+	  <title>Stealth Flipper</title>
+	  <link>https://nthp.me/posts/2023/stealth-flipper/</link>
+	  <pubDate>Wed, 01 Nov 2023 12:30:42 -0500</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2023/stealth-flipper/</guid>
+	  <description>
+		
+		&lt;p&gt;Let&amp;rsquo;s be honest, most flipper users use the flipper to dick around. You know, pop Tesla charge covers, set off CVS alcohol announcements (Bonus points if you do it in a state CVS can&amp;rsquo;t sell alcohol in (Like Maryland)). You know, fun stuff. The Flipper is unfortunately recognizable (Thanks to dumpsters like TikTok). So, if we&amp;rsquo;re going to have some fun in a CVS, or a Tesla store, we need to be a bit sneaky.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NOTE: This post doesn&amp;rsquo;t cover Android, as I don&amp;rsquo;t use that.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t use this post to do illegal stuff.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Flipper iOS app supports something super handy, Shortcuts. With an Apple Shortcuts, you can remotely tell the flipper to run a .sub file. Alright, so I can fire off a transmission form my phone, so what? I can just use the flipper app. He comes the best part of using a shortcut, you don&amp;rsquo;t need to get your phone out.&lt;/p&gt;
+&lt;p&gt;The Apple watch Ultra, has a big orange button on the side&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This button (called the action button&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;) can be set to do a few things. Start a spot watch, start a work out, start a dive, etc. One of the options available, is to launch a shortcut. So, all you have to do, is make a basic shortcut&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, that runs a sub file. Set the action button to run that. And Boom, you&amp;rsquo;re ready to rock.&lt;/p&gt;
+&lt;p&gt;Have fun ;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;gif.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Stealth%20Flipper&#34;&gt; Reply to this post via email 📬&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;RE: Stealth Flipper&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;fig1.webP&#34; alt=&#34;&#34;&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;The iPhone 15 Pro also has one. And can also do this.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;fig2.webP&#34; alt=&#34;&#34;&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+	  </description>
+	</item>
+	
+  </channel>
+</rss>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<a href="https://fosstodon.org/@nthp"></a>
+<title>A Basic Site Template | Nathan&#39;s Site</title>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="/css/simple.css">
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nathan&#39;s Site</a></h1>
+<a rel="me" href="https://fosstodon.org/@nthp"></a>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    <li>
+      <a href="/stats/">Stats</a>
+    </li>
+    <li>
+      <a href="/extras/">Extras</a>
+    </li>
+    <li>
+      <a href="/about/">About Me</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    <li>
+      <a href="https://nthp.me/posts/feed.xml">RSS</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>A Basic Site Template</h1><time datetime="2023-12-23T20:06:34-05:00">Dec 23, 2023</time>
+  <hr><p class="notice">
+      This post is over  a year old. The information here may be out of date, and may not reflect my current thoughts or opinions.
+    </p><p>I have two jobs, one of them is as a cybersecurity TA. One of the projects we have the students do, is to deploy a basic website in an Azure container. While they&rsquo;re working on there site, we discuss the benefits of a personal site, and why they should have at least a basic one. The students can keep their site up if they want<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, but Azure is pricy. So, I had an idea.</p>
+<p>The project gives them a starting template for their site<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. The students are free to deviate from that template, but they start out with one. My thought was, with how much we say that they should have their own site. And with how much Azure can cost. Why not make a basic template for use outside of Azure<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>So I made <code>Basic Site Template</code>, it’s exactly what it sounds like. My goal was to have an easy to understand template, that doesn&rsquo;t look like crap when rendered. The template is only 39 lines, and has clear labels of what goes where.</p>
+<details><summary>Template index.html</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en-us&#34;</span> <span style="color:#a6e22e">dir</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ltr&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>	&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://cdn.simplecss.org/simple.min.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>	&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>	&lt;<span style="color:#f92672">title</span>&gt;SITE TITLE&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>	&lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;<span style="color:#f92672">header</span>&gt;
+</span></span><span style="display:flex;"><span>			&lt;<span style="color:#f92672">h1</span>&gt;SITE TITLE&lt;/<span style="color:#f92672">h1</span>&gt;
+</span></span><span style="display:flex;"><span>			&lt;<span style="color:#f92672">nav</span>&gt;
+</span></span><span style="display:flex;"><span>				&lt;<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>					&lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>						&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;LINK&#39;</span>&gt;LINK 1&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>					&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>					&lt;<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>						&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;LINK&#39;</span>&gt;LINK 2&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>					&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>				&lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>			&lt;/<span style="color:#f92672">nav</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;/<span style="color:#f92672">header</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;<span style="color:#f92672">main</span>&gt;
+</span></span><span style="display:flex;"><span>			&lt;<span style="color:#f92672">center</span>&gt;
+</span></span><span style="display:flex;"><span>			&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;/pics/FILENAME&#39;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;256&#39;</span> <span style="color:#a6e22e">height</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;256&#39;</span>/&gt; &lt;<span style="color:#f92672">br</span>&gt;
+</span></span><span style="display:flex;"><span>			
+</span></span><span style="display:flex;"><span>			&lt;<span style="color:#f92672">p</span>&gt;ABOUT YOU&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>			
+</span></span><span style="display:flex;"><span>			&lt;<span style="color:#f92672">p</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;button&#39;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;mailto:YOUR EMAIL&#39;</span>&gt;Contact Me!&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>			
+</span></span><span style="display:flex;"><span>			&lt;/<span style="color:#f92672">center</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;/<span style="color:#f92672">main</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;<span style="color:#f92672">footer</span>&gt;
+</span></span><span style="display:flex;"><span>			&lt;<span style="color:#f92672">p</span>&gt;Copyright NAME 2024
+</span></span><span style="display:flex;"><span>				&lt;<span style="color:#f92672">br</span>&gt;
+</span></span><span style="display:flex;"><span>			Site made with &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;https://simplecss.org&#39;</span>&gt;Simple.CSS&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>			&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>		&lt;/<span style="color:#f92672">footer</span>&gt;
+</span></span><span style="display:flex;"><span>	&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;	
+</span></span></code></pre></div></details>
+<p>I’ve learned from my students, that examples go a long way. Not only did I put examples in the readme instructions, I also spun up a simple demo site. The demo site is hosted out of the demo branch, so its index file is easily viewable<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<p>I’m hoping this will help a few students get a basic landing page up. I even dropped a link to the GitHub pages docs for free hosting. I might follow this post up in a few semesters with how’s it’s gone.</p>
+<p>You can find the GitHub repo <a href="https://github.com/nathnp/Basic-Site-Template">here</a></p>
+<center>
+<p><a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20A%20Basic%20Site%20Template"> Reply to this post via email 📫</a></p>
+<p>For Webmail Users <br>
+Address: <code><a href="mailto:reply.65tu8@nthp.me">reply.65tu8@nthp.me</a></code><br>
+Subject: <code>RE: A Basic Site Template</code></p>
+</center>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>After grading, the student has to take up the hosting costs.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>The project is a mixture is them writing their own site, and deploying it.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>They can rip the index file out of the container if they want, however they’d also have to rip out the CSS file.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>I put a link to it in the readme, I know how my students can be.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+  <div>
+    <hr>
+    <center>
+       |
+        <a href="/tags/web/">Web</a> |
+    </center>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>This site is made using <a href="https://gohugo.io">Hugo</a> <a href="https://simplecss.org">Simple.css</a> and <a href="https://pages.github.com">Github Pages</a></p>
+<p> Suport me on <a href="https://www.buymeacoffee.com/nthp">Buy Me a Coffee</a></p>
+<img src="/pics/home/foot.webP"/>
+<p>This site was last <a href="https://github.com/nathnp/nathnp.github.io/commits/main">updated</a> on April 18 2024 </p>
+<a href="https://512kb.club"><img src="/pics/home/green-team.svg"
+   alt="a proud member of the green team of 512KB club" /></a>
+<p>Copyright 2024. All rights reserved.</p>
+<link rel="stylesheet" href="/css/littlefoot.css" />
+<script src="/js/littlefoot.js" type="application/javascript" ></script> 
+<script type="application/javascript"> littlefoot.default() </script>
+
+  </footer>
+</body>
+</html>

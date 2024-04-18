@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<a href="https://fosstodon.org/@nthp"></a>
+<title>My Home Lab | Nathan&#39;s Site</title>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="/css/simple.css">
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nathan&#39;s Site</a></h1>
+<a rel="me" href="https://fosstodon.org/@nthp"></a>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    <li>
+      <a href="/stats/">Stats</a>
+    </li>
+    <li>
+      <a href="/extras/">Extras</a>
+    </li>
+    <li>
+      <a href="/about/">About Me</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    <li>
+      <a href="https://nthp.me/posts/feed.xml">RSS</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>My Home Lab</h1><time datetime="2023-12-05T16:05:33-05:00">Dec 5, 2023</time>
+  <hr><p class="notice">
+      This post is over  a year old. The information here may be out of date, and may not reflect my current thoughts or opinions.
+    </p><p>I&rsquo;ve had a small home lab for a bit. Servers have come and gone, but a few core ones have remained. So let&rsquo;s talk about it, and my home network as well.</p>
+<h1 id="network">Network</h1>
+<p>Let&rsquo;s start with the network, as that&rsquo;s the backbone of the everything.</p>
+<p>I&rsquo;m pretty much all in on UNiFi for networking. My main router is a <a href="https://ui.com/us/cloud-gateways/dream-router">UNiFi Dream Router</a>. The UDR is a home and small business router. With the usual built in switch (though two of the ports are POE), and wireless access point.</p>
+<p>The UDR, also controls two dedicated access points. One being a U6-LITE, and the other being an older AC-PRO. This allows me to have one, seamless, multi AP WiFi network. That covers the whole house. Though all of my lab server are hooked up over gigabit ethernet.</p>
+<h1 id="home-lab">Home Lab</h1>
+<p>My home lab, is made up of four main servers. My NAS, DNS, Home Auto, and Virtualization.</p>
+<h3 id="nas">NAS</h3>
+<p>My NAS is a <a href="https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/18-year/DS418/enu/Synology_DS418_Data_Sheet_enu.pdf">Synology DS418</a>. Its an older four bay NAS. It&rsquo;s main use is as file storage (duh), movie serving, and as a backup target for my Mac.</p>
+<p>A NAS is so simple, it can be kinda hard to explain. Think of it like a giant flash drive. That any computer on the network can access. Provided they have a login. A NAS can also protect your data. If the drive in your computer dies, any data you backup to the NAS, will be safe. And even if a drive in the NAS dies, no data will be lost (if you have RAID set up correctly).</p>
+<p>A NAS can also do fancy stuff, liking being the storage for a separate VM server. The VMs may get executed on one server, but all their files live elsewhere on the network.</p>
+<h3 id="dns">DNS</h3>
+<p>My DNS server is a Raspberry Pi 4 running <a href="https://pi-hole.net">Pi-Hole</a>. Pi-Hole is a network wide ad blocking server. It&rsquo;s one of those server, where you just set and forget. The only main thing about the set up, is that a number of guides tell you to set the Pi-Hole&rsquo;s IP, as the DNS on each of you devices. This is quite simply, shit. And really screams &ldquo;I don&rsquo;t know networking&rdquo;. What you really want to do. Is set the Pi-Hole&rsquo;s IP as you DNS server, on your DHCP server<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> (usually that&rsquo;s part of your router). That way, every device on your network, will automatically use the Pi-Hole.</p>
+<p>The Pi my Pi-Hole is running on, also has a USB to M.2 SATA board as its boot drive. I&rsquo;ve had a number of SD cards and USB stick killed from Pi-Hole&rsquo;s logging.</p>
+<h3 id="home-auto">Home Auto</h3>
+<p>My home automation server, is really more of a protocol translation server. I mainly use Apple HomeKit for everything. Automations, and manual setting of devices. The only issue is, I have a number of devices that won&rsquo;t natively connect to HomeKit. Enter, <a href="https://www.home-assistant.io">Home Assistant</a>. Home Assistant manages all of my Z-Wave devices, passing their state to HomeKit. That&rsquo;s really it.</p>
+<p>I did use to use Home Assistant as my dedicated home auto server. But back then, Home Assistant wasn&rsquo;t all that stable. It would work just happily for years, until it would shit the bed. While HomeKit is far less powerful, it&rsquo;s also far more stable. That&rsquo;s a trade off I&rsquo;m fine with making.</p>
+<p>My Home Assistant server runs on a Raspberry Pi 3+.</p>
+<h3 id="virtualization">Virtualization</h3>
+<p>My virtualization server, is an old ass Dell OpitPlex running <a href="https://www.proxmox.com/en/proxmox-virtual-environment/overview">ProxMoX VE</a>. The fact that it&rsquo;s old doesn&rsquo;t really bother me, as I only need one or two VMs running at a time.</p>
+<p>The main perk of a VM server, is that it let&rsquo;s you offload running a VM from your local machine. This is great if you just don&rsquo;t want to tank your laptop battery. Or your main computer is an ARM system, like mine. In that case, you can&rsquo;t easy run an x86 VM. So having a VM server fixes that downside of daily driving an ARM computer.</p>
+<p>This is a my newest server. So I&rsquo;m still building a core use for it. But it has come in handy for demoing different linux tools students.</p>
+<p>The VM server runs on a second gen Intel Core i7 4C/8T, with 16GB of ram.</p>
+<hr>
+<p>Like any home lab, this thing is always changing. Servers have come and gone. One of the old ones I used to run was a Raspberry Pi based Minecraft Java server. Might do a post on that one. I wonder what my lab / network will look like in a few years.</p>
+<center>
+<p><a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20Home%20Lab"> Reply to this post via email ✉️</a></p>
+<p>For Webmail Users <br>
+Address: <code><a href="mailto:reply.65tu8@nthp.me">reply.65tu8@nthp.me</a></code><br>
+Subject: <code>RE: My Home Lab</code></p>
+</center>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Make your you set it as your DHCP DNS address, and not the DNS that the router will try to use. Some ISPs won&rsquo;t give you an IP unless you have the router set to their DNS, looking at you Comcast.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+  <div>
+    <hr>
+    <center>
+       |
+        <a href="/tags/networking/">Networking</a> |
+        <a href="/tags/home-lab/">Home Lab</a> |
+    </center>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>This site is made using <a href="https://gohugo.io">Hugo</a> <a href="https://simplecss.org">Simple.css</a> and <a href="https://pages.github.com">Github Pages</a></p>
+<p> Suport me on <a href="https://www.buymeacoffee.com/nthp">Buy Me a Coffee</a></p>
+<img src="/pics/home/foot.webP"/>
+<p>This site was last <a href="https://github.com/nathnp/nathnp.github.io/commits/main">updated</a> on April 18 2024 </p>
+<a href="https://512kb.club"><img src="/pics/home/green-team.svg"
+   alt="a proud member of the green team of 512KB club" /></a>
+<p>Copyright 2024. All rights reserved.</p>
+<link rel="stylesheet" href="/css/littlefoot.css" />
+<script src="/js/littlefoot.js" type="application/javascript" ></script> 
+<script type="application/javascript"> littlefoot.default() </script>
+
+  </footer>
+</body>
+</html>
