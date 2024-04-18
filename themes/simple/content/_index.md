@@ -8,7 +8,7 @@ draft = false
 
 # Hi, I'm <code>Nathan</code> <img src='/pics/home/flag.webp' width=32/>
 
-![](/pics/home/me.webp)
+![](/pics/home/me2.webp)
 
 I am a person who enjoys many things, including:
 Geocaching, Servers, ARM systems, UNIX, LINUX, Networking, Flying, UASs[^1], Transit Systems, Skiing, and much more.
