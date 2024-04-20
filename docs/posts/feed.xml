@@ -16,7 +16,7 @@
 	  <description>
 		
 		&lt;p&gt;I feel like the idea of having to put a disclaimer on a post that it&amp;rsquo;s old, is a bad sign. The simple fact that a number of people need a big sign saying &amp;ldquo;This post is old&amp;rdquo;, is kinda depressing. And the worst part, it&amp;rsquo;s not a bad idea.&lt;/p&gt;
-&lt;p&gt;This post isn&amp;rsquo;t going to be about that, its going to be about how much I hate writing functions to handle time time.&lt;/p&gt;
+&lt;p&gt;This post isn&amp;rsquo;t going to be about that, its going to be about how much I hate writing functions to handle time.&lt;/p&gt;
 &lt;h2&gt;Yesterday was last year&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;My plan was simple, if a post is over a year old, have Hugo put a declaimer on it. I just needed to calculate when a year had past.&lt;/p&gt;

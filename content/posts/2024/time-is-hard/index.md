@@ -8,7 +8,7 @@ tags = ['Web']
 
 I feel like the idea of having to put a disclaimer on a post that it's old, is a bad sign. The simple fact that a number of people need a big sign saying "This post is old", is kinda depressing. And the worst part, it's not a bad idea.
 
-This post isn't going to be about that, its going to be about how much I hate writing functions to handle time time.
+This post isn't going to be about that, its going to be about how much I hate writing functions to handle time.
 
 <h2>Yesterday was last year</h2>
 <hr>
