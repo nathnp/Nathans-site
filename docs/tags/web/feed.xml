@@ -6,7 +6,70 @@
 	<description>Recent content in Web on Nathan&#39;s Site</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Thu, 18 Apr 2024 14:27:53 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/web/feed.xml" rel="self" type="application/rss" />
+	<lastBuildDate>Sat, 20 Apr 2024 12:16:35 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/web/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>Time Is Hard - Yesterday was one year ago</title>
+	  <link>https://nthp.me/posts/2024/time-is-hard/</link>
+	  <pubDate>Sat, 20 Apr 2024 12:16:35 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/time-is-hard/</guid>
+	  <description>
+		
+		&lt;p&gt;I feel like the idea of having to put a disclaimer on a post that it&amp;rsquo;s old, is a bad sign. The simple fact that a number of people need a big sign saying &amp;ldquo;This post is old&amp;rdquo;, is kinda depressing. And the worst part, it&amp;rsquo;s not a bad idea.&lt;/p&gt;
+&lt;p&gt;This post isn&amp;rsquo;t going to be about that, its going to be about how much I hate writing functions to handle time time.&lt;/p&gt;
+&lt;h2&gt;Yesterday was last year&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;My plan was simple, if a post is over a year old, have Hugo put a declaimer on it. I just needed to calculate when a year had past.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $PostYear := .Date | time.Format &amp;#34;2006&amp;#34; | int -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $CurrentYear := now.Year | int -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $YearDif := math.Sub $CurrentYear $PostYear -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- if ge $YearDif 1 -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;notice&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	  This post is over {{ if eq $YearDif 1 }} a year{{- else -}}{{- $YearDif }} years{{- end }} old. The information here may be out of date, and may not reflect my current thoughts or opinions.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- end -}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This was my first go at it, can you see the problem? Any post that was written in 2023, would have the disclaimer. In the span of one day, a post could be over a year old.&lt;/p&gt;
+&lt;p&gt;Unfortunately, I found this out after I pushed a build of my site with it. I&amp;rsquo;m the kind of person, when I notice an issue like that, I have to fix it. And it was already 1:30AM. Time to get to work.&lt;/p&gt;
+&lt;p&gt;After reading the Hugo docs, and a number of forum posts, and Go-lang examples. I cam up with this.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $PostYear := .Date -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $CurrentYear := time.Now -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $YearDifU := math.Sub $CurrentYear.Unix $PostYear.Unix -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $TPostYear := .Date | time.Format &amp;#34;2006&amp;#34; | int -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $YearDif := math.Sub (now.Year | int) $TPostYear -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- if ge $YearDifU 31536000 -}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;notice&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	  This post is over {{ if eq $YearDif 1 }} a year{{- else -}}{{- $YearDif }} years{{- end }} old. The information here may be out of date, and may not reflect my current thoughts or opinions.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- end -}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This takes the time and date that a post was published on, and converts it to Unix time. It then check to see if one year&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; has past compared the current time&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. There&amp;rsquo;s also some Hugo to print &amp;ldquo;a year&amp;rdquo; vs &amp;ldquo;[number] years&amp;rdquo; to make it read better. All that, just to get this to print, when it should.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;p class=&#34;notice&#34;&gt;
+	  This post is over 600 years old. The information here may be out of date, and may not reflect my current thoughts or opinions.
+	&lt;/p&gt;
+	&lt;figcaption&gt;An example disclaimer&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I don&amp;rsquo;t like working with time. If you want to use this, here&amp;rsquo;s a &lt;a href=&#34;https://gist.github.com/nathnp/00cefda8e28f4d28ac929c6e930460da&#34;&gt;Gist&lt;/a&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;button&#34; href=&#34;mailto:reply.65tu8@nthp.me?subject=RE%3A%20Time%20Is%20Hard&#34;&gt; Reply to this post via email ✉️&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Webmail Users &lt;br&gt;
+Address: &lt;code&gt;&lt;a href=&#34;mailto:reply.65tu8@nthp.me&#34;&gt;reply.65tu8@nthp.me&lt;/a&gt;&lt;/code&gt;&lt;br&gt;
+Subject: &lt;code&gt;RE: Time Is Hard&lt;/code&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;31536000 in Unix time&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Time of site build, this is a static site at the end of the day.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+	  </description>
+	</item>
+	
 	<item>
 	  <title>Changing How I Host This Site - Reducing insanity</title>
 	  <link>https://nthp.me/posts/2024/changing-how-i-host/</link>
