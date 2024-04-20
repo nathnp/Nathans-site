@@ -30,7 +30,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- end -}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This was my first go at it, can you see the problem? Any post that was written in 2023, would have the disclaimer. In the span of one day, a post could be over a year old.&lt;/p&gt;
 &lt;p&gt;Unfortunately, I found this out after I pushed a build of my site with it. I&amp;rsquo;m the kind of person, when I notice an issue like that, I have to fix it. And it was already 1:30AM. Time to get to work.&lt;/p&gt;
-&lt;p&gt;After reading the Hugo docs, and a number of forum posts, and Go-lang examples. I cam up with this.&lt;/p&gt;
+&lt;p&gt;After reading the Hugo docs, and a number of forum posts, and Go-lang examples. I came up with this.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $PostYear := .Date -}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $CurrentYear := time.Now -}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $YearDifU := math.Sub $CurrentYear.Unix $PostYear.Unix -}}

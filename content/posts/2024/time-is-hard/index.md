@@ -30,7 +30,7 @@ This was my first go at it, can you see the problem? Any post that was written i
 
 Unfortunately, I found this out after I pushed a build of my site with it. I'm the kind of person, when I notice an issue like that, I have to fix it. And it was already 1:30AM. Time to get to work.
 
-After reading the Hugo docs, and a number of forum posts, and Go-lang examples. I cam up with this.
+After reading the Hugo docs, and a number of forum posts, and Go-lang examples. I came up with this.
 
 ```HTML
 {{- $PostYear := .Date -}}
