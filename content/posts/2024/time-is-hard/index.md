@@ -45,7 +45,7 @@ After reading the Hugo docs, and a number of forum posts, and Go-lang examples. 
 {{- end -}}
 ```
 
-This takes the time and date that a post was published on, and converts it to Unix time. It then check to see if one year[^1] has past compared the current time[^2]. There's also some Hugo to print "a year" vs "[number] years" to make it read better. All that, just to get this to print, when it should.
+This takes the time and date that a post was published on, and converts it to Unix time. It then checks to see if one year[^1] has past, compared the current time[^2]. There's also some Hugo to print "a year" vs "[number] years" to make it read better. All that, just to get this to print, when it should.
 
 <figure>
 	<p class="notice">
