@@ -8,6 +8,61 @@
 	<language>en-us</language>
 	<lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate><atom:link href="https://nthp.me/posts/feed.xml" rel="self" type="application/rss" />
 	<item>
+	  <title>Hugo on a Raspberry Pi 1 - This does not taste good</title>
+	  <link>https://nthp.me/posts/2024/hugo-on-a-pi-one/</link>
+	  <pubDate>Mon, 22 Apr 2024 20:36:42 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/hugo-on-a-pi-one/</guid>
+	  <description>
+		
+		&lt;p&gt;I had an idea. Not too long ago, I picked up a Raspberry Pi 5. The things is pretty fast, but how does it compare to the Pi 1? How can I compare it to a Pi 1?&lt;/p&gt;
+&lt;h2&gt;Hugo Time&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Why not build my site on the Pi 1, that&amp;rsquo;s something I do pretty often. I just need to get Hugo on my it.&lt;/p&gt;
+&lt;p&gt;The first option you might think of, is just install it from apt. This won&amp;rsquo;t work. The version in apt is 0.80.0, too old for my site. It also isn&amp;rsquo;t the version installed on my Pi 5 (0.125.2), so it isn&amp;rsquo;t a fair comparison.&lt;/p&gt;
+&lt;p&gt;Alright, download it from their GitHub. I tried that, it throw an &lt;code&gt;Illegal instruction&lt;/code&gt; error, and died. So that wouldn&amp;rsquo;t work.&lt;/p&gt;
+&lt;p&gt;Homebrew? Nope, brew on Linux doesn&amp;rsquo;t support ARM.&lt;/p&gt;
+&lt;h2&gt;Fine, I&#39;ll Do It Myself&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Hugo is written in Go, so I needed to install that. That wasn&amp;rsquo;t that hard, just had to download Go for ARMv6 Linux, copy it to &lt;code&gt;/usr/local&lt;/code&gt;, and add it to my path. Easy.&lt;/p&gt;
+&lt;p&gt;Building Hugo, was slow. Super slow. 2+ hours slow. But, it was pretty easy. I just had to run one command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-BASH&#34; data-lang=&#34;BASH&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CGO_ENABLED&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; go install -tags extended github.com/gohugoio/hugo@latest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Coming back later that day, it was done. Yay! I just had to find it. That took longer than I care to admit. In the end, it was in &lt;code&gt;~/go/bin&lt;/code&gt;. Now to use it.&lt;/p&gt;
+&lt;h2&gt;Building My Site&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;After cloning down my site&amp;rsquo;s &lt;a href=&#34;https://github.com/nathnp/Nathans-site&#34;&gt;repo&lt;/a&gt;, I copied my new Hugo binary over, and ran it. Now, before I say how long it took, let&amp;rsquo;s go over how long my other computers take.&lt;/p&gt;
+&lt;p&gt;My main computer (M1 MacBookPro), takes about 150ms. The Pi 5, takes about 1870ms. The Pi one on the other hand. 23156ms. That&amp;rsquo;s over 23 seconds.&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;Results&lt;/summary&gt;
+&lt;center&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;pi1.webp&#34;/&gt;
+	&lt;figcaption&gt;Hugo output from the Pi 1&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;pi5.webp&#34;/&gt;
+	&lt;figcaption&gt;Hugo output from the Pi 5&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;mac.webp&#34;/&gt;
+	&lt;figcaption&gt;Hugo output from my mac&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+&lt;/details&gt;
+&lt;p&gt;That was with the Pi 1 at the stock 700MHz clock speed. Overclocking it to 1GHz drops the build time to 13 seconds. Still pretty slow, but much faster.&lt;/p&gt;
+&lt;p&gt;Was this worth the time, hell no. Was it fun, yeah. And for some extra fun, this site build&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; was built on the Pi 1.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;As of this post being posted.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+	  </description>
+	</item>
+	
+	<item>
 	  <title>Time Is Hard - Yesterday was one year ago</title>
 	  <link>https://nthp.me/posts/2024/time-is-hard/</link>
 	  <pubDate>Sat, 20 Apr 2024 12:16:35 -0400</pubDate>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<a href="https://fosstodon.org/@nthp"></a>
+<title>Hugo on a Raspberry Pi 1 | Nathan&#39;s Site</title>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="/css/simple.css">
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nathan&#39;s Site</a></h1>
+<a rel="me" href="https://fosstodon.org/@nthp"></a>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    <li>
+      <a href="/stats/">Stats</a>
+    </li>
+    <li>
+      <a href="/extras/">Extras</a>
+    </li>
+    <li>
+      <a href="/about/">About Me</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    <li>
+      <a href="https://nthp.me/posts/feed.xml">RSS</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Hugo on a Raspberry Pi 1</h1><time datetime="2024-04-22T20:36:42-04:00">Apr 22, 2024</time>
+  <hr><p>I had an idea. Not too long ago, I picked up a Raspberry Pi 5. The things is pretty fast, but how does it compare to the Pi 1? How can I compare it to a Pi 1?</p>
+<h2>Hugo Time</h2>
+<hr>
+<p>Why not build my site on the Pi 1, that&rsquo;s something I do pretty often. I just need to get Hugo on my it.</p>
+<p>The first option you might think of, is just install it from apt. This won&rsquo;t work. The version in apt is 0.80.0, too old for my site. It also isn&rsquo;t the version installed on my Pi 5 (0.125.2), so it isn&rsquo;t a fair comparison.</p>
+<p>Alright, download it from their GitHub. I tried that, it throw an <code>Illegal instruction</code> error, and died. So that wouldn&rsquo;t work.</p>
+<p>Homebrew? Nope, brew on Linux doesn&rsquo;t support ARM.</p>
+<h2>Fine, I'll Do It Myself</h2>
+<hr>
+<p>Hugo is written in Go, so I needed to install that. That wasn&rsquo;t that hard, just had to download Go for ARMv6 Linux, copy it to <code>/usr/local</code>, and add it to my path. Easy.</p>
+<p>Building Hugo, was slow. Super slow. 2+ hours slow. But, it was pretty easy. I just had to run one command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span>CGO_ENABLED<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> go install -tags extended github.com/gohugoio/hugo@latest
+</span></span></code></pre></div><p>Coming back later that day, it was done. Yay! I just had to find it. That took longer than I care to admit. In the end, it was in <code>~/go/bin</code>. Now to use it.</p>
+<h2>Building My Site</h2>
+<hr>
+<p>After cloning down my site&rsquo;s <a href="https://github.com/nathnp/Nathans-site">repo</a>, I copied my new Hugo binary over, and ran it. Now, before I say how long it took, let&rsquo;s go over how long my other computers take.</p>
+<p>My main computer (M1 MacBookPro), takes about 150ms. The Pi 5, takes about 1870ms. The Pi one on the other hand. 23156ms. That&rsquo;s over 23 seconds.</p>
+<details><summary>Results</summary>
+<center>
+<figure>
+	<img src="pi1.webp"/>
+	<figcaption>Hugo output from the Pi 1</figcaption>
+</figure>
+<figure>
+	<img src="pi5.webp"/>
+	<figcaption>Hugo output from the Pi 5</figcaption>
+</figure>
+<figure>
+	<img src="mac.webp"/>
+	<figcaption>Hugo output from my mac</figcaption>
+</figure>
+</center>
+</details>
+<p>That was with the Pi 1 at the stock 700MHz clock speed. Overclocking it to 1GHz drops the build time to 13 seconds. Still pretty slow, but much faster.</p>
+<p>Was this worth the time, hell no. Was it fun, yeah. And for some extra fun, this site build<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> was built on the Pi 1.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>As of this post being posted.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+  <div id="tags">
+    <hr>
+    <center>
+       |
+        <a href="/tags/web/">Web</a> |
+        <a href="/tags/raspberry-pi/">Raspberry-Pi</a> |
+    </center>
+  </div>
+
+  </main>
+  <footer>
+    
+<p>
+   See a typo? Open an issue on <a href="https://github.com/nathnp/Nathans-site/issues">GitHub</a>. It's easy.
+</p>
+<p>
+   This site is made using <a href="https://gohugo.io">Hugo</a> <a href="https://simplecss.org">Simple.css</a> and <a href="https://pages.github.com">Github Pages</a>
+</p>
+<p>
+   Suport me on <a href="https://github.com/sponsors/nathnp">GitHub</a>
+</p>
+<p>
+   last <a href="https://github.com/nathnp/Nathans-site/commits/main/">updated</a> April 22 2024
+</p>
+<p>
+   Copyright 2024. All rights reserved.
+</p>
+<img src="/pics/home/foot.webP"/>
+<link rel="stylesheet" href="/css/littlefoot.css" />
+<script src="/js/littlefoot.js" type="application/javascript" ></script>
+<script type="application/javascript"> littlefoot.default() </script>
+
+  </footer>
+</body>
+</html>
