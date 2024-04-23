@@ -15,7 +15,7 @@ Why not build my site on the Pi 1, that's something I do pretty often. I just ne
 
 The first option you might think of, is just install it from apt. This won't work. The version in apt is 0.80.0, too old for my site. It also isn't the version installed on my Pi 5 (0.125.2), so it isn't a fair comparison.
 
-Alright, download it from their GitHub. I tried that, it throw an `Illegal instruction` error, and died. So that wouldn't work.
+Alright, download it from their GitHub. I tried that, it threw an `Illegal instruction` error, and died. So that wouldn't work.
 
 Homebrew? Nope, brew on Linux doesn't support ARM.
 

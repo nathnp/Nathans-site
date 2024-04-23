@@ -20,7 +20,7 @@
 &lt;hr&gt;
 &lt;p&gt;Why not build my site on the Pi 1, that&amp;rsquo;s something I do pretty often. I just need to get Hugo on my it.&lt;/p&gt;
 &lt;p&gt;The first option you might think of, is just install it from apt. This won&amp;rsquo;t work. The version in apt is 0.80.0, too old for my site. It also isn&amp;rsquo;t the version installed on my Pi 5 (0.125.2), so it isn&amp;rsquo;t a fair comparison.&lt;/p&gt;
-&lt;p&gt;Alright, download it from their GitHub. I tried that, it throw an &lt;code&gt;Illegal instruction&lt;/code&gt; error, and died. So that wouldn&amp;rsquo;t work.&lt;/p&gt;
+&lt;p&gt;Alright, download it from their GitHub. I tried that, it threw an &lt;code&gt;Illegal instruction&lt;/code&gt; error, and died. So that wouldn&amp;rsquo;t work.&lt;/p&gt;
 &lt;p&gt;Homebrew? Nope, brew on Linux doesn&amp;rsquo;t support ARM.&lt;/p&gt;
 &lt;h2&gt;Fine, I&#39;ll Do It Myself&lt;/h2&gt;
 &lt;hr&gt;
