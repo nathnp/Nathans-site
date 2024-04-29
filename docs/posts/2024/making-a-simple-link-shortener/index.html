@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<a href="https://fosstodon.org/@nthp"></a>
+<title>Making A Simple Link Shortener | Nathan&#39;s Site</title>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="/css/simple.css">
+
+
+      <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nathan&#39;s Site</a></h1>
+<a rel="me" href="https://fosstodon.org/@nthp"></a>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    <li>
+      <a href="/stats/">Stats</a>
+    </li>
+    <li>
+      <a href="/extras/">Extras</a>
+    </li>
+    <li>
+      <a href="/about/">About Me</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    <li>
+      <a href="https://nthp.me/posts/feed.xml">RSS</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Making A Simple Link Shortener</h1><time datetime="2024-04-29T15:40:29-04:00">Apr 29, 2024</time>
+  <hr><p>The idea of a link shortener has always intrigued me. You give it a big link, and in return, you get a small link. The issue is, you give it a big, hard to remember link, and it gives you a small, hard to remember link. And if you want to use your own domain, most will charge you for it. So, I looked into making my own.</p>
+<h2>Give Small Link</h2>
+<hr>
+<p>Turns out, making a link shortener is pretty easy. Theres an HTML element that can refresh the page with a different URL. I just needed a simple page with that element. Easy. As for fixing the hard to remember part, well, its my shortener, so I can do what I want.</p>
+<p>As an example. If I wanted a quick link to my GitHub profile, with the slug of /gh. I just have to make a folder named gh, and toss an index.html with that element in there. Boom, done.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en-us&#34;</span> <span style="color:#a6e22e">dir</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ltr&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;me&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://fosstodon.org/@nthp&#34;</span>&gt;&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">http-equiv</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;refresh&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0; url=http://github.com/nathnp/&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt; 
+</span></span></code></pre></div><p>That <code>a</code> tag is for Mastodon&rsquo;s link verification system.</p>
+<h2>But I Don't Want To Do All That</h2>
+<hr>
+<p>Having to make a folder, and paste an index file with the right link, for every link I want, would be a massive pain. So I don&rsquo;t. The main part of this, is a script I wrote to do it all for me. It just asks for what I want to slug to be, and for the link.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BASH" data-lang="BASH"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Link Name?&#34;</span>
+</span></span><span style="display:flex;"><span>read lname
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;link with https://?&#34;</span>
+</span></span><span style="display:flex;"><span>read llink
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>git pull
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cd docs
+</span></span><span style="display:flex;"><span>mkdir $lname
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cd $lname
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&lt;!DOCTYPE html&gt;&#34;</span> &gt;&gt; index.html
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&lt;html lang=&#34;</span>en-us<span style="color:#e6db74">&#34; dir=&#34;</span>ltr<span style="color:#e6db74">&#34;&gt;&#34;</span> &gt;&gt; index.html
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&lt;head&gt;&#34;</span> &gt;&gt; index.html
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&lt;a rel=&#34;</span>me<span style="color:#e6db74">&#34; href=&#34;</span>https://fosstodon.org/@nthp<span style="color:#e6db74">&#34;&gt;&lt;/a&gt;&#34;</span> &gt;&gt; index.html
+</span></span><span style="display:flex;"><span>printf <span style="color:#e6db74">&#39;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=&#39;</span>$llink<span style="color:#e6db74">&#39;&#34;/&gt;&#39;</span> &gt;&gt; index.html
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&lt;/head&gt;&#34;</span> &gt;&gt; index.html
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&lt;/html&gt;&#34;</span> &gt;&gt; index.html
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cd ../..
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>printf <span style="color:#e6db74">&#34;\n\n</span>$lname<span style="color:#e6db74"> &gt; [</span>$llink<span style="color:#e6db74">](</span>$llink<span style="color:#e6db74">)&#34;</span> &gt;&gt; README.md
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>git add docs README.md &gt; /dev/null
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Added </span>$lname<span style="color:#e6db74">&#34;</span> &gt; /dev/null
+</span></span><span style="display:flex;"><span>git push &gt; /dev/null
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;link will be live at https://link.nthp.me/</span>$lname<span style="color:#e6db74"> in about one minute&#34;</span>
+</span></span></code></pre></div><p>It will even update the readme file with the new link.</p>
+<p>I also made a script that will generate a random slug. It just takes the first five characters of an md5 hash of the date and time. This script just asks for a description of the link<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, and the link.</p>
+<p>All of this is hosted using GitHub pages, and if you want to test a link, you can give this one a shot <a href="https://link.nthp.me/o/3c86d">link.nthp.me/o/3c86d</a>.</p>
+<p>I&rsquo;ll probably make a public repo down the line with instructions on how to set this all up. But feel free to use what I&rsquo;ve posted here, just with your own domain.</p>
+<center>
+<p><a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Making%20A%20Simple%20Link%20Shortener"> Reply to this post via email 📫</a></p>
+<p>For Webmail Users <br>
+Address: <code><a href="mailto:reply.65tu8@nthp.me">reply.65tu8@nthp.me</a></code><br>
+Subject: <code>RE: Making A Simple Link Shortener</code></p>
+</center>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>For the readme file.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+  <div id="tags">
+    <hr>
+    <center>
+       |
+        <a href="/tags/web/">Web</a> |
+    </center>
+  </div>
+
+  </main>
+  <footer>
+    
+<p>
+   See a typo? Open an issue on <a href="https://github.com/nathnp/Nathans-site/issues">GitHub</a>. It's easy.
+</p>
+<p>
+   This site is made using <a href="https://gohugo.io">Hugo</a> <a href="https://simplecss.org">Simple.css</a> and <a href="https://pages.github.com">Github Pages</a>
+</p>
+<p>
+   Suport me on <a href="https://github.com/sponsors/nathnp">GitHub</a>
+</p>
+<p>
+   last <a href="https://github.com/nathnp/Nathans-site/commits/main/">updated</a> April 29 2024
+</p>
+<p>
+   Copyright 2024. All rights reserved.
+</p>
+<img src="/pics/home/foot.webP"/>
+<link rel="stylesheet" href="/css/littlefoot.css" />
+<script src="/js/littlefoot.js" type="application/javascript" ></script>
+<script type="application/javascript"> littlefoot.default() </script>
+
+  </footer>
+</body>
+</html>

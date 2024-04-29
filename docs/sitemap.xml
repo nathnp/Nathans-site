@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nthp.me/posts/2024/making-a-simple-link-shortener/</loc>
+    <lastmod>2024-04-29T15:40:29-04:00</lastmod>
+  </url><url>
+    <loc>https://nthp.me/tags/web/</loc>
+    <lastmod>2024-04-29T15:40:29-04:00</lastmod>
+  </url><url>
     <loc>https://nthp.me/posts/2024/hugo-on-a-pi-one/</loc>
     <lastmod>2024-04-22T20:36:42-04:00</lastmod>
   </url><url>
     <loc>https://nthp.me/tags/raspberry-pi/</loc>
-    <lastmod>2024-04-22T20:36:42-04:00</lastmod>
-  </url><url>
-    <loc>https://nthp.me/tags/web/</loc>
     <lastmod>2024-04-22T20:36:42-04:00</lastmod>
   </url><url>
     <loc>https://nthp.me/posts/2024/time-is-hard/</loc>
