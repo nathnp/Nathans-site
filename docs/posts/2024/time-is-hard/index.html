@@ -56,7 +56,7 @@
 <p>This post isn&rsquo;t going to be about that, its going to be about how much I hate writing functions to handle time.</p>
 <h2>Yesterday was last year</h2>
 <hr>
-<p>My plan was simple, if a post is over a year old, have Hugo put a declaimer on it. I just needed to calculate when a year had past.</p>
+<p>My plan was simple, if a post is over a year old, have Hugo put a disclaimer on it. I just needed to calculate when a year had past.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-HTML" data-lang="HTML"><span style="display:flex;"><span>{{- $PostYear := .Date | time.Format &#34;2006&#34; | int -}}
 </span></span><span style="display:flex;"><span>{{- $CurrentYear := now.Year | int -}}
 </span></span><span style="display:flex;"><span>{{- $YearDif := math.Sub $CurrentYear $PostYear -}}
@@ -126,7 +126,7 @@
    Suport me on <a href="https://github.com/sponsors/nathnp">GitHub</a>
 </p>
 <p>
-   last <a href="https://github.com/nathnp/Nathans-site/commits/main/">updated</a> April 29 2024
+   last <a href="https://github.com/nathnp/Nathans-site/commits/main/">updated</a> April 30 2024
 </p>
 <p>
    Copyright 2024. All rights reserved.

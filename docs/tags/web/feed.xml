@@ -157,7 +157,7 @@
 &lt;p&gt;This post isn&amp;rsquo;t going to be about that, its going to be about how much I hate writing functions to handle time.&lt;/p&gt;
 &lt;h2&gt;Yesterday was last year&lt;/h2&gt;
 &lt;hr&gt;
-&lt;p&gt;My plan was simple, if a post is over a year old, have Hugo put a declaimer on it. I just needed to calculate when a year had past.&lt;/p&gt;
+&lt;p&gt;My plan was simple, if a post is over a year old, have Hugo put a disclaimer on it. I just needed to calculate when a year had past.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $PostYear := .Date | time.Format &amp;#34;2006&amp;#34; | int -}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $CurrentYear := now.Year | int -}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{- $YearDif := math.Sub $CurrentYear $PostYear -}}

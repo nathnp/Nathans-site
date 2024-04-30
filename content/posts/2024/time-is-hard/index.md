@@ -13,7 +13,7 @@ This post isn't going to be about that, its going to be about how much I hate wr
 <h2>Yesterday was last year</h2>
 <hr>
 
-My plan was simple, if a post is over a year old, have Hugo put a declaimer on it. I just needed to calculate when a year had past.
+My plan was simple, if a post is over a year old, have Hugo put a disclaimer on it. I just needed to calculate when a year had past.
 
 ```HTML
 {{- $PostYear := .Date | time.Format "2006" | int -}}
