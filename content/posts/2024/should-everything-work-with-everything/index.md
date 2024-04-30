@@ -14,7 +14,7 @@ Why can't I use an Apple Watch with my Android, Why can't I install Android on a
 
 If everything just works with everything, why make your product good. Why make it stand out. What's the point in putting in more, than the minimum amount of effort needed. 
 
-Not everything, should work with everything. That's not to say the nothing should work with anything. Like almost everything in life, the answer isn't at either logical extreme. It's somewhere in the middle. And a lot of people online, can't stand that.
+Not everything, should work with everything. That's not to say that nothing should work with anything. Like almost everything in life, the answer isn't at either logical extreme. It's somewhere in the middle. And a lot of people online, can't stand that.
 
 [^1]: One of the worst parts, of large scale social networks.
 
