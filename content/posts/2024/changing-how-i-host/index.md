@@ -6,7 +6,7 @@ subtitle = "Reducing insanity"
 tags = ['Web']
 +++
 
-I've been pretty happy with my website. The way I hosted it though, that's a different story. To be clear, I'm not changing web hosts, my frustration all my doing. I'm just de-shitting how I use my web host.
+I've been pretty happy with my website. The way I hosted it though, that's a different story. To be clear, I'm not changing web hosts, my frustration is all my doing. I'm just de-shitting how I use my web host.
 
 I'm using GitHub to host my site. And the way I was hosting it was, ass. I was using three repos. A dev, pub, and prod repo. Dev is for post drafts, pub was a public repo of my Hugo[^1] project, and prod was where my built site was hosted from. This was just too much.
 
