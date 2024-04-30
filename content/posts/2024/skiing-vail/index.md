@@ -25,14 +25,4 @@ Vail is big, like really big. Like, they have three trail maps big. I didn't tak
 	<figcaption>I'm on the left</figcaption>
 </figure>
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Skiing%20Vail"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Skiing Vail</code>
-
-</center>
-
 [^1]: My friend drove, as I can't drive stick.

@@ -19,17 +19,3 @@ Quite a while back. People were sharing an article about how a dude used a GameB
 </aside>
 
 I was a little concerned about the adaptor. It was shocking light. To the point I didn't think It was going to work. But somewhat to my surprise, it did, and it looked pretty good. I work two jobs. One in loss prevention, and the other as a cybersecurity TA. The latter of the two is a remote job. And perfect for this type of thing. I'm defiantly looking forward to using it there, when I can.
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20New%20Old%20Webcam"> Reply to this post via email 📫</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: My New Old Webcam</code>
-
-
-
-
-
-</center>

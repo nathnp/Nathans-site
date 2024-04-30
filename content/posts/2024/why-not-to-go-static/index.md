@@ -109,15 +109,4 @@ Yeah, you don’t have much control of how things look (you can set custom CSS).
 
 A static site seams like the perfect way to blog (and for many, it is). But, they take a lot of work, and head banging, to set up. But, it shouldn't be your first blogging setup. No one said, you can't switch your blog to something else.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Why%20Not%20to%20go%20Static"> Reply to this post via email 📬</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Why Not to go Static</code>
-
-</center>
-
-
 [^1]: This will let me see how my site will look, as I work on it. 

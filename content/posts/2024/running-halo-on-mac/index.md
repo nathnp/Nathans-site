@@ -49,16 +49,5 @@ And with that, you have Halo on a mac. Satan would be proud.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3wiTuzr_IkE?si=VsmWlqB3PdMDVHki&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Running%20Halo%20on%20an%20ARM%20Mac"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Running Halo on an ARM Mac</code>
-
-</center>
-
-
 [^1]: Wine Is Not an Emulator.
 [^2]: Linux is a clone of UNIX.

@@ -20,13 +20,3 @@ It also doesn't help that the county roads haven't been salted yet. The state hi
 Looking at the weather for the next week. The snow will probably hang around. Most here will hate that, but I love it. I've always loved the look of a snow filled sky, and covered ground. 
 
 I also want it to stay, because I need to get skiing. My trip to Colorado is coming up soon, and I need to get in shape for those tall boi mountains. Subscribe to my [RSS](/posts/feed.xml) feed for that, as I'll be posting during the trip. You can also subscribe to just the [Denver 2024](/tags/denver-2024/) tag if you want.
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20First%20Snow"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: First Snow</code>
-
-</center>

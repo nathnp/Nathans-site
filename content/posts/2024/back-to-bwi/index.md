@@ -44,16 +44,6 @@ I do love a connection, airports are cool, and I love to explore them. However, 
 
 This is a pretty short flight, about one hour in the air. To pass the time, I watched some plane crash documentaries, while working on this post.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Back%20to%20BWI"> Reply to this post via email 📫</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Back to BWI</code>
-
-</center>
-
 [^1]: The Maryland equivalent to a DMV, they issue our physical and mobile IDs.
 
 [^2]: Having a bite before flying is a requirement for me.

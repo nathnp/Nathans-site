@@ -49,16 +49,6 @@ Steam can handle pretty much all of this, and in a way that doesn't make people 
 
 I don't fear the death of steam. I fear the death of the man at the helm.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Loosing%20What%20You%20Bought"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Loosing What You Bought</code>
-
-</center>
-
 [^1]: Some old games might not like that, but Windows compatibility settings / running the game through Proton on Linux/SteamDeck should fix that.
 
 [^2]: Without paying for internet access.

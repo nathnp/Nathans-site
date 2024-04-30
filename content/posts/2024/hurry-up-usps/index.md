@@ -16,13 +16,3 @@ The issue is, I need it to show up.
 </figure>
 
 At least its getting closer. New York isn't too far from Maryland.
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Hurry%20Up%20USPS"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Hurry Up USPS</code>
-
-</center>

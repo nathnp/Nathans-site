@@ -30,16 +30,6 @@ Overall, I liked it. It wasn't fantastic, but it was fun.
 
 TL;DR: If Keegan-Michael Key being chief of police sounds fun, give this a watch.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Wonka"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Wonka</code>
-
-</center>
-
 [^1]: More on that in the spoilers.
 
 [^2]: Others do appear in a flash back, though they don't speak.

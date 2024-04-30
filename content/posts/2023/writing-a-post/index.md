@@ -73,17 +73,6 @@ So yeah. This all sounds pretty complicated when you break it down. But in pract
 
 A blog post, about writing a blog post. Weird. 
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Writing%20a%20Post"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Writing a Post</code>
-
-</center>
-
-
 [^1]: There’s nothing there, don’t bother looking. 
 
 [^2]: Nothing here at all, I promise

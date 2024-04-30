@@ -74,14 +74,4 @@ All of this is hosted using GitHub pages, and if you want to test a link, you ca
 
 I'll probably make a public repo down the line with instructions on how to set this all up. But feel free to use what I've posted here, just with your own domain.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Making%20A%20Simple%20Link%20Shortener"> Reply to this post via email 📫</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Making A Simple Link Shortener</code>
-
-</center>
-
 [^1]: For the readme file.

@@ -79,26 +79,6 @@ This Day-cation was fantastic, and one I highly recommend to my co-workers. As f
 
 Check out my [Flicker Album](https://www.flickr.com/photos/197704187@N04/albums/72177720310228473) of the trip.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20The%20Day-cation"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: The Day-cation</code>
-
-
-
-
-
-</center>
-
-
-
-
-
-
-
 [^1]: Sorry, I cant be at the thing, I'll be in... At... lanta, sorry.
 [^2]: You couldn't buy tickets at the door, you had to buy online in advance.
 [^3]: Or load the PDF

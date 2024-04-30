@@ -62,16 +62,6 @@ It's not cheep though. This trim starts at $47,740. While I'm not in the market 
 
 As for the whole self service demo thing. I loved it. I didn't truly have to BS a sales rep to do a test drive. And I didn't have to talk with anyone in the car. That part, was fantastic.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Self%20Serve%20Test%20Drive"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Self Serve Test Drive</code>
-
-</center>
-
 [^1]: Standard practice for any test drive. 
 
 [^2]: If you're used to a normal car, like I am.

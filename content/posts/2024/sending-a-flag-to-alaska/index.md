@@ -32,14 +32,4 @@ The user who moved even posted a picture.
 
 Hopefully it keeps moving. But even if it doesn't, I'm happy with this.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Sending%20a%20Flag%20to%20Alaska"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Sending a Flag to Alaska</code>
-
-</center>
-
 [^1]: 1.609344e+8 cm for the didn't walk on the moon nations.

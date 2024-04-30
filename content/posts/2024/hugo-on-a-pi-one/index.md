@@ -60,14 +60,4 @@ That was with the Pi 1 at the stock 700MHz clock speed. Overclocking it to 1GHz 
 
 Was this worth the time, hell no. Was it fun, yeah. And for some extra fun, this site build[^1] was built on the Pi 1.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Hugo%20on%20a%20Raspberry%20Pi%201"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Hugo on a Raspberry Pi 1</code>
-
-</center>
-
 [^1]: As of this post being posted.

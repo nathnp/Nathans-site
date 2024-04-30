@@ -64,17 +64,6 @@ I’m hoping this will help a few students get a basic landing page up. I even d
 
 You can find the GitHub repo [here](https://github.com/nathnp/Basic-Site-Template)
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20A%20Basic%20Site%20Template"> Reply to this post via email 📫</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: A Basic Site Template</code>
-
-</center>
-
-
 [^1]: After grading, the student has to take up the hosting costs. 
 
 [^2]: The project is a mixture is them writing their own site, and deploying it. 

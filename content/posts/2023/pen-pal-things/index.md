@@ -20,18 +20,3 @@ At the bottom of his post. He had a table of months, and people. I noticed that 
 > I’m down for April, as that’s also my birthday month. It’ll be cool to chat with someone in the UK who’s also in the security field.
 
 I quickly got an email back. Confirming April. Sick! I'm looking forward to this, and will post the email convocation on my site. 
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Pen-Pal%20Thing"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Pen-Pal Thing</code>
-
-
-
-
-
-</center>
-

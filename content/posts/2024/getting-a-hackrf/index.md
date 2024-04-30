@@ -17,14 +17,4 @@ I'm not done with this build yet. I have a battery in the mail so I don't have t
 
 So far, the main things I've done with it are: receive ADS-B, and listen in on some NFM broadcasts (the little radios some businesses use). I am planing on doing more (and a longer blog post), just need that battery.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Getting%20a%20Hackrf"> Reply to this post via email 📬</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Getting a Hackrf</code>
-
-</center>
-
 [^1]: From California to Maryland, wth USPS

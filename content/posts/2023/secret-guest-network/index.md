@@ -19,17 +19,3 @@ Now that's a pretty business example. A more home user example would be: Having 
 Heres a good video from Cameron Gray Going over PPSK on UNiFi. And its downside (It doesn't work on WPA3 networks (That includes 6GHz networks)).
 
 https://www.youtube.com/watch?v=DvhU7roLviY&t=1228s
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20The%20Secret%20Guest%20Network"> Reply to this post via email 📫</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: The Secret Guest Network</code>
-
-
-
-
-
-</center>

@@ -16,16 +16,6 @@ If everything just works with everything, why make your product good. Why make i
 
 Not everything, should work with everything. That's not to say the nothing should work with anything. Like almost everything in life, the answer isn't at either logical extreme. It's somewhere in the middle. And a lot of people online, can't stand that.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Should%20Everything%20Work%20With%20Everything"> Reply to this post via email 📫</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Should Everything Work With Everything</code>
-
-</center>
-
 [^1]: One of the worst parts, of large scale social networks.
 
 [^2]: Or range.

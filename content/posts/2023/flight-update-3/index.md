@@ -42,19 +42,5 @@ I won't be able to post this till a fair bit after I get off the plane[^1], but 
 
 P.S. Noise canceling headphones are not only great for plane noise, but kid noise as well.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Flight%20Update%203"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Flight Update 3</code>
-
-
-
-
-
-</center>
-
 [^1]: Not paying $8 just to post this.
 [^2]: Blot let's me do cool stuff like that.

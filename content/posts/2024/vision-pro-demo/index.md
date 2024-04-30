@@ -63,17 +63,4 @@ Overall, I am crazy impressed. The pass through was good to the point, it was li
 
 I am super excited to pick one up. In two or so generation. $3,500 before AppleCare+ is a little much for me.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Vision%20Pro%20Demo"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Vision Pro Demo</code>
-
-</center>
-
-
-
-
 [^1]: The [first Apple Store](https://www.macobserver.com/analysis/the-first-apple-store-open-20-years-ago-today/)

@@ -56,16 +56,6 @@ This takes the time and date that a post was published on, and converts it to Un
 
 I don't like working with time. If you want to use this, here's a [Gist](https://gist.github.com/nathnp/00cefda8e28f4d28ac929c6e930460da).
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Time%20Is%20Hard"> Reply to this post via email ✉️</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Time Is Hard</code>
-
-</center>
-
 [^1]: 31536000 in Unix time 
 
 [^2]: Time of site build, this is a static site at the end of the day.

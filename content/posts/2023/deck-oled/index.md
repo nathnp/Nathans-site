@@ -50,14 +50,3 @@ Once the second clone attempt was done, I fired up the Deck. After waiting for S
 ## Thoughts
 
 Overall, the Deck OLED is a fantastic upgrade, and I'm very happy with mine. The 90Hz screen is fantastic for Halo. And the HDR OLED, makes everything pop in ways the old Deck just couldn't. The Deck OLED is more than just a screen upgrade. And that, is what got me to pick one up.
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Deck%20OLED"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Deck OLED</code>
-
-</center>
-

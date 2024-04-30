@@ -78,13 +78,3 @@ This is my taxonomy file. Its pretty much the same as list.html, just without th
 The main interesting line here is line three. I have Hugo configured to generate an RSS feed for each tag. This line will generate a link to that feed. `{{ .Permalink }}` will print out the link for the page it is on. As an example, when generating the page for the web tag, `{{ .Permalink }}` will spit out `https://nthp.me/tags/web/`. Tacking `feed.xml` on the end of it, will add `feed.xml` to the output. `https://nthp.me/tags/web/feed.xml`. Boom, feed links.
 
 In short, adding tag to my Hugo site was way easier than I though it was going to be. And I was even able to set up fancy things, like per tag RSS feed links.
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Adding%20Tags"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Adding Tags</code>
-
-</center>

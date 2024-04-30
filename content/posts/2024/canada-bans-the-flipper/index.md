@@ -40,13 +40,3 @@ You can install third party firmware, that adds support for rolling code generat
 Here’s a good video by [Seytonic](https://youtu.be/PO_o15odjkU?si=TMW4I4znCXvbeB6W) that goes over this. 
 
 Come on Canada, you can do better than this. 
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Canada%20Bans%20the%20Flipper%20Zero"> Reply to this post via email 📫</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Canada Bans the Flipper Zero</code>
-
-</center>

@@ -73,15 +73,5 @@ In the second spot, of the second line, at the second gate, in the second termin
 
 Boarding and take off went smoothy, far better than my last flight to Denver. Glad I don't have to add the [air craziness](/tags/air-crazyness/) tag to this post. We'll see about my flight home. But before that, I need to ski.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Flying%20Back%20to%20Denver"> Reply to this post via email ✉️</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Flying Back to Denver</code>
-
-</center>
-
 [^1]: With Southwest, you have to check in to get your boarding pass. Check in starts 24h before gate departure. The sooner you check in, the better boarding position you get. Your boarding position is just you spot in line to get on the plane. Once you get on board the plane, you can take whatever seat you want.
 

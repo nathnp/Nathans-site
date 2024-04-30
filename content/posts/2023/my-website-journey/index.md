@@ -54,18 +54,3 @@ Unlike with the previous systems. That fancy site I made, lives only on my Mac..
 ### Thoughts On All This
 
 I've moved around a lot. And because of that, I've learned a lot. I've learned of a number of good hosts. How to spin up a Wordpress VM in the cloud. A number of static site generator tools. And started learning about Github Actions. But, my favorite thing I've learned from all this. Is how to set up a fully featured site / blog, for free.
-
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20Website%20Journey"> Reply to this post via email 📬</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: My Website Journey</code>
-
-
-
-
-
-</center>

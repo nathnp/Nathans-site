@@ -39,16 +39,6 @@ I don't mind doing my own oil, it's cheeper, and doesn't take long. But man, I d
 
 For anyone wondering what car I drive, she's a 2015 Honda Accord EX-L, with a 2.4L i-VTECH DOHC mated to a CVT. Super fun to drive.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Oil%20Time"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Oil Time</code>
-
-</center>
-
 [^1]: I'm joking, calm down.
 
 [^2]: Yes, I do rest the frame onto a jack stand, as you can see in the photo.

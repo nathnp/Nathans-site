@@ -37,18 +37,4 @@ Upon getting home, I crashed in bed for three days. All and All, I'm def going b
 
 DEN to IND was written on the plane from DEN to IND, everything else was written long after getting home.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Flying%20Home"> Reply to this post via email ✉️</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Flying Home</code>
-
-
-
-
-
-</center>
-
 [^1]: ![](fig2.webP)

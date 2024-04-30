@@ -14,17 +14,3 @@ But that doesn't matter now, I'm in the air. and on my way to RDU in NC. Then I'
 I'll try to post this at RDU, don't know if I'll be able to, as I'm writing this on my Mac vs my phone. Either way, I'll mark the post time of when I finished this. Check out the [Air Craziness tag](https://nthp.me/tagged/air-craziness) on here for the whole thing.
 
 P.S. My inflight entertainment is plane crash documentaries
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Flight%20Update%202"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Flight Update 2</code>
-
-
-
-
-
-</center>

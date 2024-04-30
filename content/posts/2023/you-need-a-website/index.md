@@ -109,14 +109,3 @@ This site is generated using [Hugo](https://gohugo.io) locally on my Mac. For ho
 [Wordpress SaaS](https://wordpress.com)
 
 > Note: **None** of these links are affiliate links
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20You%20Need%20a%20Website"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: You Need a Website</code>
-
-
-</center>

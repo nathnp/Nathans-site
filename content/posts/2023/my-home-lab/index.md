@@ -55,14 +55,4 @@ The VM server runs on a second gen Intel Core i7 4C/8T, with 16GB of ram.
 
 Like any home lab, this thing is always changing. Servers have come and gone. One of the old ones I used to run was a Raspberry Pi based Minecraft Java server. Might do a post on that one. I wonder what my lab / network will look like in a few years.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20Home%20Lab"> Reply to this post via email ✉️</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: My Home Lab</code>
-
-</center>
-
 [^1]: Make your you set it as your DHCP DNS address, and not the DNS that the router will try to use. Some ISPs won't give you an IP unless you have the router set to their DNS, looking at you Comcast. 

@@ -18,13 +18,3 @@ For this blog, nothing. The new posts won't show up in this RSS feed, and won't 
 <hr>
 
 Right here, on nthp.me. you just have to goto [/factorio-blog](/factorio-blog).
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20New%20Blog"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: New Blog</code>
-
-</center>

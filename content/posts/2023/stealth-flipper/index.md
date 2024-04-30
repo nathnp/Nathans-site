@@ -19,23 +19,6 @@ Have fun ;)
 
 ![](gif.gif)
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Stealth%20Flipper"> Reply to this post via email 📬</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Stealth Flipper</code>
-
-
-
-
-
-</center>
-
-
-
-
 [^1]: ![](fig1.webP)
 [^2]: The iPhone 15 Pro also has one. And can also do this.
 [^3]: ![](fig2.webP)

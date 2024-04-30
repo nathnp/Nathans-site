@@ -16,14 +16,4 @@ Update: It worked.
 	<img src="fig1.webp"/>
 </figure>
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20To%20Things%20From%20RSS"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: To Things From RSS</code>
-
-</center>
-
 [^1]: And they were the only thing that didn't like it.

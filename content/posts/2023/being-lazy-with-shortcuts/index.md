@@ -28,17 +28,3 @@ If you’d like to use this shortcut, you can click this button to add it.
 <a class="button" href="https://www.icloud.com/shortcuts/bcfb8006db024bbcab2b006797a8b033"> Add Shortcut </a>
 
 </center>
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Being%20Lazy%20With%20Shortcuts"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Being Lazy With Shortcuts</code>
-
-
-
-
-
-</center>

@@ -15,14 +15,4 @@ If, if the Deck is fully charged, it works fine[^1], if the deck is not fully ch
 
 Everything I’ve read online says the type C port on it is just super picky. And that’s a shame. Because it’s a nice panel. And if the type C port worked fully, I could super easily recommend it. But I just can’t, not with that issue, and not at its price tag of $600. 
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20My%20Picky%20Monitor"> Reply to this post via email ✉️</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: My Picky Monitor</code>
-
-</center>
-
 [^1]: Most of the time

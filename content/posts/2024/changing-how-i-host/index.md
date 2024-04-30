@@ -19,16 +19,6 @@ So, I killed the prod repo. My site is now hosted from a folder in the pub repo.
 
 So instead of hitting build, moving the files, and pushing. I just have to build, and push. I should have done this sooner.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Changing%20How%20I%20Host%20This%20Site"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Changing How I Host This Site</code>
-
-</center>
-
 [^1]: What my site is made in.
 
 [^2]: This is the URL config for GitHub Pages.

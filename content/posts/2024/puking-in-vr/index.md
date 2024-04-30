@@ -52,16 +52,6 @@ The setup also takes advantage of the built in eye tracking. Helping you get the
 
 I've had my VR2 for a while (Got it when it came out). And it's the reason why I picked up a PS5. While VR isn't for everyone. It is a ton of fun. Just remember to take breaks, VR fatigue is a thing, and is not fun.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Puking%20in%20VR"> Reply to this post via email 📨</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Puking in VR</code>
-
-</center>
-
 [^1]: Though, buying used VR gear is like buying used socks.
 
 [^2]: It's super cool.

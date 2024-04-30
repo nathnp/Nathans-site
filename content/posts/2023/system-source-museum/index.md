@@ -88,18 +88,4 @@ Overall, the museum was fantastic. I am defiantly going back.
 
 All of the photos I took are available on my [Flickr](https://www.flickr.com/photos/197704187@N04/albums/72177720312149715/with/53281603158/), in their full resolution (48Mpx). So definitely check that out.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20System%20Source%20Museum"> Reply to this post via email ✉️</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: System Source Museum</code>
-
-
-
-
-
-</center>
-
 [^1]: Bal'Mer

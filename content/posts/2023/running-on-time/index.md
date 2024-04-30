@@ -13,16 +13,6 @@ At around the end of the day, I was down around 70ish%. With my trip almost over
 
 I had a good feeling this would be the result, as I've gone far longer on the Ultra without topping up. But it's one thing to do a duration test when you're always within 50 feet[^3] of a charger. It feels very different, when you don't have that option.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Running%20on%20Time"> Reply to this post via email 📮</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Running on Time</code>
-
-</center>
-
 [^1]: 175 miles, or 281 KM, for nations that haven't walked on the moon.
 
 [^2]: I use the watch as my alarm clock. The best alarm is the one strapped to you.

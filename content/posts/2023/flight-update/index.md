@@ -10,18 +10,4 @@ I was scheduled to fly from BWI at 13:40 to ATL, then to DEN. Now I'm going from
 
 I you want to join me on this craziness, follow me on [Mastodon @nthp@fosstodon.org](https://fosstodon.org/@nthp)
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Flight%20Update"> Reply to this post via email ✉️</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>RE: Flight Update</code>
-
-
-
-
-
-</center>
-
 [^1]: ![](fig1.webP)
