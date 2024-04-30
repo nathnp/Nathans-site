@@ -104,11 +104,12 @@ This is my taxonomy file. Its pretty much the same as list.html, just without th
 </span></span><span style="display:flex;"><span>{{ end }}
 </span></span></code></pre></div><p>The main interesting line here is line three. I have Hugo configured to generate an RSS feed for each tag. This line will generate a link to that feed. <code>{{ .Permalink }}</code> will print out the link for the page it is on. As an example, when generating the page for the web tag, <code>{{ .Permalink }}</code> will spit out <code>https://nthp.me/tags/web/</code>. Tacking <code>feed.xml</code> on the end of it, will add <code>feed.xml</code> to the output. <code>https://nthp.me/tags/web/feed.xml</code>. Boom, feed links.</p>
 <p>In short, adding tag to my Hugo site was way easier than I though it was going to be. And I was even able to set up fancy things, like per tag RSS feed links.</p>
+
+  <br>
 <center>
-<p><a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Adding%20Tags"> Reply to this post via email 📪</a></p>
-<p>For Webmail Users <br>
-Address: <code><a href="mailto:reply.65tu8@nthp.me">reply.65tu8@nthp.me</a></code><br>
-Subject: <code>RE: Adding Tags</code></p>
+
+<a href="mailto:reply.65tu8@nthp.me?subject=RE: Adding%20Tags">Reply via email</a>
+
 </center>
   
   <div id="tags">
