@@ -15,5 +15,6 @@
     </p>
   {{- end -}}
   {{ .Content }}
+  {{ partial "reply.html" (dict "page" .) }}
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}

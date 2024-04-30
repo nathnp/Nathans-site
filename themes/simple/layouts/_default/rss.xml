@@ -37,6 +37,7 @@
 		{{ printf "<![CDATA[<img src=\"%s\" width=\"800\" height=\"150\" />]]>" (. | absURL) | safeHTML }}
 		{{ end }}
 		{{ .Content | html }}
+		{{ partial "reply.html" (dict "page" .) | html }}
 	  </description>
 	</item>
 	{{ end }}
