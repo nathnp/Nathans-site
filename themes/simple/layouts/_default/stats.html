@@ -51,19 +51,32 @@
   {{- end -}}
   {{- end -}}
   
+  <!--Counts posts per year-->
+  {{- $23 := 0 -}}
+  {{- $24 := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $dateYear := .Date | time.Format "2006" | int -}}
+  {{- if eq $dateYear 2023 -}}
+  {{- $23 = add $23 1 -}}
+  {{- end -}}
+  {{- if eq $dateYear 2024 -}}
+  {{- $24 = add $24 1 -}}
+  {{- end -}}
+  {{- end -}}
+  
   <!--Totals posts per month-->
-  {{- $Jan :=0 -}}
-  {{- $Feb :=0 -}}
-  {{- $Mar :=0 -}}
-  {{- $Apr :=0 -}}
-  {{- $May :=0 -}}
-  {{- $Jun :=0 -}}
-  {{- $Jul :=0 -}}
-  {{- $Aug :=0 -}}
-  {{- $Sep :=0 -}}
-  {{- $Oct :=0 -}}
-  {{- $Nov :=0 -}}
-  {{- $Dec :=0 -}}
+  {{- $Jan := 0 -}}
+  {{- $Feb := 0 -}}
+  {{- $Mar := 0 -}}
+  {{- $Apr := 0 -}}
+  {{- $May := 0 -}}
+  {{- $Jun := 0 -}}
+  {{- $Jul := 0 -}}
+  {{- $Aug := 0 -}}
+  {{- $Sep := 0 -}}
+  {{- $Oct := 0 -}}
+  {{- $Nov := 0 -}}
+  {{- $Dec := 0 -}}
   {{- range (site.GetPage "posts").Pages -}}
   {{- $dateMonth := .Date | time.Format "Jan" -}}
   {{- if eq $dateMonth "Jan" -}}
@@ -187,17 +200,16 @@
       </thead>
       <tbody>
         <tr>
-          <td><code>{{ $Sun }}</code></td>
-          <td><code>{{ $Mon }}</code></td>
-          <td><code>{{ $Tue }}</code></td>
-          <td><code>{{ $Wed }}</code></td>
-          <td><code>{{ $Thu }}</code></td>
-          <td><code>{{ $Fri }}</code></td>
-          <td><code>{{ $Sat }}</code></td>
+          <td><center><code>{{ $Sun }}</code></center></td>
+          <td><center><code>{{ $Mon }}</code></center></td>
+          <td><center><code>{{ $Tue }}</code></center></td>
+          <td><center><code>{{ $Wed }}</code></center></td>
+          <td><center><code>{{ $Thu }}</code></center></td>
+          <td><center><code>{{ $Fri }}</code></center></td>
+          <td><center><code>{{ $Sat }}</code></center></td>
         </tr>
       </tbody>
       </table>
-      <hr>
       <h3>Posts per Month</h3>
       <table>
       <thead>
@@ -212,12 +224,12 @@
       </thead>
       <tbody>
         <tr>
-          <td><code>{{ $Jan }}</code></td>
-          <td><code>{{ $Feb }}</code></td>
-          <td><code>{{ $Mar }}</code></td>
-          <td><code>{{ $Apr }}</code></td>
-          <td><code>{{ $May }}</code></td>
-          <td><code>{{ $Jun }}</code></td>
+          <td><center><code>{{ $Jan }}</code></center></td>
+          <td><center><code>{{ $Feb }}</code></center></td>
+          <td><center><code>{{ $Mar }}</code></center></td>
+          <td><center><code>{{ $Apr }}</code></center></td>
+          <td><center><code>{{ $May }}</code></center></td>
+          <td><center><code>{{ $Jun }}</code></center></td>
         </tr>
       </tbody>
       </table>
@@ -234,12 +246,27 @@
       </thead>
       <tbody>
         <tr>
-          <td><code>{{ $Jul }}</code></td>
-          <td><code>{{ $Aug }}</code></td>
-          <td><code>{{ $Sep }}</code></td>
-          <td><code>{{ $Oct }}</code></td>
-          <td><code>{{ $Nov }}</code></td>
-          <td><code>{{ $Dec }}</code></td>
+          <td><center><code>{{ $Jul }}</code></center></td>
+          <td><center><code>{{ $Aug }}</code></center></td>
+          <td><center><code>{{ $Sep }}</code></center></td>
+          <td><center><code>{{ $Oct }}</code></center></td>
+          <td><center><code>{{ $Nov }}</code></center></td>
+          <td><center><code>{{ $Dec }}</code></center></td>
+        </tr>
+      </tbody>
+      </table>
+      <h3>Posts per Year</h3>
+      <table>
+      <thead>
+        <tr>
+          <th>2023</th>
+          <th>2024</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><center><code>{{ $23 }}</code></center></td>
+          <td><center><code>{{ $24 }}</code></center></td>
         </tr>
       </tbody>
       </table>
