@@ -13,7 +13,7 @@ publishDir = 'docs'
 [outputs]
   home = ['html']
   taxonomy = ['html', 'rss']
-  section = ['html', 'rss']
+  section = ['html']
   
 [mediaTypes]
   [mediaTypes."application/rss"]
