@@ -149,9 +149,6 @@
     <loc>https://nthp.me/stats/</loc>
     <lastmod>2024-01-07T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://nthp.me/tags/</loc>
-    <lastmod>2024-01-07T08:30:00-07:00</lastmod>
-  </url><url>
     <loc>https://nthp.me/tags/broken-bones/</loc>
     <lastmod>2024-01-06T12:20:13-05:00</lastmod>
   </url><url>
@@ -349,7 +346,5 @@
   </url><url>
     <loc>https://nthp.me/posts/2021/paintboy-advance/</loc>
     <lastmod>2021-10-26T12:10:57-05:00</lastmod>
-  </url><url>
-    <loc>https://nthp.me/categories/</loc>
   </url>
 </urlset>
