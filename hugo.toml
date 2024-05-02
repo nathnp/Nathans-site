@@ -6,13 +6,12 @@ publishDir = 'docs'
 
 # sectionPagesMenu = 'main'
 
-# disableKinds = ['rss']
+disableKinds = ['taxonomy']
 
 
 
 [outputs]
   home = ['html']
-  taxonomy = ['html', 'rss']
   section = ['html']
   
 [mediaTypes]
