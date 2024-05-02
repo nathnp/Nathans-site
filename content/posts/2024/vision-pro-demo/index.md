@@ -40,7 +40,7 @@ And yes, that is a wet floor sign on top of that roof.
 ## The demo [🔗](#demo)
 <hr>
 
-The demo started with a face scan. This was to determine what size and shape light skirt I needed. One that was done, the Vision is brought out on a wooden platter, and you are given a tour of it. 
+The demo started with a face scan. This was to determine what size and shape light skirt I needed. Once that was done, the Vision is brought out on a wooden platter, and you are given a tour of it. 
 
 Once you strap it on, the Vision atomically locates your eyes. It ask you to hold the crown button, and when you do, motors automatically moves the display assemblies to match your eyes. After that, you go through the eye tracking calibration. Then, you are ready.
 
