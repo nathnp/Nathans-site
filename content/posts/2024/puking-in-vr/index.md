@@ -19,7 +19,7 @@ I love VR. Strapping on a headset, and entering another world is truly a unique 
 
 There's a lot of ways to get into VR. On the cheap end, you can pick up a used Meta Quest[^1]. Or you can go super top end with a PC setup. My setup, is closer to the PC end, just without Windows.
 
-I use a PSVR2 hooked up to a PlayStation 5. The PSVR2 has a lot of features to pulled me to it. Each eye gets a 2000x2040 OLED screen, and tracking camera. That eye tracking lets the PS5 do some fancy rendering tricks, and lets you select menu items with just your eyes[^2]. The headset also has a rumble motor, for added immersion.
+I use a PSVR2 hooked up to a PlayStation 5. The PSVR2 has a lot of features that pulled me to it. Each eye gets a 2000x2040 OLED screen, and tracking camera. That eye tracking lets the PS5 do some fancy rendering tricks, and lets you select menu items with just your eyes[^2]. The headset also has a rumble motor, for added immersion.
 
 The controllers have touch sensitive areas, for added input. And feature the same resistive trigger as the main controller.
 
@@ -50,7 +50,7 @@ The setup also takes advantage of the built in eye tracking. Helping you get the
 	<figcaption>About to get stabbed</figcaption>
 </figure>
 
-I've had my VR2 for a while (Got it when it came out). And it's the reason why I picked up a PS5. While VR isn't for everyone. It is a ton of fun. Just remember to take breaks, VR fatigue is a thing, and is not fun.
+I've had my VR2 for a while (Got it when it came out). And it's the reason why I picked up a PS5. While VR isn't for everyone. It is a ton of fun. Just remember to take breaks, VR fatigue is a thing, and it's not fun.
 
 [^1]: Though, buying used VR gear is like buying used socks.
 
