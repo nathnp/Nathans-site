@@ -39,7 +39,7 @@ weight = 60
 
 [[menus.main]]
 name = 'RSS'
-url = 'https://nthp.me/posts/feed.xml'
+pageRef = '/rss'
 weight = 70
 
 [module]
