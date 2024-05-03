@@ -6,9 +6,6 @@ publishDir = 'docs'
 
 # sectionPagesMenu = 'main'
 
-disableKinds = 'categories'
-
-
 
 [outputs]
   home = ['html']
