@@ -6,12 +6,13 @@ publishDir = 'docs'
 
 # sectionPagesMenu = 'main'
 
-disableKinds = ['taxonomy']
+disableKinds = 'categories'
 
 
 
 [outputs]
   home = ['html']
+  taxonomy = ['html']
   section = ['html']
   
 [mediaTypes]
