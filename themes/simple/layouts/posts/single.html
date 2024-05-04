@@ -3,6 +3,7 @@
   {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
   {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
   <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   <hr>
   {{- $PostYear := .Date -}}
   {{- $CurrentYear := time.Now -}}
@@ -16,5 +17,4 @@
   {{- end -}}
   {{ .Content }}
   {{ partial "reply.html" (dict "page" .) }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
