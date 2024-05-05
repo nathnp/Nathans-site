@@ -8,9 +8,11 @@ draft = false
 	
 ![](fig1.webP)
 
-This is a map of states that I have been to. This does not count states that I have only driven through, or only changes planes in.
+This is a map of states that I have been to. This does not count states that I have only driven through, or only changed planes in.
 
-![](https://banners-my.flightradar24.com/Nthp.png)
+<figure>
+	<img src="flights.webp"/>
+</figure>
 
 These are my commercial flight statistics.
 
