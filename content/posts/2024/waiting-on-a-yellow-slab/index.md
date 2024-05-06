@@ -2,6 +2,7 @@
 title = 'Waiting on a Yellow Slab'
 date = 2024-05-06T00:38:42-04:00
 draft = false
+hasUpdate = true
 subtitle = "No, it's not cheese"
 tags = ['Playdate', 'Rant', 'Post Update']
 +++
