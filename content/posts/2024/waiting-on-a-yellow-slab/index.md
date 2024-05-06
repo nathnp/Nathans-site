@@ -3,7 +3,7 @@ title = 'Waiting on a Yellow Slab'
 date = 2024-05-06T00:38:42-04:00
 draft = false
 subtitle = "No, it's not cheese"
-tags = ['Playdate']
+tags = ['Playdate', 'Rant']
 +++
 
 Last week, I ordered a Playdate. The weird yellow console with a crank. I've been keeping my eye on the system. Waiting for some good games to hit its store. But I'll go over that in a later post. Right now, I just need it to show up.
