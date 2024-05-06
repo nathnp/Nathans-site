@@ -4,14 +4,30 @@ date = 2023-11-07T13:04:31-05:00
 draft = false
 +++
 
-If you would like to contact me, send me an email. Click the contact button to automatically open your email client.
+If you would like to contact me, Check the methods listed below. They are listed in order of preference.
 
+<div id="email"/>
+<h2>Email</h2>
+<hr>
+
+Email is by far, the best way to get in touch with me. Just send one to this address `contact.68a4f@nthp.me`. Or you can click the button below.
+
+<center>
 <a class="button" href="mailto:contact.68a4f@nthp.me"> Contact via email </a>
+</center>
 
-Or paste this address into your webmail client. `contact.68a4f@nthp.me`[^1]
+<div id="masto"/>
+<h2>Mastodon DM</h2>
+<hr>
 
-You can also send me a DM on Mastodon [@nthp@fosstodon.org](https://fosstodon.org/@nthp)
+If you are on Mastodon, you can simply send me a DM. Just send one to `@nthp@fosstodon.org`. If your server admin blocks the server I'm on, use one of the other methods.
 
-Or message me on Signal `nthp.42`
+<div id="sig"/>
+<h2>Signal</h2>
+<hr>
 
-[^1]: This address will change every now and then to avoid spam.
+If you're message is sensitive, or you just really like signal. You can send a message to this username `nthp.42`. Or just click the button below.
+
+<center>
+<a class="button" href="https://link.nthp.me/sig">Message on Signal</a>
+</center>
