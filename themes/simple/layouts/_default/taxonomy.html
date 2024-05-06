@@ -2,7 +2,7 @@
   <h1>{{- .Title -}}</h1>
   {{- .Content -}}
   <div class="flexbox">
-    {{- range .Pages -}}
+    {{- range (sort .Pages ".Pages.Len" "desc") -}}
       <kbd><a href="{{- .RelPermalink -}}">{{- .LinkTitle }}</a> x{{ .Pages.Len }}</kbd>
     {{- end -}}
   </div>
