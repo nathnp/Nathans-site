@@ -4,7 +4,8 @@
   {{- $counter := 0 -}}
   {{- range .Pages -}}
     <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
-    {{- if .Page.Params.subtitle -}}<sub><sub>{{- .Page.Params.subtitle -}}</sub></sub>{{- end -}}</h2><hr>
+    <sub><sub>{{- if .Page.Params.subtitle -}}{{- .Page.Params.subtitle -}}{{- end -}}</sub></sub></h2><hr>
+    {{- if .Page.Params.hasUpdate }}⚠️: <a href="{{ .RelPermalink }}#updates">Post has update, click to view</a><br>{{- end -}} 
     {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
     {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
     🗓️: <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
@@ -14,6 +15,6 @@
       | <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
       {{ end }}|
       {{ else }}No Tags 😢
-      {{ end }}  
+      {{ end }}
   {{- end -}}
 {{- end -}}
