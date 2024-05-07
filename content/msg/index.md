@@ -20,7 +20,7 @@ After 10 years of play, the total number of seasonal POS are added together, and
 
 A contestant is only eligible to participate in the Master Ski Game if:
 
-<ol type="i">
+<ol type="a">
 	<li>
 		The potential participant is a skier. As it is the Master Ski Game, skiboarders, sledders, and
 		snowboarder filth are not eligible for participation. Furthermore, skiblades are eligible, but
@@ -30,7 +30,7 @@ A contestant is only eligible to participate in the Master Ski Game if:
 	<li>
 		The potential participant has been skiing before. As it is the Master Ski Game, complete 
 		beginners are not eligible. It is to be noted that, while a contestant is eligible after his first 
-		skiing trip, it is suggested that a potential participant complete his first skiing season before 
+		skiing trip, it is suggested that a potential participant complete one skiing season before 
 		participating.
 	</li>
 	<br>
@@ -47,31 +47,38 @@ Falling is defined as a point where a contestant comes to a complete or almost c
 <h2>4. Points of Shame</h2>
 <hr>
 
-<ol type="i">
+<h3>1. Primary Points</h3>
+<ol type="a">
 	<li>
-		The contestant will receive two PsOS per fall* on a Green Circle slope.
+		The contestant will receive two Points of Shame per fall on a Green Circle slope.
 	</li>
 	<br>
 	<li>
-		The contestant will receive one Point of Shame per fall* on either a Blue Square or a Black Diamond slope.
+		The contestant will receive one Point of Shame per fall on either a Blue Square or a Black Diamond slope.
 	</li>
 	<br>
 	<li>
-		The contestant will receive two PsOS per fall* on a Double Black Diamond slope.
+		The contestant will receive two Points of Shame per fall on a Double Black Diamond slope.
 	</li>
 	<br>
 	<li>
-		The contestant will receive five PsOS if he falls while entering or exiting the chairlift.
+		Falling in a terrain park (of any difficulty level) rewards no Points of Shame.
+	</li>
+</ol>
+<h3>2. Extra Points</h3>
+<ol type="a">
+	<li>
+		The contestant will receive five Points of Shame if he falls while entering or exiting the chairlift.
 	</li>
 	<br>
 	<li>
-		Falling in a terrain park (of any difficulty level) rewards no PsOS.
+		Gloating of skiing ability before a run, doubles the points awarded. This modifier expires at the end of the gloated run.
 	</li>
 </ol>
 
 <h2>5. Disqualification</h2>
 <hr>
 
-If at any point in time a contestant leaves the resort before the rest of their party, or before their ticket has expired. Exceptions include but are limited to, family emergencies, and party approved exceptions
+If at any point in time a contestant leaves the resort before the rest of their party. Exceptions include but are limited to, family emergencies, and life threatening emergencies.
 
 [^1]: If a single contestant earns all 10 seasonal POS titles, he becomes the POS for Life (Dumb Fuck).
