@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>RSS Tag on Nathan&#39;s Site</title>
+	<link>https://nthp.me/tags/rss/</link>
+	<description>Recent content in RSS on Nathan&#39;s Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 14 May 2024 22:55:00 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/rss/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>RSS Syncing Is a Mess - You have 600 unread items</title>
+	  <link>https://nthp.me/posts/2024/rss-syncing-is-a-mess/</link>
+	  <pubDate>Tue, 14 May 2024 22:55:00 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/rss-syncing-is-a-mess/</guid>
+	  <description>
+		
+		&lt;p&gt;Recently, I opened my RSS client on my laptop. I do this all the time. However, this time it through an error. Saying I needed to re add my iCloud “account”. So I did… and it proceeded to mark everything as unread…&lt;/p&gt;
+&lt;h2&gt;What Did You Do‽&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;For the past year, I have been using iCloud to sync my RSS clients. I was pretty happy with this, as it didn&amp;rsquo;t cost me anything extra, and worked pretty well.&lt;/p&gt;
+&lt;p&gt;That was unlit NetNewsWire and iCloud didn&amp;rsquo;t agree, and all my feeds got marked as unread.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig1.webp&#34;/&gt;
+	&lt;figcaption&gt;645 unread items&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;Stop Being Cheep&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I already pay for iCloud storage, that&amp;rsquo;s what I liked about using it to sync my clients. However, it did have a drawback. I was locked into one client&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. I also went with it, because I didn&amp;rsquo;t want a subpar experience.&lt;/p&gt;
+&lt;p&gt;Most sync services have their own client, with extra features. if you wanted to use a good client, you weren&amp;rsquo;t getting everything that you&amp;rsquo;re paying for. I didn&amp;rsquo;t want that, I just want something cheap, and basic.&lt;/p&gt;
+&lt;p&gt;I ended up going with &lt;a href=&#34;https://miniflux.app&#34;&gt;Miniflux&lt;/a&gt;. It pretty much hits all my boxes, $15/year, no shitty client with extra features, and it works with pretty much every client out there.&lt;/p&gt;
+&lt;p&gt;Using a real sync service also lets me mix clients. I can use NetNewsWire on my mac, and Reeder 5 on my iPhone.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t get caught in the idea of using cloud storage to sync clients. It&amp;rsquo;s not worth the looming implosion.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Had to be the same one on both devices.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+		&lt;br&gt;
+&lt;center&gt;
+
+&lt;a href=&#34;mailto:reply.65tu8@nthp.me?subject=RE: RSS%20Syncing%20Is%20a%20Mess&#34;&gt;Reply via email&lt;/a&gt;
+
+&lt;/center&gt;
+	  </description>
+	</item>
+	
+  </channel>
+</rss>
