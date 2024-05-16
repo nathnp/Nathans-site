@@ -10,6 +10,8 @@ For a list of podcasts and blogs I like, go [here](/my-feeds).
 
 <p class="notice"><b>Notice:</b> None of these links are affiliate links, I paid for all of the items listed here.</p>
 
+<p class="notice">Items with a ❤️ are extra favorites of mine.</p>
+
 <div id="hardware" />
 
 ## Hardware [🔗](#hardware)
@@ -49,7 +51,7 @@ DNS: Raspberry Pi 4 w/ 4GB of ram
 
 Home Auto Protocol Translation Server: Raspberry Pi 3
 
-UniFi Console: [Cloudkey Gen 2 Plus](https://store.ui.com/us/en/products/unifi-cloudkey-plus)
+UniFi Console: [UDR](https://store.ui.com/us/en/collections/unifi-dream-router/products/udr) / [Cloudkey Gen 2 Plus](https://store.ui.com/us/en/products/unifi-cloudkey-plus)
 
 VM Server: Old DELL OptiPlex
 <div id="software" />
@@ -74,7 +76,9 @@ Geocaching Programs: [Cachly](https://apps.apple.com/us/app/cachly-geocaching/id
 
 Clipboard History: [Pastebot](https://tapbots.com/pastebot/)
 
-RSS: [NetNewsWire](https://netnewswire.com)
+RSS Clients: [NetNewsWire](https://netnewswire.com) on my mac, and [Reeder 5](https://reeder.app) on my iPhone
+
+RSS Sync Service: [Miniflux](https://miniflux.app)
 
 Podcast Client: [Overcast](https://overcast.fm)
 
@@ -90,7 +94,7 @@ FTP Client: [Tansmit 5](https://panic.com/transmit/)
 
 Text Editor: [Nova](https://nova.app)
 
-Flight Tracker: [Flighty](https://flightyapp.com)
+Flight Tracker: [Flighty](https://flightyapp.com) ❤️
 
 ## Web Tools [🔗](#webtools)
 
