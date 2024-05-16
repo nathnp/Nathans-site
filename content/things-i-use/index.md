@@ -24,6 +24,8 @@ Watch: [Apple Watch Ultra](https://support.apple.com/kb/SP879?locale=en_US)
 
 Laptop: [Late 2020 M1 MacBook Pro](https://support.apple.com/kb/SP824?locale=en_US) w/ 16GB Ram and 512GB Storage in Space Gray
 
+E-reader: [2019 Kindle Oasis](https://www.amazon.com/Kindle-Oasis-now-with-adjustable-warm-light/dp/B07GRSK3HC?pd_rd_w=KZl3v&content-id=amzn1.sym.928be83d-9abb-4025-bc6e-e0aed5aed3c9&pf_rd_p=928be83d-9abb-4025-bc6e-e0aed5aed3c9&pf_rd_r=6MDH10KD5AQAYP33BKMG&pd_rd_wg=XT6EB&pd_rd_r=9c237e62-55ed-4220-a06a-012653e728ea&pd_rd_i=B07GRSK3HC&psc=1&ref_=pd_basp_d_rpt_ba_s_1_t) w/ 32GB Storage & No Ads
+
 Monitor: [LG UltraWide 35WN75C](https://www.lg.com/us/monitors/lg-35wn75c-b-ultrawide-monitor)
 
 Keyboard: [WASD VP3 w/ MX Blues](https://www.wasdkeyboards.com/wasd-vp3-61-key-doubleshot-pbt-black-slate-mechanical-keyboard.html)[^1]
