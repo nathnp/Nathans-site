@@ -43,6 +43,25 @@ Car: 2015 [Honda](https://youtu.be/w9KYDQry2nQ) Accord Coupe EX-L w/ 2.4L I-VTEC
 Geocaching GPS: [GARMIN GPSMAP 64sx](https://www.garmin.com/en-US/p/669284)
 
 Aircraft: DJI [Mavic air 2](https://www.dji.com/mavic-air-2/specs) / DJI [FPV](https://www.dji.com/dji-fpv/specs)
+
+<div id="radio"/>
+	
+### Radio Gear [🔗](#radio)
+
+#### Hardware
+
+SDR: [Hackrf One](https://greatscottgadgets.com/hackrf/one/) w/ Portapack H2
+
+AMP: [20db USB powered amp](https://www.ebay.com/itm/225592416788)
+
+Antenna: [ANT 500](https://www.amazon.com/ANT500-Telescopic-Antenna-HackRF-Stick/dp/B01CQYZJV2/ref=sr_1_1?crid=1I8WB55B4S1NJ&dib=eyJ2IjoiMSJ9.A5HO58weoFX6_U0XqiYu-7tEhLpwypt9OY0n52xjB4TOoV9oiiWXImboGEFnuxvOGm6XjWj7FcUsoQxeh1sRvO1xydjl7UuUgP8c5KVq4h5V8Ik9PpLrVSsF_MVrjEQcDHPb5rrFt-UfnWSTmBA2ly6ZAqDGJnOe2y8oDN2NWNLKlIU2fyi83C-b6a154WbP2_U3tjCYurkM75dWO48CdJIKe2xaHzU01-7swqeNGXQ.WKUeLQdp6XxMGwLq_UjZBTvYkPLAIHNJqZkS3xWn3hE&dib_tag=se&keywords=ant500+antenna&qid=1715906519&sprefix=ant500%2Caps%2C91&sr=8-1)
+
+#### Software
+
+SDR Firmware: [Mayhem](https://github.com/portapack-mayhem/mayhem-firmware)
+
+Computer Software: [SDRangel](https://www.sdrangel.org) and [gqrx](https://www.gqrx.dk)
+
 <div id="servers" />
 
 ### Home Servers [🔗](#servers)
