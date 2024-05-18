@@ -22,14 +22,4 @@ I had to wait a bit for it to heat up enough. While this reactor can in thory ma
 
 I'm currently rebuilding/moving my fuel production plant, to help prevent this from happing again.
 
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Out%20of%20Power"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>FRE: Out of Power</code>
-
-</center>
-
 [^1]: The bots will finish their task and return to a robo-port in the event of a power outage.

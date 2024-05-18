@@ -40,13 +40,3 @@ MORE!!
 </figre>
 
 That'll do. Now I can arm the War Spider with 80 plus nuclear missiles, and take "care" of the environmentalists.
-
-<center>
-
-<a class="button" href="mailto:reply.65tu8@nthp.me?subject=RE%3A%20Kovarex"> Reply to this post via email 📪</a>
-
-For Webmail Users <br>
-Address: <code>reply.65tu8@nthp.me</code><br>
-Subject: <code>FRE: Kovarex</code>
-
-</center>
