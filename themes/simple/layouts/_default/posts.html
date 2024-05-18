@@ -1,5 +1,7 @@
 {{- define "main" -}}
   <h1>{{- .Title -}} 📝</h1>
+  <a href="/tags">Tags</a> | <a href="/stats">Stats</a>
+  <hr>
   {{- .Content -}}
   {{- $counter := 0 -}}
   {{- range .Pages -}}

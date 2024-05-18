@@ -5,31 +5,17 @@
     {{- .Summary -}} 
   {{- end -}} -->
   <center>
+  <code>Latest Blog Posts</code>
+  <br>
   {{- $counter := 0 -}}
-  <code>Latest Blog Post</code>: 
   {{ range where .Site.RegularPages "Section" "posts" -}}
   {{- $counter = add $counter 1 -}}
   <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
-  <a href='/posts'>View all Blog posts</a>
-  </center>
-  
-  {{- if eq $counter 1 -}}
+  {{- if eq $counter 3 -}}
   {{- break -}}
   {{- end -}}
   {{- end -}}
   <br>
-  <center>
-    {{- $counter := 0 -}}
-    <code>Latest Factorio Post</code>: 
-    {{ range where .Site.RegularPages "Section" "factorio-blog" -}}
-    {{- $counter = add $counter 1 -}}
-    <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
-    <a href='/factorio-blog'>View all Factorio posts</a>
+  <a href='/posts'>View all posts</a>
   </center>
-  
-  {{- if eq $counter 1 -}}
-  {{- break -}}
-  {{- end -}}
-  {{- end -}}
-  
 {{- end -}}

@@ -13,16 +13,6 @@ pageRef = '/posts'
 weight = 20
 
 [[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 22
-
-[[menus.main]]
-name = 'Stats'
-pageRef = '/stats'
-weight = 23
-
-[[menus.main]]
 name = 'Extras'
 pageRef = '/extras'
 weight = 40
