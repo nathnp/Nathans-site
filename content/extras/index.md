@@ -20,6 +20,6 @@ A list of podcasts I listen to, with links to the major players. As well as a li
 
 Where I sometimes post about my Factorio world.
 
-## [My Watch Collection](/posts/my-regular-watches/)
+## [My Watch Collection](/posts/2024/my-regular-watches/)
 
 For those who like regular watches, here is my collection.
