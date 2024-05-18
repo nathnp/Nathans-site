@@ -15,4 +15,5 @@
     </p>
   {{- end -}}
   {{ .Content }}
+  {{ partial "reply.html" (dict "page" .) }}
 {{ end }}
