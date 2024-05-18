@@ -1,5 +1,6 @@
 {{- define "main" -}}
   <h1>{{- .Title -}} 📝</h1>
+  <p>RSS link for <code>{{- .Title -}}</code> --> <a href="{{- .Permalink -}}feed.xml">RSS</a></p>
   {{- .Content -}}
   {{- $counter := 0 -}}
   {{- range .Pages -}}
