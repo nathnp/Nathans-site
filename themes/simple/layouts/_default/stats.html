@@ -30,27 +30,6 @@
   {{- $wordCount := $scratch.Get "wordcount" -}}
   {{- $avgPostLength := div $wordCount $postCount -}}
   
-  <!--Calcs reading stats using vars from the longest post and total words blocks-->
-  {{- $RTime := 212 -}}
-  {{- $totread := div $totwords $RTime -}}
-  {{- $avgread := div $avgPostLength $RTime -}}
-  {{- $longtime := div ($scratch.Get "longCount") $RTime -}}
-  
-  <!--Counts total amount of tags-->
-  {{- $tagcount := 0 -}}
-  {{- range (site.GetPage "tags").Pages -}}
-  {{- $tagcount = add $tagcount 1 -}}
-  {{- end -}}
-  
-  <!--Counts posts without tags-->
-  {{- $notag := 0 -}}
-  {{- range (site.GetPage "posts").Pages -}}
-  {{- if .Params.tags -}}
-  {{- else -}}
-  {{- $notag = add $notag 1 -}}
-  {{- end -}}
-  {{- end -}}
-  
   <!--Counts posts per year-->
   {{- $23 := 0 -}}
   {{- $24 := 0 -}}
@@ -160,26 +139,6 @@
 	<h3>Average Post Length: <code>{{- $avgPostLength -}}</code> Words
 	<h3>Logest Post:<br>{{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}<br>W/ <code>{{- $scratch.Get "longCount" -}}</code> Words
   </article>
-  
-  <article>
-    <center>
-      <h1>Reading Time Stats</h1>
-      <hr>
-      <h3>Total Reading Time: <code>{{- $totread -}}</code></h3>
-      <h3>Average Reading Time: <code>{{- $avgread -}}</code></h3>
-      <h3>Lognest Post Time: <code>{{- $longtime -}}</code><br>
-      {{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}</h3>
-      <h6>Time is in minutes, and assumes a reading speed of {{ $RTime }} WPM</h6>
-    </center>
-  </article>
-  
-  <article>
-	  <center>
-	  <h1>Tag Stats</h1>  
-	  <hr>
-	  <h3>Total Tags: <code>{{- $tagcount -}}</code></h3>
-	  <h3>Posts Without Tags: <code>{{- $notag -}}</code></h3>
-	</article>
   
   <article>
     <center>
