@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nthp.me/posts/2024/checking-out-a-new-museum/</loc>
+    <lastmod>2024-05-18T00:12:30-04:00</lastmod>
+  </url><url>
+    <loc>https://nthp.me/tags/museums/</loc>
+    <lastmod>2024-05-18T00:12:30-04:00</lastmod>
+  </url><url>
     <loc>https://nthp.me/tags/hackrf/</loc>
     <lastmod>2024-05-16T14:28:50-04:00</lastmod>
   </url><url>
@@ -310,9 +316,6 @@
   </url><url>
     <loc>https://nthp.me/posts/2023/turning-off-analytics/</loc>
     <lastmod>2023-10-26T22:51:17-05:00</lastmod>
-  </url><url>
-    <loc>https://nthp.me/tags/museums/</loc>
-    <lastmod>2023-10-25T10:18:56-05:00</lastmod>
   </url><url>
     <loc>https://nthp.me/tags/old-computers/</loc>
     <lastmod>2023-10-25T10:18:56-05:00</lastmod>
