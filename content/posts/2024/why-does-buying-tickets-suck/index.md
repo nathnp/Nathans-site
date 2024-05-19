@@ -1,7 +1,7 @@
 +++
 title = 'Why Does Buying Tickets Suck'
 date = 2024-05-19T00:21:02-04:00
-draft = true
+draft = false
 subtitle = "I just want to go to a game"
 tags = ['Rant', 'Football']
 +++
