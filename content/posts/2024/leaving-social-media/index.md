@@ -1,7 +1,9 @@
 +++
 title = 'Leaving Social Media'
-date = 2024-05-21T13:44:56-04:00
+date = 2024-05-21T15:29:56-04:00
 draft = false
+subtitle = "Maybe"
+tags = ['Thoughts', 'Mastodon']
 +++
 
 I’ve been thinking for a while now, about leaving social media. The last network I’m on is Mastodon, and I’m getting kinda tired of it. 
