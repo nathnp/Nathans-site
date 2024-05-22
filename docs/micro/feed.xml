@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Microposts on Nathan's Site</title>
+	<link>https://nthp.me/micro/</link>
+	<description>Recent content in Microposts on Nathan&#39;s Site</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate><atom:link href="https://nthp.me/micro/feed.xml" rel="self" type="application/rss" />
+  </channel>
+</rss>
