@@ -1,9 +1,5 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
-draft = true
+draft = false
 +++
-
-!!ADD PUB DATE!! <br>
-!!SET FRONTMATTER PUB DATE!! <br>
-!!SET DRAFT FLAG!!
