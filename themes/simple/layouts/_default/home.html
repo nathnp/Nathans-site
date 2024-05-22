@@ -8,14 +8,15 @@
   <code>Latest Blog Posts</code>
   <br>
   {{- $counter := 0 -}}
-  {{ range where .Site.RegularPages "Section" "posts" -}}
+  {{- $posts := (where .Site.RegularPages "Section" "in" (slice "posts" "factorio-blog")) -}}
+  {{ range $posts.ByDate.Reverse -}}
   {{- $counter = add $counter 1 -}}
+  {{ if eq .Section "factorio-blog" }}⚙️{{ else }}📝{{ end }}
   <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
   {{- if eq $counter 3 -}}
   {{- break -}}
   {{- end -}}
   {{- end -}}
   <br>
-  <a href='/posts'>View all posts</a>
   </center>
 {{- end -}}
