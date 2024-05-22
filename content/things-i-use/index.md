@@ -87,8 +87,6 @@ Cloud Storage: [iCloud](https://icloud.com) + [Synology DSM](https://www.synolog
 
 This Site: [Hugo](https://gohugo.io) + [Simple.css](https://simplecss.org) hosted on [Github Pages](https://pages.github.com)
 
-Mastodon Client: [Ivory](https://tapbots.com/ivory/)
-
 DNS: [Pi-Hole](https://pi-hole.net)
 
 VM Server: [ProxMox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview)
