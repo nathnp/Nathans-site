@@ -18,5 +18,21 @@
   {{- end -}}
   {{- end -}}
   <br>
+  
+  <code>Current Goal</code>
+  <br>
+  100 posts in 2024
+  <br>
+  {{- $24 := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $dateYear := .Date | time.Format "2006" | int -}}
+  {{- if eq $dateYear 2024 -}}
+  {{- $24 = add $24 1 -}}
+  {{- end -}}
+  {{- end -}}
+  <meter value="{{ $24 }}" min="0" max="100">{{ $24 }} out of 100</meter>
+  <br>
+  {{ $24 }}/100
+  
   </center>
 {{- end -}}
