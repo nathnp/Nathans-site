@@ -8,6 +8,154 @@
 	<language>en-us</language>
 	<lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate><atom:link href="https://nthp.me/posts/feed.xml" rel="self" type="application/rss" />
 	<item>
+	  <title>The Playdate Console - It is yellow</title>
+	  <link>https://nthp.me/posts/2024/the-playdate/</link>
+	  <pubDate>Wed, 22 May 2024 23:02:04 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/the-playdate/</guid>
+	  <description>
+		
+		&lt;p&gt;What do you get, when you combine the color yellow, a black and white screen, and a crank? Well, you get something odd. You might also get a Playdate, I did.&lt;/p&gt;
+&lt;h2&gt;Wait What?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Yep, I bought one of these things. A little game system, with a built in crank. Why, because I wanted one. Simple. Well, also because games I wanted to play, finally came the the system.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t want this to be a &amp;ldquo;tech&amp;rdquo; blog. But, here&amp;rsquo;s a specs table, at least the ones that matter. You can find the full one &lt;a href=&#34;https://help.play.date/hardware/the-specs/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+	&lt;th&gt;Screen&lt;/th&gt;
+	&lt;th&gt;Black and White&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+	&lt;td&gt;Resolution &lt;/td&gt;
+	&lt;td&gt;400x240&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+	&lt;td&gt;Backlight&lt;/td&gt;
+	&lt;td&gt;Nope&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+	&lt;td&gt;Battery Life&lt;/td&gt;
+	&lt;td&gt;8-16 hours&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+	&lt;td&gt;Crank&lt;/td&gt;
+	&lt;td&gt;Oh yeah&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Wait, No Backlight‽&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Nope. But the screen is a fancy Sharp memory LCD. Thus it&amp;rsquo;s super reflective&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. You really only need a touch of light, to see the screen. That said, out in the sun, the thing looks amazing.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig1.webp&#34;/&gt;
+	&lt;figcaption&gt;Yacht on the Playdate, out in the sun&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The build quality is as good as the screen. The crank is metal, and uses magnets to know where it is, and when its docked. That means no drift, and its super sensitive when in use. Test rest of the unit is made out of plastic.  Very sturdy plastic. But a good build means nothing without&lt;/p&gt;
+&lt;h2&gt;The Games&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;When I first looked into getting one of these. You only got the 24 games that come with it, and anything you side loaded. That kinda put me off, yeah you get included games, but I&amp;rsquo;d have to hunt other down on the web. That was until the Catalog came out.&lt;/p&gt;
+&lt;p&gt;The Catalog, is an on device game store. This is what I was waiting for, and some good games in it. I&amp;rsquo;ll drop a list of some of my favorite games bellow.&lt;/p&gt;
+&lt;p&gt;You might have noticed, I said side loading. And yes, you can side load games. You can either do it over USB, or via the web. Doing it over the web is fantastic. You just upload a .pdx file&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; to a page on your account. And the game will show up on the playdate. You can even upload an updated pdx, and it will show up on the Playdate, as an update for that game. It&amp;rsquo;ll even give you a notifcation on the lock screen, when it&amp;rsquo;s ready&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig2.webp&#34; /&gt;
+	&lt;figcaption&gt;A new game was installed while in sleep mode&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2&gt;Thoughts&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Over all, this thing is fun. Just that, fun. I&amp;rsquo;m glad I picked it up. And I&amp;rsquo;m super glad to see that I can back up my save files, over USB. Thank you Panic.&lt;/p&gt;
+&lt;p&gt;As for that game list, here it is. In no particular order. Along with some screenshots&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; in a drop down.&lt;/p&gt;
+&lt;h3&gt;Catalog Games&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.date/games/touch-egg/&#34;&gt;Touch Egg&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.date/games/rocket-bytes/&#34;&gt;Rocket Bytes&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.date/games/icy-dungeon/&#34;&gt;Icy Dungeon&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.date/games/root-bear/&#34;&gt;Root Bear&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.date/games/greed/&#34;&gt;Greed&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://play.date/games/skwish/&#34;&gt;Skwish&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Sideloaded&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://osuika.itch.io/super-corporate-tax-evader-playdate&#34;&gt;Super Corporate Tax Evader&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nkorth.itch.io/yacht&#34;&gt;Yacht&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://benzgrant.itch.io/gatecrasher&#34;&gt;Gatecrasher&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://simply-in-dev.itch.io/stream&#34;&gt;Stream&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details&gt;&lt;summary&gt;Screenshots&lt;/summary&gt;
+	&lt;center&gt;
+	&lt;figure&gt;
+		&lt;img src=&#34;fig4.webp&#34; /&gt;
+		&lt;figcaption&gt;Touch Egg&lt;/figcaption&gt;
+	&lt;/figure&gt;
+	&lt;figure&gt;
+		&lt;img src=&#34;fig5.webp&#34; /&gt;
+		&lt;figcaption&gt;Super Corporate Tax Evader&lt;/figcaption&gt;
+	&lt;/figure&gt;
+	&lt;figure&gt;
+		&lt;img src=&#34;fig6.webp&#34; /&gt;
+		&lt;figcaption&gt;Root Bear&lt;/figcaption&gt;
+	&lt;/figure&gt;
+	&lt;figure&gt;
+		&lt;img src=&#34;fig7.webp&#34; /&gt;
+		&lt;figcaption&gt;Icy Dungeon&lt;/figcaption&gt;
+	&lt;/figure&gt;
+	&lt;/center&gt;
+&lt;/details&gt;
+&lt;p class=&#34;notice&#34;&gt;
+	&lt;b&gt;NOTE&lt;/b&gt;: None of these link are affiliate links
+&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;If you have an old Pebble (the OG, OG Steal, or Pebble 2), it&amp;rsquo;s the same screen tech.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Or a .pdx in a zip file.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;You can also manually download the game, though the system setting.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Yep, it can do that.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+		&lt;br&gt;
+&lt;center&gt;
+
+&lt;a href=&#34;mailto:reply.65tu8@nthp.me?subject=RE: The%20Playdate%20Console&#34;&gt;Reply via email&lt;/a&gt;
+
+&lt;/center&gt;
+	  </description>
+	</item>
+	
+	<item>
 	  <title>Leaving Social Media - Maybe</title>
 	  <link>https://nthp.me/posts/2024/leaving-social-media/</link>
 	  <pubDate>Tue, 21 May 2024 15:29:56 -0400</pubDate>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nthp.me/tags/playdate/</loc>
+    <lastmod>2024-05-22T23:02:04-04:00</lastmod>
+  </url><url>
+    <loc>https://nthp.me/posts/2024/the-playdate/</loc>
+    <lastmod>2024-05-22T23:02:04-04:00</lastmod>
+  </url><url>
     <loc>https://nthp.me/factorio-blog/2024/more-storage/</loc>
     <lastmod>2024-05-22T19:12:38-04:00</lastmod>
   </url><url>
@@ -55,9 +61,6 @@
   </url><url>
     <loc>https://nthp.me/posts/2024/rss-syncing-is-a-mess/</loc>
     <lastmod>2024-05-14T22:55:00-04:00</lastmod>
-  </url><url>
-    <loc>https://nthp.me/tags/playdate/</loc>
-    <lastmod>2024-05-06T00:38:42-04:00</lastmod>
   </url><url>
     <loc>https://nthp.me/tags/post-update/</loc>
     <lastmod>2024-05-06T00:38:42-04:00</lastmod>
