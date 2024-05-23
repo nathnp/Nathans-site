@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<a href="https://fosstodon.org/@nthp"></a>
+<title>NVMpie | Nathan&#39;s Site</title>
+<link rel="icon" type="image/png" href="/favicon.ico"/>
+<meta property="og:image" content="https://nthp.me/favicon.ico"/>
+<meta name="twitter:image" content="https://nthp.me/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="/assets/css/simple.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nathan&#39;s Site</a></h1>
+<a rel="me" href="https://fosstodon.org/@nthp"></a>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/extras/">Extras</a>
+    </li>
+    <li>
+      <a href="/about/">About Me</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    <li>
+      <a href="/rss/">RSS</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>NVMpie</h1><time datetime="2024-05-23T14:05:00-04:00">May 23, 2024</time>
+  
+  <div>
+        <a href="/tags/raspberry-pi/">Raspberry-Pi</a>,
+  </div>
+  <hr><p>Last week-ish, Raspberry Pi released their NVMe HAT for the Pi 5. The moment I heard that it &ldquo;fits in the case&rdquo;, I bought one.</p>
+<h2>Installing It</h2>
+<hr>
+<p>Have you ever pressed your hand onto a bed of nails&hellip; I have now.</p>
+<p>My main goal was to have this whole thing in the Pi case. I found out quickly that you can&rsquo;t use the stand off screws that you get, if you want to do that. I ended up just using the GPIO extender to support it. That was not fun to put on.</p>
+<figure>
+	<img src="fig1.webp"/>
+	<figcaption>SSD installed in the HAT</figcaption>
+</figure>
+<p>Once I got the board installed, I chucked it in the case. And, it mostly fits. You can&rsquo;t put the case top on with the NVMe board installed, so it mostly fits in the case.</p>
+<figure>
+	<img src="fig2.webp"/>
+	<figcaption>The HAT fits, just without the case top</figcaption>
+</figure>
+<h2>Make It Go <a href="https://www.youtube.com/watch?v=MdBd6yNalHs&pp=ygUJYTEwIGJycnJ0">BRRRR</a></h2>
+<hr>
+<p>Getting my PiOS install moved over was pretty easy. My first thought was to just use dd on the Pi to copy my SD card over&hellip; dd didn&rsquo;t like the SSD.</p>
+<p>I ended up breaking out my Linux laptop. After waiting 30 mins for Gnome Disks to  make an image. I got my install on to the SSD. Writing that 64GB image file took a whopping, 3 minutes&hellip; <a href="https://www.youtube.com/watch?v=MdBd6yNalHs&amp;pp=ygUJYTEwIGJycnJ0">BRRRR</a>.</p>
+<p>Firing the Pi up, yeah this thing is speedy. I haven&rsquo;t done any benchmarks on it<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, but reinstalling Hugo is a bit faster. The SSD also won&rsquo;t wear out like an SD card. I&rsquo;ve had PiOS die in the past from an SD dying<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>If you have a spare NVMe SSD laying around<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, this is a great Pi 5 upgrade. As the HAT is only $12.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>That image copy is pretty telling of the speed.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Pi-hole log files killed it.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>It needs to be a 2230 or 2242 drive. Unless you want to get janky.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  <br>
+<center>
+
+<a href="mailto:reply.65tu8@nthp.me?subject=RE: NVMpie">Reply via email</a>
+
+</center>
+
+  </main>
+  <footer>
+    
+<p>
+   See a typo? Open an issue on <a href="https://github.com/nathnp/Nathans-site/issues">GitHub</a>. It's easy.
+</p>
+<p>
+   This site is made using <a href="https://gohugo.io">Hugo</a> <a href="https://simplecss.org">Simple.css</a> and <a href="https://pages.github.com">Github Pages</a>
+</p>
+<p>
+   Suport me on <a href="https://github.com/sponsors/nathnp">GitHub</a>
+</p>
+<p>
+   last <a href="https://github.com/nathnp/Nathans-site/commits/main/">updated</a> May 23, 2024
+</p>
+<p>
+   Copyright 2024. All rights reserved.
+</p>
+<img src="/assets/pics/home/foot.webP"/>
+<link rel="stylesheet" href="/assets/css/littlefoot.css" />
+<script src="/assets/js/littlefoot.js" type="application/javascript" ></script>
+<script type="application/javascript"> littlefoot.default() </script>
+
+  </footer>
+</body>
+</html>
