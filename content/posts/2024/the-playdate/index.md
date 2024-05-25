@@ -57,7 +57,7 @@ The build quality is as good as the screen. The crank is metal, and uses magnets
 <h2>The Games</h2>
 <hr>
 
-When I first looked into getting one of these. You only got the 24 games that come with it, and anything you side loaded. That kinda put me off, yeah you get included games, but I'd have to hunt other down on the web. That was until the Catalog came out.
+When I first looked into getting one of these. You only got the 24 games that come with it, and anything you side loaded. That kinda put me off, yeah you get included games, but I'd have to hunt others down on the web. That was until the Catalog came out.
 
 The Catalog, is an on device game store. This is what I was waiting for, and some good games in it. I'll drop a list of some of my favorite games bellow.
 
