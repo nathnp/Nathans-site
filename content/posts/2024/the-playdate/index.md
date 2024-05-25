@@ -11,7 +11,7 @@ What do you get, when you combine the color yellow, a black and white screen, an
 <h2>Wait What?</h2>
 <hr>
 
-Yep, I bought one of these things. A little game system, with a built in crank. Why, because I wanted one. Simple. Well, also because games I wanted to play, finally came the the system.
+Yep, I bought one of these things. A little game system, with a built in crank. Why, because I wanted one. Simple. Well, also because games I wanted to play, finally came to the system.
 
 I don't want this to be a "tech" blog. But, here's a specs table, at least the ones that matter. You can find the full one [here](https://help.play.date/hardware/the-specs/).
 
