@@ -6,7 +6,61 @@
 	<description>Recent content in Thoughts on Nathan&#39;s Site</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Tue, 21 May 2024 15:29:56 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/thoughts/feed.xml" rel="self" type="application/rss" />
+	<lastBuildDate>Sat, 25 May 2024 13:18:14 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/thoughts/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>The Network That Isn&#39;t - Everyone can join, execpt everyone</title>
+	  <link>https://nthp.me/posts/2024/the-network-that-isnt/</link>
+	  <pubDate>Sat, 25 May 2024 13:18:14 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/the-network-that-isnt/</guid>
+	  <description>
+		
+		&lt;p&gt;The big idea that is the Fediverse. A large, interconnected network of social networks. On the face of it, it&amp;rsquo;s a pretty good idea. The only issue is, people.&lt;/p&gt;
+&lt;h2&gt;Too Many Users&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;The Fediverse likes to bitch and complain. And right now, it&amp;rsquo;s because Threads.net is adding support for the Fediverse. This is sending a lot of (very loud) admins up the wall, why? Because Threads is owned by Meta (Facebook). Their response, is to block Threads.&lt;/p&gt;
+&lt;p&gt;This is the thing that I don’t get. People want the Fediverse to grow. They want it to expand, and become more mainstream. And when that opportunity started approaching, so did the screaming.&lt;/p&gt;
+&lt;p&gt;One of the things people started screaming about, was privacy. Meta has a pretty bad track record when it comes to that. I get it. But, some of the things people were screaming about, like &amp;ldquo;they&amp;rsquo;ll get my public IP&amp;rdquo;, won&amp;rsquo;t happen. As outlined in the &lt;a href=&#34;https://blog.joinmastodon.org/2023/07/what-to-know-about-threads/&#34;&gt;blog post&lt;/a&gt; from Mastodon HQ.&lt;/p&gt;
+&lt;h2&gt;Crushed, By Its Own Weight&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I&amp;rsquo;m old enough now to have seen a number of social networks die. MySpace, Tumblr, Google+, and many more smaller ones. Hell, Twitter and Facebook have been in the process of dying for years now. People move on, to newer, shiner things.&lt;/p&gt;
+&lt;p&gt;Looking back at those dead/dying networks. It really seams like, when they reach a critical mass of users, cracks start forming. And people start leaving.&lt;/p&gt;
+&lt;h2&gt;Pick Any Server You Want, You Can&#39;t Go Wrong&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;This used to be said a lot, and you still hear it every now and then. When people are looking to join Mastodon, they hear that they can just join &amp;ldquo;whatever server you want, you can always move later&amp;rdquo;. The whole idea that you can&amp;rsquo;t go wrong, just isn&amp;rsquo;t right.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say I joined server A, and I want to follow someone on server B. No problem, I just click the follow button. But let&amp;rsquo;s say I want to follow someone on sever C. That&amp;rsquo;s odd, I can&amp;rsquo;t seem to find them. Why can&amp;rsquo;t I follow someone on server C? Because my server admin, blocked server C.&lt;/p&gt;
+&lt;h2&gt;Block Happy&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I used to run my own Mastodon server. and one of the powers as an admin was to block other servers. This would prevent any user on my server, from interacting, with that other server.&lt;/p&gt;
+&lt;p&gt;Now, there are valid reasons to block, or limit&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; other servers. But there are some very not valid reasons. Bandwagoning is one of them.&lt;/p&gt;
+&lt;h2&gt;Those Cracks&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;It&amp;rsquo;s hard to tell when cracks are forming. And it&amp;rsquo;s hard to tell when a service hits that critical mass of users, or how long it will take to die. Like a lot of things in life, we probably won&amp;rsquo;t know till it&amp;rsquo;s over.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A few days ago, I posted about how I was thinking of leaving social media. I&amp;rsquo;m still thinking about it. It took a little to get used to not checking my timeline regularly, but now that I have. It&amp;rsquo;s peaceful.&lt;/p&gt;
+&lt;p&gt;Yeah I interact with people less often online now, but when I do, it feels more personal. Something about an email conversation just hits different.&lt;/p&gt;
+&lt;p&gt;Will I go back, I don&amp;rsquo;t know. I&amp;rsquo;m going to keep this break going for a while, see how things go. I have added &lt;a href=&#34;https://nthp.me/micro&#34;&gt;microposts&lt;/a&gt;, to my site, so I can keep those short posts going&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. And I added a goal to my homepage. 100 posts in 2024. Will I hit that, we&amp;rsquo;ll see. But, I think I&amp;rsquo;ll get pretty close.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Limiting a server, basically requires your user to manually seek out users on that server. A good middle ground, and one that I preferred over blocking.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;They are kinda fun to look back on.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+		&lt;br&gt;
+&lt;center&gt;
+
+&lt;a href=&#34;mailto:reply.65tu8@nthp.me?subject=RE: The%20Network%20That%20Isn%27t&#34;&gt;Reply via email&lt;/a&gt;
+
+&lt;/center&gt;
+	  </description>
+	</item>
+	
 	<item>
 	  <title>Leaving Social Media - Maybe</title>
 	  <link>https://nthp.me/posts/2024/leaving-social-media/</link>
