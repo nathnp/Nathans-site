@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nthp.me/posts/2024/adding-micro-posts/</loc>
+    <lastmod>2024-05-26T12:25:00-04:00</lastmod>
+  </url><url>
+    <loc>https://nthp.me/tags/web/</loc>
+    <lastmod>2024-05-26T12:25:00-04:00</lastmod>
+  </url><url>
     <loc>https://nthp.me/posts/2024/the-network-that-isnt/</loc>
     <lastmod>2024-05-25T13:18:14-04:00</lastmod>
   </url><url>
     <loc>https://nthp.me/tags/thoughts/</loc>
-    <lastmod>2024-05-25T13:18:14-04:00</lastmod>
-  </url><url>
-    <loc>https://nthp.me/tags/web/</loc>
     <lastmod>2024-05-25T13:18:14-04:00</lastmod>
   </url><url>
     <loc>https://nthp.me/micro/664101/</loc>

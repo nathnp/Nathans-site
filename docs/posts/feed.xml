@@ -8,6 +8,49 @@
 	<language>en-us</language>
 	<lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate><atom:link href="https://nthp.me/posts/feed.xml" rel="self" type="application/rss" />
 	<item>
+	  <title>Adding Micro Posts - So tiny</title>
+	  <link>https://nthp.me/posts/2024/adding-micro-posts/</link>
+	  <pubDate>Sun, 26 May 2024 12:25:00 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/adding-micro-posts/</guid>
+	  <description>
+		
+		&lt;p&gt;With me being on a social media break. I still wanted to have some kind of micro blog going. Mostly because it&amp;rsquo;s pretty fun to look back on. I wanted it to be on here, but I needed an easy way to post from my phone.&lt;/p&gt;
+&lt;h2&gt;Phone Posts&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Posting from my phone is kinda hard. Every post on this site starts out as a mark down file. The website you see here, gets generated on my mac, then set to my host. That&amp;rsquo;s kinda hard to do on a phone.&lt;/p&gt;
+&lt;p&gt;So I don&amp;rsquo;t. Yes The micro post gets written on my phone, but it&amp;rsquo;s sent off to a server, that does the rest. That server, is a Raspberry Pi 5, on my home network.&lt;/p&gt;
+&lt;p&gt;So, how  do I tell the Pi what to do? Simple, a shortcut.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig1.webp&#34; /&gt;
+	&lt;figcaption&gt;The shortcut&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;First thing it does, is VPN back to my home network, then it creates a random post id, asks for the post content, then passes that to a bash script that runs over ssh.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-BASH&#34; data-lang=&#34;BASH&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#ID is a shorcuts var&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#Post is also a shortcuts var&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd /home/pi/websites/NathansSite/Nathans-site
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content micro/ID/index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /home/pi/websites/NathansSite/Nathans-site/content/micro/ID/index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;printf &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Post&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; /home/pi/websites/NathansSite/Nathans-site/content/micro/ID/index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm -rf docs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Added micro post ID&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This works pretty well. The only downside, is that I can&amp;rsquo;t easily add a photo. I&amp;rsquo;m going with the mindset, that if it&amp;rsquo;s worth a photo, it&amp;rsquo;s worth a full post. If you want to check it out, its over at &lt;a href=&#34;https://nthp.me/micro&#34;&gt;/micro&lt;/a&gt;. It even has an RSS feed, and reply buttons.&lt;/p&gt;
+
+		&lt;br&gt;
+&lt;center&gt;
+
+&lt;a href=&#34;mailto:reply.65tu8@nthp.me?subject=RE: Adding%20Micro%20Posts&#34;&gt;Reply via email&lt;/a&gt;
+
+&lt;/center&gt;
+	  </description>
+	</item>
+	
+	<item>
 	  <title>The Network That Isn&#39;t - Everyone can join, execpt everyone</title>
 	  <link>https://nthp.me/posts/2024/the-network-that-isnt/</link>
 	  <pubDate>Sat, 25 May 2024 13:18:14 -0400</pubDate>
