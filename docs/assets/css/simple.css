@@ -396,6 +396,7 @@ table {
 
 figure > table {
   width: max-content;
+  margin: 0;
 }
 
 td,
@@ -564,11 +565,17 @@ figure {
   overflow-x: auto;
 }
 
+figure > img,
+figure > picture > img {
+  display: block;
+  margin-inline: auto;
+}
+
 figcaption {
   text-align: center;
   font-size: 0.9rem;
   color: var(--text-light);
-  margin-bottom: 1rem;
+  margin-block: 1rem;
 }
 
 blockquote {
@@ -706,4 +713,23 @@ sub {
 
 .title {
   color: var(--accent)
+}
+
+.invisTable {
+  td,
+  th {
+    border: 1px solid var(--bg);
+    text-align: start;
+    padding: 0.5rem;
+  }
+  
+  th {
+    background-color: var(--bg);
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    /* Set every other cell slightly darker. Improves readability. */
+    background-color: var(--bg);
+  }
 }
