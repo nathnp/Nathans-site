@@ -6,7 +6,60 @@
 	<description>Recent content in Rant on Nathan&#39;s Site</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sun, 19 May 2024 00:21:02 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/rant/feed.xml" rel="self" type="application/rss" />
+	<lastBuildDate>Mon, 27 May 2024 14:07:00 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/rant/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>12/24h Pick One - 2PM comes after 1900</title>
+	  <link>https://nthp.me/posts/2024/12-24-pick-one/</link>
+	  <pubDate>Mon, 27 May 2024 14:07:00 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/12-24-pick-one/</guid>
+	  <description>
+		
+		&lt;p&gt;I can&amp;rsquo;t talk about my work. There&amp;rsquo;s too much red tape, but I can complain about something stupid in one of our main software tools.&lt;/p&gt;
+&lt;p class=&#34;notice&#34;&gt;&lt;b&gt;Note&lt;/b&gt;: If you work at my work, this post does not contain any internal information (tool names, capabilities, or purposes).&lt;/p&gt;
+&lt;h2&gt;Time&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;We have a number of software tools where I work. One of them we use everyday. One of the fields in that software, let&amp;rsquo;s us input a time. With how much we use that field, you&amp;rsquo;d think it would work well, right?&lt;/p&gt;
+&lt;p&gt;All of our paper work is in 24h time. That field in our main tool, is 12h. But, it accepts 24h input&amp;hellip; kinda.&lt;/p&gt;
+&lt;p&gt;If I type in something like 15 into the hour field, that gets resolved to 3PM. Cool. However, if I input something like 20, I never get to input the zero, right after I hit 2, it moves to the minute field&amp;hellip; and it doesn&amp;rsquo;t update the AM/PM field.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a quick table of the behavior.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Input&lt;/th&gt;
+&lt;th&gt;Result&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;05&lt;/td&gt;
+&lt;td&gt;05:MM:SS AM/PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;01:MM:SS PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;07:MM:SS PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;02:1M:SS AM/PM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;There isn&amp;rsquo;t a setting to change this, and as far as I know, it &amp;ldquo;isn&amp;rsquo;t&amp;rdquo; a bug. Its been like this for years. I just need to find the right person internally to yell at.&lt;/p&gt;
+
+		&lt;br&gt;
+&lt;center&gt;
+
+&lt;a href=&#34;mailto:reply.65tu8@nthp.me?subject=RE: 12%2f24h%20Pick%20One&#34;&gt;Reply via email&lt;/a&gt;
+
+&lt;/center&gt;
+	  </description>
+	</item>
+	
 	<item>
 	  <title>Why Does Buying Tickets Suck - I just want to go to a game</title>
 	  <link>https://nthp.me/posts/2024/why-does-buying-tickets-suck/</link>

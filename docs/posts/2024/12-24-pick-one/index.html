@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<a href="https://fosstodon.org/@nthp"></a>
+<title>12/24h Pick One | Nathan&#39;s Site</title>
+<link rel="icon" type="image/png" href="/favicon.ico"/>
+<meta property="og:image" content="https://nthp.me/favicon.ico"/>
+<meta name="twitter:image" content="https://nthp.me/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" href="https://nthp.me/posts/feed.xml" title="Nathan's Site">
+<link rel="stylesheet" href="/assets/css/simple.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nathan&#39;s Site</a></h1>
+<a rel="me" href="https://fosstodon.org/@nthp"></a>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Blog</a>
+    </li>
+    <li>
+      <a href="/extras/">Extras</a>
+    </li>
+    <li>
+      <a href="/about/">About Me</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact</a>
+    </li>
+    <li>
+      <a href="/rss/">RSS</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>12/24h Pick One</h1><time datetime="2024-05-27T14:07:00-04:00">May 27, 2024</time>
+  
+  <div>
+        <a href="/tags/rant/">Rant</a>,
+  </div>
+  <hr><p>I can&rsquo;t talk about my work. There&rsquo;s too much red tape, but I can complain about something stupid in one of our main software tools.</p>
+<p class="notice"><b>Note</b>: If you work at my work, this post does not contain any internal information (tool names, capabilities, or purposes).</p>
+<h2>Time</h2>
+<hr>
+<p>We have a number of software tools where I work. One of them we use everyday. One of the fields in that software, let&rsquo;s us input a time. With how much we use that field, you&rsquo;d think it would work well, right?</p>
+<p>All of our paper work is in 24h time. That field in our main tool, is 12h. But, it accepts 24h input&hellip; kinda.</p>
+<p>If I type in something like 15 into the hour field, that gets resolved to 3PM. Cool. However, if I input something like 20, I never get to input the zero, right after I hit 2, it moves to the minute field&hellip; and it doesn&rsquo;t update the AM/PM field.</p>
+<p>Here&rsquo;s a quick table of the behavior.</p>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>05</td>
+<td>05:MM:SS AM/PM</td>
+</tr>
+<tr>
+<td>13</td>
+<td>01:MM:SS PM</td>
+</tr>
+<tr>
+<td>19</td>
+<td>07:MM:SS PM</td>
+</tr>
+<tr>
+<td>21</td>
+<td>02:1M:SS AM/PM</td>
+</tr>
+</tbody>
+</table>
+<p>There isn&rsquo;t a setting to change this, and as far as I know, it &ldquo;isn&rsquo;t&rdquo; a bug. Its been like this for years. I just need to find the right person internally to yell at.</p>
+
+  <br>
+<center>
+
+<a href="mailto:reply.65tu8@nthp.me?subject=RE: 12%2f24h%20Pick%20One">Reply via email</a>
+
+</center>
+
+  </main>
+  <footer>
+    <p>
+   This site is made using <a href="https://gohugo.io">Hugo</a> <a href="https://simplecss.org">Simple.css</a> and <a href="https://pages.github.com">Github Pages</a>
+</p>
+<p>
+   Suport me on <a href="https://github.com/sponsors/nathnp">GitHub</a>
+</p>
+<p>
+   Copyright 2024. All rights reserved.
+</p>
+<img src="/assets/pics/home/foot.webP"/>
+<link rel="stylesheet" href="/assets/css/littlefoot.css" />
+<script src="/assets/js/littlefoot.js" type="application/javascript" ></script>
+<script type="application/javascript"> littlefoot.default() </script>
+
+  </footer>
+</body>
+</html>
