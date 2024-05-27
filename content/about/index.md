@@ -12,16 +12,6 @@ Posts here will mostly be about things I’m interested in, or whatever is on my
 
 If for some terrifying reason you like this crap, you can subscribe via [RSS](/posts/feed.xml). If you would like to only subscribe to a certain type of post, each post tag has it's own RSS feed. You can find a list of those [here](/tags).
 
-Or follow me on Mastodon for far more bite sized stuff. <br>
-[@nthp@fosstodon.org](https://fosstodon.org/@nthp)[^1] <br>
-If you don't have a Mastodon account, you can find a server, and sign up [here](https://joinmastodon.org/servers)
-
-<details><summary>What is Mastodon?</summary>
-
-Mastodon is a different kind of social network. Instead of one big website, it's made up of many smaller communities, called 'servers.' You can choose the server that suits you best, follow people from other servers, and talk to them. It's like having your own corner of the internet where you can make friends and share ideas.[^2] You can learn more here [joinmastodon.org](https://joinmastodon.org).
-	
-</details>
-
 <details><summary>What is RSS?</summary>
 
 RSS stands for Really Simple Syndication. An RSS feed is like a digital news feed that collects and organizes updates from various websites in one place. It's like having a personalized newspaper that automatically brings you the latest articles and posts from your favorite sources.

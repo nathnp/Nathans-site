@@ -6,14 +6,6 @@ draft = false
 
 <h1>
 
-[Mastodon](https://fosstodon.org/@nthp)
-
-</h1>
-
-<h5>My Mastodon profile, filled with shorter, more personal content</h5>
-
-<h1>
-
 [Flickr](https://www.flickr.com/photos/197704187@N04/albums)
 
 </h1>

@@ -16,12 +16,6 @@ Email is by far, the best way to get in touch with me. Just send one to this add
 <a class="button" href="mailto:contact.68a4f@nthp.me"> Contact via email </a>
 </center>
 
-<div id="masto"/>
-<h2>Mastodon DM</h2>
-<hr>
-
-If you are on Mastodon, you can simply send me a DM. Just send one to `@nthp@fosstodon.org`. If your server admin blocks the server I'm on, use one of the other methods.
-
 <div id="sig"/>
 <h2>Signal</h2>
 <hr>
