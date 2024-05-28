@@ -83,8 +83,7 @@ body > * {
 
 /* Make the header bg full width, but the content inline with body */
 body > header {
-  background-color: var(--accent-bg);
-  border-bottom: 1px solid var(--border);
+  background-color: var(--bg);
   text-align: center;
   padding: 0 0.5rem 2rem 0.5rem;
   grid-column: 1 / -1;
