@@ -102,8 +102,8 @@ I'm planning on having that be one big blog post. Covering the flight out, the t
 <h2>That's A Lot Of Flying</h2>
 <hr>
 
-Yep, it is. Flying is something I love to do, and I'm pretty excited for all this. Right after the Texas trip, I'll be going to a Ravens game 🏈. Yes, that will be a post as well.
+Yep, it is. Flying is something I love to do, and I'm pretty excited for all this. Right after the Texas trip, I'll be going to a Ravens game 🏈. While I am going to the airport for this, that's just to park. I'm taking the train to the stadium. Yes, that will be a post as well.
 
 [^1]: About a month after I get back.
 
-[^2]: It's easier for my to fly to Dallas to meet up, than to fly to Houston.
+[^2]: It's easier for me to fly to Dallas to meet up, than to fly to Houston.
