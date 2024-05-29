@@ -2,7 +2,7 @@
 title = 'Upcoming Flights'
 date = 2024-05-27T17:37:00-04:00
 draft = false
-subtitle = "You can't take the sky form me"
+subtitle = "You can't take the sky from me"
 tags =['Flying', 'Football']
 +++
 
