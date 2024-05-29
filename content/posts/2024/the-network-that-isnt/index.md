@@ -3,7 +3,7 @@ title = "The Network That Isn't"
 date = 2024-05-25T13:18:14-04:00
 draft = false
 subtitle = "Everyone can join, execpt everyone"
-tags = ['Thoughts', 'Web']
+tags = ['Thoughts', 'Web', 'Mastodon']
 +++
 
 The big idea that is the Fediverse. A large, interconnected network of social networks. On the face of it, it's a pretty good idea. The only issue is, people.
