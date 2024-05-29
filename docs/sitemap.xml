@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nthp.me/posts/2024/it-is-done/</loc>
+    <lastmod>2024-05-28T23:53:00-04:00</lastmod>
+  </url><url>
+    <loc>https://nthp.me/tags/mastodon/</loc>
+    <lastmod>2024-05-28T23:53:00-04:00</lastmod>
+  </url><url>
     <loc>https://nthp.me/micro/81e76380fa/</loc>
     <lastmod>2024-05-27T19:41:18-04:00</lastmod>
   </url><url>
@@ -34,9 +40,6 @@
   </url><url>
     <loc>https://nthp.me/tags/web/</loc>
     <lastmod>2024-05-26T12:25:00-04:00</lastmod>
-  </url><url>
-    <loc>https://nthp.me/tags/mastodon/</loc>
-    <lastmod>2024-05-25T13:18:14-04:00</lastmod>
   </url><url>
     <loc>https://nthp.me/posts/2024/the-network-that-isnt/</loc>
     <lastmod>2024-05-25T13:18:14-04:00</lastmod>
