@@ -93,7 +93,7 @@ Denver to Washington DC
 Flight length 3 hr, 15 min
 </pre>
 
-This is going to be interesting trip. Not too long after gettin back from Denver[^1], I'll be flying back, to catch a plane to Dallas. I'll be meeting up with family, and going to Johnson Space Center in Houston[^2].
+This is going to be an interesting trip. Not too long after gettin back from Denver[^1], I'll be flying back, to catch a plane to Dallas. I'll be meeting up with family, and going to Johnson Space Center in Houston[^2].
 
 My flight home will be back via Denver, and yes, you read those times right. I'll have a five hour layover. That'll be fun™.
 
