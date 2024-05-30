@@ -738,3 +738,8 @@ sub {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
+.invisAside {
+  background-color: var(--bg);
+  border: 1px solid var(--bg);
+}
