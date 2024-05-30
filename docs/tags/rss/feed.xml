@@ -15,11 +15,11 @@
 	  <guid>https://nthp.me/posts/2024/rss-syncing-is-a-mess/</guid>
 	  <description>
 		
-		&lt;p&gt;Recently, I opened my RSS client on my laptop. I do this all the time. However, this time it through an error. Saying I needed to re add my iCloud “account”. So I did… and it proceeded to mark everything as unread…&lt;/p&gt;
+		&lt;p&gt;Recently, I opened my RSS client on my laptop. I do this all the time. However, this time it threw an error. Saying I needed to re-add my iCloud “account”. So I did… and it proceeded to mark everything as unread…&lt;/p&gt;
 &lt;h2&gt;What Did You Do‽&lt;/h2&gt;
 &lt;hr&gt;
 &lt;p&gt;For the past year, I have been using iCloud to sync my RSS clients. I was pretty happy with this, as it didn&amp;rsquo;t cost me anything extra, and worked pretty well.&lt;/p&gt;
-&lt;p&gt;That was unlit NetNewsWire and iCloud didn&amp;rsquo;t agree, and all my feeds got marked as unread.&lt;/p&gt;
+&lt;p&gt;That was until NetNewsWire and iCloud didn&amp;rsquo;t agree, and all my feeds got marked as unread.&lt;/p&gt;
 &lt;figure&gt;
 	&lt;img src=&#34;fig1.webp&#34;/&gt;
 	&lt;figcaption&gt;645 unread items&lt;/figcaption&gt;
