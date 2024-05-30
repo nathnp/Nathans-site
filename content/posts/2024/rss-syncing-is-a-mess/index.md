@@ -6,14 +6,14 @@ subtitle = "You have 600 unread items"
 tags = ['RSS']
 +++
 
-Recently, I opened my RSS client on my laptop. I do this all the time. However, this time it through an error. Saying I needed to re add my iCloud “account”. So I did… and it proceeded to mark everything as unread…
+Recently, I opened my RSS client on my laptop. I do this all the time. However, this time it threw an error. Saying I needed to re-add my iCloud “account”. So I did… and it proceeded to mark everything as unread…
 
 <h2>What Did You Do‽</h2>
 <hr>
 
 For the past year, I have been using iCloud to sync my RSS clients. I was pretty happy with this, as it didn't cost me anything extra, and worked pretty well.
 
-That was unlit NetNewsWire and iCloud didn't agree, and all my feeds got marked as unread.
+That was until NetNewsWire and iCloud didn't agree, and all my feeds got marked as unread.
 
 <figure>
 	<img src="fig1.webp"/>
