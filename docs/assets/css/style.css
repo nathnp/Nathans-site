@@ -575,7 +575,7 @@ figcaption {
   text-align: center;
   font-size: 0.9rem;
   color: var(--text-light);
-  margin-block: 1rem;
+  margin-block: .5rem;
 }
 
 blockquote {
