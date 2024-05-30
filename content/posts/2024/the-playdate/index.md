@@ -52,7 +52,7 @@ Nope. But the screen is a fancy Sharp memory LCD. Thus it's super reflective[^1]
 	<figcaption>Yacht on the Playdate, out in the sun</figcaption>
 </figure>
 
-The build quality is as good as the screen. The crank is metal, and uses magnets to know where it is, and when its docked. That means no drift, and its super sensitive when in use. Test rest of the unit is made out of plastic.  Very sturdy plastic. But a good build means nothing without
+The build quality is as good as the screen. The crank is metal, and uses magnets to know where it is, and when its docked. That means no drift, and its super sensitive when in use. The rest of the unit is made out of plastic.  Very sturdy plastic. But a good build means nothing without
 
 <h2>The Games</h2>
 <hr>
