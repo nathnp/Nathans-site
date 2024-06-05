@@ -95,6 +95,8 @@ Geocaching Programs: [Cachly](https://apps.apple.com/us/app/cachly-geocaching/id
 
 Clipboard History: [Pastebot](https://tapbots.com/pastebot/)
 
+Task Manager: [OmniFocus 4](https://www.omnigroup.com/omnifocus)
+
 RSS Clients: [NetNewsWire](https://netnewswire.com) on my mac, and [Reeder 5](https://reeder.app) on my iPhone
 
 RSS Sync Service: [Miniflux](https://miniflux.app)
