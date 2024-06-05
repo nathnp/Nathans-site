@@ -8,6 +8,66 @@
 	<language>en-us</language>
 	<lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate><atom:link href="https://nthp.me/posts/feed.xml" rel="self" type="application/rss" />
 	<item>
+	  <title>I Need a Task Manager - It&#39;s over due</title>
+	  <link>https://nthp.me/posts/2024/i-need-a-task-manager/</link>
+	  <pubDate>Wed, 05 Jun 2024 16:12:00 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/i-need-a-task-manager/</guid>
+	  <description>
+		
+		&lt;p&gt;I missed an important task. Like, an important one. One, I&amp;rsquo;ve never missed, and one I can&amp;rsquo;t miss again. I need to fix that.&lt;/p&gt;
+&lt;h2&gt;A Task Manager&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I need a task manager. Something to help me keep track of what needs to get done, and what has been done. Looking around at the market, I really had four options.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://support.apple.com/guide/reminders/welcome/mac&#34;&gt;Apple Reminders&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://culturedcode.com/things/&#34;&gt;Things 3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://todoist.com&#34;&gt;Todoist&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.omnigroup.com/omnifocus&#34;&gt;OmniFocus 4&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking at these four, they each had things I liked. Apple reminders is free. Things 3 has a great design, and the ability to sort tasks for due &amp;ldquo;today&amp;rdquo;, and this evening. Todoist has natural language processing to make tasks. And OmniFocus is super configurable. But, each has their downsides.&lt;/p&gt;
+&lt;p&gt;Apple reminders is pretty limited with what you can do this it. As it&amp;rsquo;s more of a reminder program, vs a task manager.&lt;/p&gt;
+&lt;p&gt;Things 3 had a hard deal breaker. If you set a task as repeating, you can&amp;rsquo;t complete the task early. Seeing how I&amp;rsquo;m going to be tracking if I&amp;rsquo;ve made bill payments, that a hard no for me.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&#34;fig1.webp&#34;/&gt;
+	&lt;figcaption&gt;I have to wait till the 10th to mark this task off&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Todoist had a lot to like. It&amp;rsquo;s workflow fits what I was looking for pretty well. With natural language processing, and location reminders. However, it&amp;rsquo;s subscription only. $48/year isn&amp;rsquo;t the worst, not by a long shot. But I really don&amp;rsquo;t like renting software, unless I have to. I also wasn&amp;rsquo;t the biggest on their &lt;a href=&#34;https://doist.com/privacy&#34;&gt;privacy policy&lt;/a&gt;. Its not bad, but I would prefer more.&lt;/p&gt;
+&lt;p&gt;OmniFocus is powerful. And that&amp;rsquo;s also its downside. It can take a while to learn how it works, and how to use it. And until you learn it, it can feel like your fighting with it. Unlike Todoist, there isn&amp;rsquo;t any natural language processing, but all of your data is stored locally. With options with sync through Omni&amp;rsquo;s service, or via your own server&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. There is a subscription option. Or, you can just buy a license for that major version.&lt;/p&gt;
+&lt;h2&gt;The Choice&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;After playing around with the options. I ended up going with OmniFocus 4. Yeah it doesn&amp;rsquo;t have the natural language processing, but it makes up for that. The E2EE, local database, the ability to not have a task show up until a specified date, far better location reminders&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, and the fact that I had the option to not rent it.&lt;/p&gt;
+&lt;p&gt;Yeah it wasn&amp;rsquo;t cheep, but I did find an old OmniFocus 3 pro for iPhone license I had, from a very long time ago. So I was able to get that sweet upgrade discount. Thankfully they moved to a new unified license system. So while that old one was only for the iPhone version, upgrading it got me the everything.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;You can even set your own end to end encryption key.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;In Todoist, location reminders are per task, so if you want five tasks to pop up with you get somewhere, you have to add that location to each task. In OmniFocus, it&amp;rsquo;s per tag. So if I want five tasks to pop up when I get to IAD or BWI, I just have to make a tag with that location tied to it, that add the one tag to those tasks. Way better.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+		&lt;br&gt;
+&lt;center&gt;
+
+&lt;a href=&#34;mailto:reply.65tu8@nthp.me?subject=RE: I%20Need%20a%20Task%20Manager&#34;&gt;Reply via email&lt;/a&gt;
+
+&lt;/center&gt;
+	  </description>
+	</item>
+	
+	<item>
 	  <title>Some Relaxing After Work Mini-golf</title>
 	  <link>https://nthp.me/posts/2024/some-relaxing-after-work-minigolf/</link>
 	  <pubDate>Mon, 03 Jun 2024 01:31:00 -0400</pubDate>
