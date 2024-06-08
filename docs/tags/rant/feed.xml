@@ -6,7 +6,59 @@
 	<description>Recent content in Rant on Nathan&#39;s Site</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Mon, 27 May 2024 14:07:00 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/rant/feed.xml" rel="self" type="application/rss" />
+	<lastBuildDate>Sat, 08 Jun 2024 13:30:00 -0400</lastBuildDate><atom:link href="https://nthp.me/tags/rant/feed.xml" rel="self" type="application/rss" />
+	<item>
+	  <title>Omnifocus 4 Is a Mess - This is a downgrade</title>
+	  <link>https://nthp.me/posts/2024/omnifocus-4-is-a-mess/</link>
+	  <pubDate>Sat, 08 Jun 2024 13:30:00 -0400</pubDate>
+	  
+	  <guid>https://nthp.me/posts/2024/omnifocus-4-is-a-mess/</guid>
+	  <description>
+		
+		&lt;p&gt;A couple &lt;a href=&#34;https://nthp.me/posts/2024/i-need-a-task-manager/&#34;&gt;posts ago&lt;/a&gt;, I talked about how I needed a task manager. That is still very true, I do. But, what I went with, was kinda a bad choice.&lt;/p&gt;
+&lt;h2&gt;Omnifocus 4&#39;s Bad Design&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;My main complaints are with the iPhone app. Don&amp;rsquo;t get me wrong, the mac app has it&amp;rsquo;s issues as well, but they aren&amp;rsquo;t as bad.&lt;/p&gt;
+&lt;p&gt;The layout, sucks. You have the scrolling tab bar on the bottom. That doesn&amp;rsquo;t always take you to the page in the tab, that you think it will. Tapping on a task is inconsistent. Sometimes it&amp;rsquo;ll expand it, other times it&amp;rsquo;ll do something else.&lt;/p&gt;
+&lt;center&gt;
+&lt;table class=&#34;invisTable&#34;&gt;&lt;thead&gt;
+  &lt;tr&gt;
+	&lt;td&gt;
+		&lt;figure&gt;
+			&lt;img src=&#34;fig1.webp&#34; /&gt;
+			&lt;figcaption&gt;Omnifocus 4&lt;/figcaption&gt;
+		&lt;/figure&gt;
+	&lt;/td&gt;
+	&lt;td&gt;
+		&lt;figure&gt;
+			&lt;img src=&#34;fig2.webp&#34; /&gt;
+			&lt;figcaption&gt;Omnifocus 3&lt;/figcaption&gt;
+		&lt;/figure&gt;
+	&lt;/td&gt;
+  &lt;/tr&gt;&lt;/thead&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;p&gt;At first glance, OF4 looks better. But trust me, once you use it, it really isn&amp;rsquo;t. But this isn&amp;rsquo;t the worst part.&lt;/p&gt;
+&lt;h2&gt;The Apple Watch&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;OF4 made some big changes to the watch app. It brought it in line with the watchOS 10 design language, and brought your database to the watch. That last change, meant you can use the watch app, away from your phone. There&amp;rsquo;s just one issue. Its slow as shit.&lt;/p&gt;
+&lt;p&gt;When the watch syncs, it was to pull your database, decrypt it, and parse it. And its not fast at that. That means, the watch face complication, is practically useless. Comparing that to OF3, it didn&amp;rsquo;t do all of that. Yeah that means you can&amp;rsquo;t use the watch app away from your phone. But, the complication updates within two seconds of me, making a task on my phone.&lt;/p&gt;
+&lt;h2&gt;So, Where To Now&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I&amp;rsquo;ve pretty much made the decision to stop using Omnifocus 4. Its already on version 4.3, and still needs a shit ton of work. I though it was going to be fine, seeing how Omnifocus 3 was fantastic, but I was wrong. Maybe they&amp;rsquo;ll fix it down the line.&lt;/p&gt;
+&lt;p&gt;Until then, I&amp;rsquo;m leaving Omnifocus, for Omnifocus. Yep, version 3 is fantastic, and my version 4 license, works on it. The layout is much better, the watch app works, and it feels polished.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This trend of releasing software, before it&amp;rsquo;s ready to ship, needs to stop.&lt;/p&gt;
+
+		&lt;br&gt;
+&lt;center&gt;
+
+&lt;a href=&#34;mailto:reply.65tu8@nthp.me?subject=RE: Omnifocus%204%20Is%20a%20Mess&#34;&gt;Reply via email&lt;/a&gt;
+
+&lt;/center&gt;
+	  </description>
+	</item>
+	
 	<item>
 	  <title>12/24h Pick One - 2PM comes after 1900</title>
 	  <link>https://nthp.me/posts/2024/12-24-pick-one/</link>
