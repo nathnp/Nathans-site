@@ -41,7 +41,7 @@ At first glance, OF4 looks better. But trust me, once you use it, it really isn'
 
 OF4 made some big changes to the watch app. It brought it in line with the watchOS 10 design language, and brought your database to the watch. That last change, meant you can use the watch app, away from your phone. There's just one issue. Its slow as shit.
 
-When the watch syncs, it was to pull your database, decrypt it, and parse it. And its not fast at that. That means, the watch face complication, is practically useless. Comparing that to OF3, it didn't do all of that. Yeah that means you can't use the watch app away from your phone. But, the complication updates within two seconds of me, making a task on my phone.
+When the watch syncs, it has to pull your database, decrypt it, and parse it. And its not fast at that. That means, the watch face complication, is practically useless. Comparing that to OF3, it didn't do all of that. Yeah that means you can't use the watch app away from your phone. But, the complication updates within two seconds of me, making a task on my phone.
 
 <h2>So, Where To Now</h2>
 <hr>
