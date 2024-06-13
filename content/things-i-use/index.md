@@ -16,7 +16,7 @@ For a list of podcasts and blogs I like, go [here](/my-feeds).
 
 ## Hardware [🔗](#hardware)
 
-Phone: [iPhone 14 Pro](https://support.apple.com/kb/SP875?viewlocale=en_US&locale=en_US) in Space Black w/ 256GB Storage
+Phone: [iPhone 15 Pro](https://www.apple.com/iphone-15-pro/) in Black Titanium w/ 256GB Storage
 
 Tablet: [6th gen iPad mini](https://support.apple.com/kb/SP850?locale=en_US)
 
