@@ -123,8 +123,6 @@ Email to RSS: [Kill The Newsletter](https://kill-the-newsletter.com)
 
 Post Scheduling Tool: [Buffer](https://buffer.com)
 
-RSS to Mastodon: [EchoFeed](https://echofeed.app)
-
 [^1]: ![](fig1.webP)
 [^2]: Learn to name stuff Sony
 [^3]: With bonus dog, Ruby <br> ![](fig2.webP)
