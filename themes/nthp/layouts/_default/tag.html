@@ -1,0 +1,19 @@
+{{- define "main" -}}
+  <h1>{{- .Title -}} 📝</h1>
+  <p>RSS link for <code>{{- .Title -}}</code> --> <a href="{{- .Permalink -}}feed.xml">RSS</a></p><hr>
+  {{- .Content -}}
+    {{- range .Pages -}}
+      <h2 class="smallmarg"><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
+      {{- if .Page.Params.subtitle -}}<h4 class="smallmarg">{{- .Page.Params.subtitle -}}</h4>{{- end -}}
+      {{- if .Page.Params.hasUpdate }}⚠️: <a href="{{ .RelPermalink }}#updates">Post has update, click to view</a><br>{{- end -}} 
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+      {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
+      <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
+      {{- if .Params.tags -}} 
+        {{- range .Params.tags }},
+        <a href="{{"/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        {{- end -}}
+        {{ end }}
+        <hr>
+    {{- end -}}
+  {{- end -}}

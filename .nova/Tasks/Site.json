@@ -1,0 +1,11 @@
+{
+  "actions" : {
+    "build" : {
+      "script" : "#!\/bin\/sh\n\nrm -rf docs\/\n\nhugo"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\n\nhugo server --renderToMemory"
+    }
+  }
+}

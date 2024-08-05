@@ -1,0 +1,240 @@
+{{- define "main" -}}
+  <h1>{{- .Title -}}</h1>
+  {{- .Content -}}
+  
+  <!--Counts number of posts-->
+  {{- $postcount := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $postcount = add $postcount 1 -}}
+  {{- end -}}
+  
+  <!--Counts total amount of words from posts folder-->
+  {{- $totwords := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $totwords = add $totwords .WordCount -}}
+  {{- end -}}
+  
+  <!--Calcs longest post-->
+  {{- $scratch := newScratch -}}
+  {{- $scratch.Set "longCount" 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $scratch.Add "wordcount" .WordCount -}}
+  {{- if ge .WordCount ($scratch.Get "longCount") -}}
+  {{- $scratch.Set "longestPost" . -}}
+  {{- $scratch.Set "longCount" .WordCount -}}
+  {{- end -}}
+  {{- end -}}
+  
+  <!--Calcs average post length-->
+  {{- $postCount :=  len ((site.GetPage "posts").Pages) -}}
+  {{- $wordCount := $scratch.Get "wordcount" -}}
+  {{- $avgPostLength := div $wordCount $postCount -}}
+  
+  <!--Counts posts per year-->
+  {{- $23 := 0 -}}
+  {{- $24 := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $dateYear := .Date | time.Format "2006" | int -}}
+  {{- if eq $dateYear 2023 -}}
+  {{- $23 = add $23 1 -}}
+  {{- end -}}
+  {{- if eq $dateYear 2024 -}}
+  {{- $24 = add $24 1 -}}
+  {{- end -}}
+  {{- end -}}
+  
+  <!--Totals posts per month-->
+  {{- $Jan := 0 -}}
+  {{- $Feb := 0 -}}
+  {{- $Mar := 0 -}}
+  {{- $Apr := 0 -}}
+  {{- $May := 0 -}}
+  {{- $Jun := 0 -}}
+  {{- $Jul := 0 -}}
+  {{- $Aug := 0 -}}
+  {{- $Sep := 0 -}}
+  {{- $Oct := 0 -}}
+  {{- $Nov := 0 -}}
+  {{- $Dec := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $dateMonth := .Date | time.Format "Jan" -}}
+  {{- if eq $dateMonth "Jan" -}}
+  {{- $Jan = add $Jan 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Feb" -}}
+  {{- $Feb = add $Feb 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Mar" -}}
+  {{- $Mar = add $Mar 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Apr" -}}
+  {{- $Apr = add $Apr 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "May" -}}
+  {{- $May = add $May 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Jun" -}}
+  {{- $Jun = add $Jun 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Jul" -}}
+  {{- $Jul = add $Jul 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Aug" -}}
+  {{- $Aug = add $Aug 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Sep" -}}
+  {{- $Sep = add $Sep 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Oct" -}}
+  {{- $Oct = add $Oct 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Nov" -}}
+  {{- $Nov = add $Nov 1 -}}
+  {{- end -}}
+  {{- if eq $dateMonth "Dec" -}}
+  {{- $Dec = add $Dec 1 -}}
+  {{- end -}}
+  {{- end -}}
+  
+  <!--Totals posts per day of week-->
+  {{- $Mon := 0 -}}
+  {{- $Tue := 0 -}}
+  {{- $Wed := 0 -}}
+  {{- $Thu := 0 -}}
+  {{- $Fri := 0 -}}
+  {{- $Sat := 0 -}}
+  {{- $Sun := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $dateDay := .Date | time.Format "Mon" -}}
+  {{- if eq $dateDay "Mon" -}}
+  {{- $Mon = add $Mon 1 -}}
+  {{- end -}}
+  {{- if eq $dateDay "Tue" -}}
+  {{- $Tue = add $Tue 1 -}}
+  {{- end -}}
+  {{- if eq $dateDay "Wed" -}}
+  {{- $Wed = add $Wed 1 -}}
+  {{- end -}}
+  {{- if eq $dateDay "Thu" -}}
+  {{- $Thu = add $Thu 1 -}}
+  {{- end -}}
+  {{- if eq $dateDay "Fri" -}}
+  {{- $Fri = add $Fri 1 -}}
+  {{- end -}}
+  {{- if eq $dateDay "Sat" -}}
+  {{- $Sat = add $Sat 1 -}}
+  {{- end -}}
+  {{- if eq $dateDay "Sun" -}}
+  {{- $Sun = add $Sun 1 -}}
+  {{- end -}}
+  {{- end -}}
+  
+  
+  <article>
+	<center>
+	<h1>Post Stats</a></h1>
+	<hr>
+	<h3>Number of Posts: <code>{{- $postcount -}}</code></h3>
+	<h3>Total Words: <code>{{- $totwords -}}</code></h3>
+	<h3>Average Post Length: <code>{{- $avgPostLength -}}</code> Words
+	<h3>Logest Post:<br>{{- with $scratch.Get "longestPost" -}}<a href='{{- .Permalink -}}'>{{- .Title -}}</a>{{- end -}}<br>W/ <code>{{- $scratch.Get "longCount" -}}</code> Words
+  </article>
+  
+  <article>
+    <center>
+      <h1>Time Stats</h1>
+      <hr>
+      <h3>Posts per Day of Week</h3>
+      <table>
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><center><code>{{ $Sun }}</code></center></td>
+          <td><center><code>{{ $Mon }}</code></center></td>
+          <td><center><code>{{ $Tue }}</code></center></td>
+          <td><center><code>{{ $Wed }}</code></center></td>
+          <td><center><code>{{ $Thu }}</code></center></td>
+          <td><center><code>{{ $Fri }}</code></center></td>
+          <td><center><code>{{ $Sat }}</code></center></td>
+        </tr>
+      </tbody>
+      </table>
+      <h3>Posts per Month</h3>
+      <table>
+      <thead>
+        <tr>
+          <th>Jan</th>
+          <th>Feb</th>
+          <th>Mar</th>
+          <th>Apr</th>
+          <th>May</th>
+          <th>Jun</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><center><code>{{ $Jan }}</code></center></td>
+          <td><center><code>{{ $Feb }}</code></center></td>
+          <td><center><code>{{ $Mar }}</code></center></td>
+          <td><center><code>{{ $Apr }}</code></center></td>
+          <td><center><code>{{ $May }}</code></center></td>
+          <td><center><code>{{ $Jun }}</code></center></td>
+        </tr>
+      </tbody>
+      </table>
+      <table>
+      <thead>
+        <tr>
+          <th>Jul</th>
+          <th>Aug</th>
+          <th>Sep</th>
+          <th>Oct</th>
+          <th>Nov</th>
+          <th>Dec</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><center><code>{{ $Jul }}</code></center></td>
+          <td><center><code>{{ $Aug }}</code></center></td>
+          <td><center><code>{{ $Sep }}</code></center></td>
+          <td><center><code>{{ $Oct }}</code></center></td>
+          <td><center><code>{{ $Nov }}</code></center></td>
+          <td><center><code>{{ $Dec }}</code></center></td>
+        </tr>
+      </tbody>
+      </table>
+      <h3>Posts per Year</h3>
+      <table>
+      <thead>
+        <tr>
+          <th>2023</th>
+          <th>2024</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><center><code>{{ $23 }}</code></center></td>
+          <td><center><code>{{ $24 }}</code></center></td>
+        </tr>
+      </tbody>
+      </table>
+    </center>
+  </article>
+  
+
+  
+  <p><a href='https://github.com/nathnp/Nathans-site/blob/main/themes/simple/layouts/_default/stats.html'>Hugo source code</a> for this page</p>
+  
+  
+{{- end -}}

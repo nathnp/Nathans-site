@@ -1,0 +1,33 @@
+baseURL = 'https://nthp.me'
+languageCode = 'en-us'
+title = "Nathan's Site"
+theme = 'nthp'
+# publishDir = 'docs'
+
+# sectionPagesMenu = 'main'
+
+
+[outputs]
+  home = ['html']
+  taxonomy = ['html']
+  section = ['html']
+  
+[mediaTypes]
+  [mediaTypes."application/rss"]
+  isPlainText = true
+  suffixes = ["xml"]
+  
+[outputFormats]
+  [outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+
+
+
+
+[services]
+  [services.rss]
+	limit = -1
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files

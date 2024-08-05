@@ -1,0 +1,44 @@
+{{- define "main" -}}
+  {{- .Content -}}
+  <!-- {{- range site.RegularPages -}} 
+    <h2><a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a></h2>
+    {{- .Summary -}} 
+  {{- end -}} -->
+  <center>
+  <code>Latest Blog Posts</code>
+  <br>
+  {{- $counter := 0 -}}
+  {{- $posts := (where .Site.RegularPages "Section" "in" (slice "posts" "factorio-blog")) -}}
+  {{ range $posts.ByDate.Reverse -}}
+  {{- $counter = add $counter 1 -}}
+  {{ if eq .Section "factorio-blog" }}⚙️{{ else }}📝{{ end }}
+  <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a><br>
+  {{- if eq $counter 3 -}}
+  {{- break -}}
+  {{- end -}}
+  {{- end -}}
+  
+  <a href="/posts">All Posts</a> | 
+  {{ $pages := where .Site.RegularPages "Section" "posts" -}}
+  {{- $randomPage := index (shuffle $pages) 0 -}}
+  <a href="{{ $randomPage.Permalink }}">Random Post</a>
+    
+  <br>
+  <br>
+  <code>Current Goal</code>
+  <br>
+  100 posts in 2024
+  <br>
+  {{- $24 := 0 -}}
+  {{- range (site.GetPage "posts").Pages -}}
+  {{- $dateYear := .Date | time.Format "2006" | int -}}
+  {{- if eq $dateYear 2024 -}}
+  {{- $24 = add $24 1 -}}
+  {{- end -}}
+  {{- end -}}
+  <meter value="{{ $24 }}" min="0" max="100">{{ $24 }} out of 100</meter>
+  <br>
+  {{ $24 }}/100
+  
+  </center>
+{{- end -}}

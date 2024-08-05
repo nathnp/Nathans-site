@@ -1,0 +1,58 @@
+{{ define "main" }}
+  <h1 class="smallmarg">{{ .Title }}</h1>
+  {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+  {{- if .Page.Params.hasUpdate }}This post has an update, <a href="{{ .RelPermalink }}#updates">click to view</a><br>{{- end -}}
+  {{- $dateHuman := .Date | time.Format "Jan 2, 2006" -}}
+  <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  <hr>
+  {{- $PostYear := .Date -}}
+  {{- $CurrentYear := time.Now -}}
+  {{- $YearDifU := math.Sub $CurrentYear.Unix $PostYear.Unix -}}
+  {{- $TPostYear := .Date | time.Format "2006" | int -}}
+  {{- $YearDif := math.Sub (now.Year | int) $TPostYear -}}
+  {{- if ge $YearDifU 31536000 -}}
+    <p class="notice">
+      This post is over {{ if eq $YearDif 1 }} a year{{- else -}}{{- $YearDif }} years{{- end }} old. The information here may be out of date, and may not reflect my current thoughts or opinions.
+    </p>
+  {{- end -}}
+  {{ .Content }}
+  {{ partial "reply.html" (dict "page" .) }}<br>
+  <center>
+    
+    {{ $pages := where .Site.RegularPages "Section" "posts" }}
+    
+    {{- $totPages := $pages.Len -}}
+    {{- $postCount := 0 -}}
+    {{- range $pages -}}
+      {{- if eq .Title $.Title -}}
+      {{- break -}}
+      {{- else -}}
+        {{- $postCount = add $postCount 1 -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $currentPost := sub $totPages $postCount -}}
+    
+    {{- if eq $currentPost $totPages -}}
+      Latest Post<br>
+    {{- else -}}
+      Post {{ $currentPost }} of {{ $totPages }}<br>
+    {{- end -}}
+    
+    {{ with $pages.Prev . }}
+      <a href="{{ .RelPermalink }}">Previous</a>
+    {{ else }}
+    Previous
+    {{ end }} | 
+    
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ $randomPage := index (shuffle $posts) 0 }}
+    <a href="{{ $randomPage.Permalink }}">Random Post</a>
+    
+    {{ with $pages.Next . }}
+     | <a href="{{ .RelPermalink }}">Next</a>
+    {{ else }}
+     | Next
+    {{ end }}
+  </center>
+{{ end }}

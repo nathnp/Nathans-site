@@ -1,0 +1,14 @@
+{{- define "main" -}}
+  <h1>{{- .Title -}}</h1>
+  <h3><a href='/micro/feed.xml'>RSS Feed</a></h3>
+  <p>🔗 <- Link to post ✉️ <- Reply via email</p>
+  {{- range .Pages -}}
+  <article>
+    <div id="{{- .Title -}}"/>
+    {{- .Content -}}
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+    {{- $dateHuman := .Date | time.Format "Jan 2, 2006 | 15:04" -}}
+    <time datetime="{{- $dateMachine -}}">{{- $dateHuman -}}</time> <a href="/micro#{{- .Title -}}">🔗</a> <a href="mailto:reply.65tu8@nthp.me?subject=RE: Micropost {{ .Title }}">✉️</a>
+  </article> 
+  {{- end -}}
+{{- end -}}
