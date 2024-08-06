@@ -14,7 +14,7 @@ showthedate = true
 
 I'm Nathan, I'm a computer nerd who loves to travel, and do many other things. Including, geocaching, flying, blogging, exploring transit systems, and a whole lot more. I am the guy who will want to walk the whole airport. Maybe more than once.
 
-I develop this site locally on my Mac in [NOVA](https://nova.app) and [IA Writer](https://ia.net/writer), using [Hugo](https://gohugo.io) and a [modified](https://github.com/nathnp/nthp.me-css) CSS file based off [SimpleCSS](https://simplecss.org). Live builds are done in GitHub using macOS runners, and deployed to [GitHub Pages](https://pages.github.com).
+I develop this site locally on my Mac in [NOVA](https://nova.app) and [IA Writer](https://ia.net/writer), using [Hugo](https://gohugo.io) and a [modified](https://github.com/nathnp/nthp.me-css) CSS file based off [SimpleCSS](https://simplecss.org). Live builds are done in GitHub using [macOS runners](/posts/2024/the-mac-in-the-sky/), and deployed to [GitHub Pages](https://pages.github.com).
 
 [![Deploy Hugo site to Pages](https://github.com/nathnp/Nathans-site/actions/workflows/hugo.yml/badge.svg)](https://github.com/nathnp/Nathans-site/actions/workflows/hugo.yml)
 
