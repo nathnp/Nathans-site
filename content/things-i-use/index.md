@@ -120,8 +120,6 @@ Email: [iCloud Mail](https://icloud.com) + [SimpleLogin](https://simplelogin.io)
 
 Cloud Storage: [iCloud](https://icloud.com) + [Synology DSM](https://www.synology.com/en-us/dsm)
 
-This Site: [Hugo](https://gohugo.io) + [Simple.css](https://simplecss.org) hosted on [Github Pages](https://pages.github.com)
-
 DNS: [Pi-Hole](https://pi-hole.net)
 
 VM Server: [ProxMox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview)
