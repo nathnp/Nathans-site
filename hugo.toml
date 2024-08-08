@@ -2,10 +2,8 @@ baseURL = 'https://nthp.me'
 languageCode = 'en-us'
 title = "Nathan's Site"
 theme = 'nthp'
-# publishDir = 'docs'
 
-# sectionPagesMenu = 'main'
-
+enableRobotsTXT = true
 
 [outputs]
   home = ['html']

@@ -1,0 +1,4 @@
+User-agent: *
+{{ range (site.GetPage "posts").Pages }}
+Disallow: {{ .RelPermalink }}
+{{ end }}
