@@ -16,6 +16,8 @@
   <meta property="og:locale" content="{{ replace . `-` `_` }}">
 {{- end }}
 
+<meta property="og:image" content="/favicon.ico">
+
 {{- if .IsPage }}
   <meta property="og:type" content="article">
   {{- with .Section }}
@@ -37,7 +39,7 @@
 
 {{- with partial "_funcs/get-page-images" . }}
   {{- range . | first 6 }}
-	<meta property="og:image" content="/favicon.ico">
+	<meta property="og:image" content="{{ .Permalink }}">
   {{- end }}
 {{- end }}
 
